@@ -1,0 +1,71 @@
+/* --------Logo--------- */
+.navbar {
+    padding: 1rem 2rem !important;
+}
+
+.logoNav img{
+    width: 10em;
+    margin-top: 0.3em;
+    display: initial;
+}
+
+/* ------Toggler------------ */
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color:#7f7f7f;
+    width: 3em;
+    height: 3em;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 3px solid transparent;
+    border-radius: 50%;
+}
+
+/* -----------Expanded Nav-------------- */
+
+.expandedNavC{
+    /* border: solid 1px red; */
+    /* width: 100% !important; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* height: 20em; */
+}
+
+.navbar-nav {
+    /* border: solid 1px blue; */
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    height: 48vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-nav > li a{
+    width: 100%;
+    color: #000;
+}
+
+.navbar-nav > li a:hover{
+    text-decoration: none; 
+}
+
+.navbar-nav > li:hover{
+    text-decoration: none;
+    border-bottom: 2px solid red;
+}
+
+.navItem{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}

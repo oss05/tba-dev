@@ -1,0 +1,13 @@
+{ 
+    "areas":{
+        "firma": "Firma",
+        "practica": "Práctica", 
+        "equipo": "Equipo",
+        "publicaciones": "Publicaciones",
+        "oficinas": "Oficinas"
+    },
+    "footer":{
+        "derechos":"© Todos los Derechos Reservados",
+        "desarrollo":"Desarrollado por:"
+    }
+} 

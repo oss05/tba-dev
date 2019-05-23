@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  /* --------home----------- */
+  .contenedorLogoHome {
+    /* border: solid 1px green; */
+    display: none !important;
+  }
+  .listaHome {
+    height: 70vh !important;
+  }
+  .listaHome>ul {
+    /* border: solid 1px #00ff4c; */
+    flex-direction: column;
+    height: 85% !important;
+    padding: 0;
+  }
+  .listaHome>ul li {
+    /* border: solid 1px #00a6ff; */
+    transform: rotate(0) !important;
+  }
+
+  .listaHome > ul li a {
+    font-size: 30px;
+}
+  /* --------------footer----- */
+
+.infoGroup {
+    /* border: solid 1px; */
+    flex-direction: column;
+}
+
+.rightsContainer {
+    width: 100% !important;
+    height: auto !important;
+    /* border: solid 1px; */
+    font-size: 13px;
+}
+
+.designContainer {
+    width: 100% !important;
+    height: auto !important;
+    /* border: solid 1px; */
+    flex-direction: column;
+    align-items: center !important;
+    font-size: 13px;
+}
+
+.linkedinContainer{
+  height: 70px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important
+}
+
+}
