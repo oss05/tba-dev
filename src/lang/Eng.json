@@ -1,0 +1,13 @@
+{ 
+    "areas":{
+        "firma": "The Firm",
+        "practica": "Practice Areas", 
+        "equipo": "Our Team",
+        "publicaciones": "Mexican Fiscal Update",
+        "oficinas": "Our Offices"
+    },
+    "footer":{
+        "derechos":"© All Rights Reserved",
+        "desarrollo":"Designed by:"
+    }
+} 

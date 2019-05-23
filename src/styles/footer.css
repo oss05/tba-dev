@@ -1,0 +1,60 @@
+.footerContainer {
+    /* border: solid 1px green; */
+    height: 11vh;
+    display: flex;
+    align-items: flex-end
+}
+
+.langContainer {
+    width: 20%;
+    height: 70px;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px #AE1E29;
+}
+
+.infoGroup {
+    /* border: solid 1px; */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightsContainer {
+    width: 50%;
+    height: 70px;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.designContainer {
+    width: 50%;
+    height: 70px;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.designContainer img {
+    width: 5em;
+}
+
+.linkedinContainer {
+    width: 20%;
+    height: 90px;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 4em;
+}
+
+.linkedin {
+    color: #000;
+    font-size: 2em;
+}
