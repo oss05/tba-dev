@@ -11,7 +11,7 @@ const Home = props => {
             </section>
             <section className="listaHome">
                 <ul>
-                    <li><Link to="/firma">{props.data.areas.firma}</Link></li>
+                    <li><Link to="/firma">{props.data.areas.firma.nombre}</Link></li>
                     <li><Link to="/practica">{props.data.areas.practica}</Link></li>
                     <li><Link to="/equipo">{props.data.areas.equipo}</Link></li>
                     <li><Link to="/publicaciones">{props.data.areas.publicaciones}</Link></li>

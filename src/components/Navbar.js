@@ -30,7 +30,7 @@ class navbar extends Component {
                     <Collapse className="expandedNavC" isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
                             <NavItem className="navItem">
-                                <Link className="navLink" to="/firma">{this.props.data.areas.firma}</Link>
+                                <Link className="navLink" to="/firma">{this.props.data.areas.firma.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
                                 <Link className="navLink" to="/practica">{this.props.data.areas.practica}</Link>

@@ -1,13 +1,22 @@
-{ 
-    "areas":{
-        "firma": "Firma",
-        "practica": "Práctica", 
+{
+    "areas": {
+        "firma": {
+            "nombre": "Firma",
+            "contenido": {
+                "uno": "Turanzas, Bravo & Ambrosi es un firma boutique independiente integrada por abogados tributarios con experiencia en la presentación de servicios de consultoría, litigio y planeación fiscal, incluyendo el área de comercio exterior.",
+                "dos": "La firma surge como respuesta categórica a la evidente necesidad de modernización y especialización requerida por el dinámico y sofisticado medio fiscal mexicano.",
+                "tres": "La experiencia y el reconocimiento ético y profesional logrado por sus miembros a travésde la participación en el medio fiscal, denotan la firme convicción de ser una institución que trascienda como la mejor opción en México para la solución de los retos impositivos de los clientes.",
+                "cuatro": "Nuestro principal objetivo es la generación de confianza a través de un servicio que exceda expectativas, que proporcione soluciones jurídicas de calidad, siempre oportunas y con un equilibrio en la relación costo-beneficio. Esta confianza continuará forjando relaciones profesionales de largo plazo distinguidas por la esencia de nuestro principal valor: Nuestro Equipo.",
+                "cinco": "La consolidación alcanzada por la firma ha logrado que se conciba como uno de los equipos con mayor proyección y perspectivas en el ámbito fiscal mexicano."
+            }
+        },
+        "practica": "Práctica",
         "equipo": "Equipo",
         "publicaciones": "Publicaciones",
         "oficinas": "Oficinas"
-    },
-    "footer":{
-        "derechos":"© Todos los Derechos Reservados",
-        "desarrollo":"Desarrollado por:"
-    }
-} 
+        },
+        "footer": {
+            "derechos": "© Todos los Derechos Reservados",
+            "desarrollo": "Desarrollado por:"
+        }
+}

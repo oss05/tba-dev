@@ -1,0 +1,36 @@
+.parrafosFirma {
+    /* border: solid 1px orangered; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.parrafosFirma>article {
+    width: 60%;
+    text-align: justify;
+}
+
+.seccionLibros {
+    /* border: solid 1px greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 220px;
+    margin-bottom: 2em;
+}
+
+.librosUp {
+    /* border: solid 1px #2fffe3; */
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.librosDown {
+    /* border: solid 1px #ffbd2f; */
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+}

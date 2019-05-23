@@ -1,0 +1,40 @@
+
+.oficeCenterContainer{
+    /* border: solid 1px; */
+    display: flex;
+    height: 450px;
+}
+
+.oficeImg{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.oficeDirection{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.oficeMap{
+    height: 520px;
+    /* border: solid 1px red; */
+    display: flex;
+    align-items: center;
+    background-color: #1F2B59;
+    margin-bottom: 2em;
+}
+
+.map{
+   -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%); 
+}

@@ -1,13 +1,22 @@
-{ 
-    "areas":{
-        "firma": "The Firm",
-        "practica": "Practice Areas", 
+{
+    "areas": {
+        "firma": {
+            "nombre": "The Firm",
+            "contenido": {
+                "uno": "Turanzas, Bravo & Ambrosi is an independent law boutique integrated by tax attorneys with experience in rendering tax counselling, tax litigation and tax planning services, including foreign trade.",
+                "dos": "The firm emerges a categorical response to the evident need for modernization and specialization required by Mexico´s dynamic and increasingly sophisticated tax regime.",
+                "tres": "The experience, ethical and professional recognition achieved by its members through their participation in the tax environment, clearly show the steady conviction of being an institution transcending as the best option in Mexico for handling its clients’ taxation challenges.",
+                "cuatro": "Our main objective is to generate trust by offering a service that exceeds expectations and provides high quality legal solutions on a timely basis and always following a fair cost-benefit balance. This trust fosters long term professional relationships, distinguished by our best asset: Our Team.",
+                "cinco": "The consolidation accomplished by the firm has led to be considered as one of the teams with most projection and perspectives within the Mexican tax environment."
+            }
+        },
+        "practica": "Practice Areas",
         "equipo": "Our Team",
         "publicaciones": "Mexican Fiscal Update",
         "oficinas": "Our Offices"
     },
-    "footer":{
-        "derechos":"© All Rights Reserved",
-        "desarrollo":"Designed by:"
+    "footer": {
+        "derechos": "© All Rights Reserved",
+        "desarrollo": "Designed by:"
     }
-} 
+}
