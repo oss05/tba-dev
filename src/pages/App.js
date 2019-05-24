@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import Izq from '../components/SeccionIzqAreas';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Oficinas from '../pages/Oficinas';
@@ -20,7 +21,7 @@ import RepresenFis from './Originals/RepresenFiscal'
 import Trubutacion from './Originals/Tributacion'
 import ValoresP from './Originals/ValoresP'
 import VentasDirect from './Originals/VentasDirect'
-import Seguros  from './Originals/Seguros'
+import Seguros from './Originals/Seguros'
 //Paracticas
 import Banking from './Practicas/Banking'
 import Corporate from './Practicas/Corporate'
@@ -116,20 +117,19 @@ class App extends Component {
         <Route path="/oficinas" component={() => <Oficinas data={this.state.data} />} />
         <Route path="/firma" component={() => <Firma data={this.state.data} />} />
         {/* Original */}
-        <Route exact path="/areas" component={() => <Original data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <Aduanas data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <AsesoriaFis data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <IndustrisNav data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <InstitucionesAsist data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <InstitucionesF data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <LitigioFiscal data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <PlaneacionP data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <ProyectosInfra data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <RepresenFis data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <Trubutacion data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <ValoresP data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <VentasDirect data= {this.state.data}/>}/>
-            <Route exact path="/areas/" component={() => <Seguros data= {this.state.data}/>}/>
+        <Route exact path="/areas/aduanas" component={() => <Aduanas handelChangeIdioma={this.handelChangeIdioma} data={this.state.data}/>}/>
+        <Route exact path="/areas/asesoriafis" component={() => <AsesoriaFis data={this.state.data} />} />
+        <Route exact path="/areas/industrianav" component={() => <IndustrisNav data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <InstitucionesAsist data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <InstitucionesF data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <LitigioFiscal data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <PlaneacionP data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <ProyectosInfra data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <RepresenFis data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <Trubutacion data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <ValoresP data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <VentasDirect data={this.state.data} />} />
+        <Route exact path="/areas/" component={() => <Seguros data={this.state.data} />} />
         {/* Practicas */}
         <Route exact path="/practicas" component={() => <Practicas data={this.state.data} />} />
         <Route exact path="/practicas/private" component={() => <Private data={this.state.data} />} />

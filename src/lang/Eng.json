@@ -10,7 +10,16 @@
                 "cinco": "The consolidation accomplished by the firm has led to be considered as one of the teams with most projection and perspectives within the Mexican tax environment."
             }
         },
-        "practica": "Practice Areas",
+        "practica": {
+            "nombre": "Práctica",
+            "nombreCompleto": "no salsa",
+            "area": {
+                "aduanas": {
+                    "nombre": "XDD"
+                }
+
+            }
+        },
         "equipo": "Our Team",
         "publicaciones": "Mexican Fiscal Update",
         "oficinas": "Our Offices"

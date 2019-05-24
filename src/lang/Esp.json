@@ -10,7 +10,16 @@
                 "cinco": "La consolidación alcanzada por la firma ha logrado que se conciba como uno de los equipos con mayor proyección y perspectivas en el ámbito fiscal mexicano."
             }
         },
-        "practica": "Práctica",
+        "practica": {
+            "nombre": "Práctica",
+            "nombreCompleto": "Áreas de Práctica",
+            "area": {
+                "aduanas": {
+                    "nombre": "aduanas"
+                }
+
+            }
+        },
         "equipo": "Equipo",
         "publicaciones": "Publicaciones",
         "oficinas": "Oficinas"
