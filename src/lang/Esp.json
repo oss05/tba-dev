@@ -15,7 +15,48 @@
             "nombreCompleto": "Áreas de Práctica",
             "area": {
                 "aduanas": {
-                    "nombre": "aduanas"
+                    "nombre": "Aduanas y Comercio Exterior",
+                    "uno": "Las operaciones de importación y exportación requieren de la implementación de estrategias para aprovechar ventajas y reducir riesgos en materia de aranceles, impuesto al valor agregado, impuesto especial sobre producción y servicios, y cuotas compensatorias.",
+                    "dos": "• Se ha brindado consultoría sobre esquemas de importación y exportación, así como aplicación de tratados de libre comercio, reglas de origen, programas de apoyo a exportadores (IMMEX --maquiladoras--, Programas Sectoriales, Draw Back, etc.) y su correlación con otros impuestos federales.",
+                    "tres": "• Participamos en temas de clasificación arancelaria, valoración aduanera, importaciones temporales y reglas de origen, habiendo obtenido resoluciones innovadoras y favorables a importadores.",
+                    "cuatro": "• Se nos ha encomendado la tramitación y/o seguimiento de diversos aspectos formales de comercio exterior, tales como la obtención de programas de apoyo a exportadores, autorizaciones, permisos, rectificaciones de pedimentos, registros en padrones, etc.",
+                    "cinco": "• Asesoramos auditorías en materia de comercio exterior y reglas de origen por parte de autoridades nacionales y extranjeras, así como en la interposición de medios de defensa administrativos (incluyendo PAMAs), juicios de nulidad y de amparo, contra resoluciones en materia de comercio exterior."
+                },
+                "asesoriafis":{
+                    "nombre": "Asesoría Fiscal a Personas Físicas"
+                },
+                "industriasnav":{
+                    "nombre": "Industria Naviaera y Transportación"
+                },
+                "institucionesasist":{
+                    "nombre": "Instituciones Asistenciales y Filantrópicas"
+                },
+                "institucionesF":{
+                    "nombre": "Instituciones Financieras"
+                },
+                "litigiofiscal":{
+                    "nombre": "Litigio Fiscal"
+                },
+                "planeacionp":{
+                    "nombre": "Planeación Patrimonial"
+                },
+                "proyectosinfra":{
+                    "nombre": "Proyectos de Infraestructura"
+                },
+                "represenfis":{
+                    "nombre": "Representacion ante Autoridades"
+                },
+                "tributacion":{
+                    "nombre": "Tributacion Internacional"
+                },
+                "valoresp":{
+                    "nombre": "Valores y Productos Financieros"
+                },
+                "ventasdirec":{
+                    "nombre": "Ventas Directas"
+                },
+                "seguros":{
+                    "nombre": "Seguros"
                 }
 
             }

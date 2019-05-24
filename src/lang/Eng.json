@@ -11,11 +11,52 @@
             }
         },
         "practica": {
-            "nombre": "Práctica",
-            "nombreCompleto": "no salsa",
+            "nombre": "Practice Areas",
+            "nombreCompleto": "Practice Areas",
             "area": {
                 "aduanas": {
-                    "nombre": "XDD"
+                    "nombre": "Customs And Foreign Trade",
+                     "uno": "Las operaciones de importación y exportación requieren de la implementación de estrategias para aprovechar ventajas y reducir riesgos en materia de aranceles, impuesto al valor agregado, impuesto especial sobre producción y servicios, y cuotas compensatorias.",
+                    "dos": "• Se ha brindado consultoría sobre esquemas de importación y exportación, así como aplicación de tratados de libre comercio, reglas de origen, programas de apoyo a exportadores (IMMEX --maquiladoras--, Programas Sectoriales, Draw Back, etc.) y su correlación con otros impuestos federales.",
+                    "tres": "• Participamos en temas de clasificación arancelaria, valoración aduanera, importaciones temporales y reglas de origen, habiendo obtenido resoluciones innovadoras y favorables a importadores.",
+                    "cuatro": "• Se nos ha encomendado la tramitación y/o seguimiento de diversos aspectos formales de comercio exterior, tales como la obtención de programas de apoyo a exportadores, autorizaciones, permisos, rectificaciones de pedimentos, registros en padrones, etc.",
+                    "cinco": "• Asesoramos auditorías en materia de comercio exterior y reglas de origen por parte de autoridades nacionales y extranjeras, así como en la interposición de medios de defensa administrativos (incluyendo PAMAs), juicios de nulidad y de amparo, contra resoluciones en materia de comercio exterior."
+                },
+                "asesoriafis":{
+                    "nombre": "Tax Counseling for Individuals"
+                },
+                "industriasnav":{
+                    "nombre": "Shipping Industry and Transportation"
+                },
+                "institucionesasist":{
+                    "nombre": "Non Profit Intitution and Foundation"
+                },
+                "institucionesF":{
+                    "nombre": "Financial Institutions"
+                },
+                "litigiofiscal":{
+                    "nombre": "Tax Litigation"
+                },
+                "planeacionp":{
+                    "nombre": "Estate Planning"
+                },
+                "proyectosinfra":{
+                    "nombre": "Infraestructure Projects"
+                },
+                "represenfis":{
+                    "nombre": "Representation Before Tax Authorities"
+                },
+                "tributacion":{
+                    "nombre": "International Taxation"
+                },
+                "valoresp":{
+                    "nombre": "Securities and Finantial Products"
+                },
+                "ventasdirec":{
+                    "nombre": "Direct Sales-MLM"
+                },
+                "seguros":{
+                    "nombre": "Insurance"
                 }
 
             }

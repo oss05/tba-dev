@@ -117,19 +117,19 @@ class App extends Component {
         <Route path="/oficinas" component={() => <Oficinas data={this.state.data} />} />
         <Route path="/firma" component={() => <Firma data={this.state.data} />} />
         {/* Original */}
-        <Route exact path="/areas/aduanas" component={() => <Aduanas handelChangeIdioma={this.handelChangeIdioma} data={this.state.data}/>}/>
+        <Route exact path="/areas/aduanas" component={() => <Aduanas data={this.state.data}/>}/>
         <Route exact path="/areas/asesoriafis" component={() => <AsesoriaFis data={this.state.data} />} />
         <Route exact path="/areas/industrianav" component={() => <IndustrisNav data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <InstitucionesAsist data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <InstitucionesF data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <LitigioFiscal data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <PlaneacionP data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <ProyectosInfra data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <RepresenFis data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <Trubutacion data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <ValoresP data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <VentasDirect data={this.state.data} />} />
-        <Route exact path="/areas/" component={() => <Seguros data={this.state.data} />} />
+        <Route exact path="/areas/institucionesasist" component={() => <InstitucionesAsist data={this.state.data} />} />
+        <Route exact path="/areas/institucionesF" component={() => <InstitucionesF data={this.state.data} />} />
+        <Route exact path="/areas/litigiofiscal" component={() => <LitigioFiscal data={this.state.data} />} />
+        <Route exact path="/areas/planeacionp" component={() => <PlaneacionP data={this.state.data} />} />
+        <Route exact path="/areas/proyectosinfra" component={() => <ProyectosInfra data={this.state.data} />} />
+        <Route exact path="/areas/represenfis" component={() => <RepresenFis data={this.state.data} />} />
+        <Route exact path="/areas/tributacion" component={() => <Trubutacion data={this.state.data} />} />
+        <Route exact path="/areas/valoresp" component={() => <ValoresP data={this.state.data} />} />
+        <Route exact path="/areas/ventasdirec" component={() => <VentasDirect data={this.state.data} />} />
+        <Route exact path="/areas/seguros" component={() => <Seguros data={this.state.data} />} />
         {/* Practicas */}
         <Route exact path="/practicas" component={() => <Practicas data={this.state.data} />} />
         <Route exact path="/practicas/private" component={() => <Private data={this.state.data} />} />
