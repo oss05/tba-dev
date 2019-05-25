@@ -36,7 +36,7 @@ class navbar extends Component {
                                 <Link className="navLink" to="/areas/aduanas">{this.props.data.areas.practica.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to="/equipo">{this.props.data.areas.equipo}</Link>
+                                <Link to="/equipo/sos001">{this.props.data.areas.equipo.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
                                 <Link to="/publicaciones">{this.props.data.areas.publicaciones}</Link>

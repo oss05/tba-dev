@@ -17,6 +17,17 @@
     margin-top: 2em;;
 }
 
+.menuTitle {
+    /* border: solid 1px #00ff40; */
+    margin: 1em;
+    padding: 0.3em;
+    list-style: none;
+    padding-left: 1.5em;
+    font-weight: 600;
+    color: #434242;
+    border-bottom: #a2a1a1 solid 2px;
+}
+
 .menuIzq > .navLink li {
     /* border: solid 1px #00ff40; */
     margin: 1em;
@@ -55,6 +66,10 @@
     display: flex;
     justify-content: center;
     font-weight: 600;
+}
+
+.cargo{
+    color: rgb(165, 165, 165);
 }
 
 .subtitle{

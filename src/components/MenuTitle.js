@@ -2,9 +2,7 @@ import React from 'react';
 
 const MenuTitle = props => {
     return (
-        <div>
-
-        </div>
+            <li className="menuTitle">{props.menuTitle}</li>
     )
 }
 

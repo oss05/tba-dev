@@ -157,27 +157,27 @@ class App extends Component {
         <Route exact path="/practicas/securitiesFinalProducts" component={() => <Securities data={this.state.data} />} />
         {/* Equipo */}
         <Route exact path="/equipo" component={() => <Team data={this.state.data} />} />
-        <Route exact path="/equipo/sos%002" component={() => <Sos001 data={this.state.data} />} />
-        <Route exact path="/equipo/sos%001" component={() => <Sos002 data={this.state.data} />} />
-        <Route exact path="/equipo/sos%003" component={() => <Sos003 data={this.state.data} />} />
-        <Route exact path="/equipo/sos%004" component={() => <Sos004 data={this.state.data} />} />
-        <Route exact path="/equipo/sos%005" component={() => <Sos005 data={this.state.data} />} />
-        <Route exact path="/equipo/sos%006" component={() => <Sos006 data={this.state.data} />} />
-        <Route exact path="/equipo/sos%007" component={() => <Sos007 data={this.state.data} />} />
-        <Route exact path="/equipo/as%101" component={() => <As101 data={this.state.data} />} />
-        <Route exact path="/equipo/as%102" component={() => <As102 data={this.state.data} />} />
-        <Route exact path="/equipo/as%103" component={() => <As103 data={this.state.data} />} />
-        <Route exact path="/equipo/abo%201" component={() => <Abo201 data={this.state.data} />} />
-        <Route exact path="/equipo/abo%202" component={() => <Abo202 data={this.state.data} />} />
-        <Route exact path="/equipo/abo%203" component={() => <Abo203 data={this.state.data} />} />
-        <Route exact path="/equipo/abo%204" component={() => <Abo204 data={this.state.data} />} />
-        <Route exact path="/equipo/abo%205" component={() => <Abo205 data={this.state.data} />} />
-        <Route exact path="/equipo/pas%301" component={() => <Pas301 data={this.state.data} />} />
-        <Route exact path="/equipo/pas%302" component={() => <Pas302 data={this.state.data} />} />
-        <Route exact path="/equipo/pas%303" component={() => <Pas303 data={this.state.data} />} />
-        <Route exact path="/equipo/pas%304" component={() => <Pas304 data={this.state.data} />} />
-        <Route exact path="/equipo/pas%305" component={() => <Pas305 data={this.state.data} />} />
-        <Route exact path="/equipo/pas%306" component={() => <Pas306 data={this.state.data} />} />
+        <Route exact path="/equipo/sos001" component={() => <Sos001 data={this.state.data} />} />
+        <Route exact path="/equipo/sos002" component={() => <Sos002 data={this.state.data} />} />
+        <Route exact path="/equipo/sos003" component={() => <Sos003 data={this.state.data} />} />
+        <Route exact path="/equipo/sos004" component={() => <Sos004 data={this.state.data} />} />
+        <Route exact path="/equipo/sos005" component={() => <Sos005 data={this.state.data} />} />
+        <Route exact path="/equipo/sos006" component={() => <Sos006 data={this.state.data} />} />
+        <Route exact path="/equipo/sos007" component={() => <Sos007 data={this.state.data} />} />
+        <Route exact path="/equipo/as101" component={() => <As101 data={this.state.data} />} />
+        <Route exact path="/equipo/as102" component={() => <As102 data={this.state.data} />} />
+        <Route exact path="/equipo/as103" component={() => <As103 data={this.state.data} />} />
+        <Route exact path="/equipo/abo201" component={() => <Abo201 data={this.state.data} />} />
+        <Route exact path="/equipo/abo202" component={() => <Abo202 data={this.state.data} />} />
+        <Route exact path="/equipo/abo203" component={() => <Abo203 data={this.state.data} />} />
+        <Route exact path="/equipo/abo204" component={() => <Abo204 data={this.state.data} />} />
+        <Route exact path="/equipo/abo205" component={() => <Abo205 data={this.state.data} />} />
+        <Route exact path="/equipo/pas301" component={() => <Pas301 data={this.state.data} />} />
+        <Route exact path="/equipo/pas302" component={() => <Pas302 data={this.state.data} />} />
+        <Route exact path="/equipo/pas303" component={() => <Pas303 data={this.state.data} />} />
+        <Route exact path="/equipo/pas304" component={() => <Pas304 data={this.state.data} />} />
+        <Route exact path="/equipo/pas305" component={() => <Pas305 data={this.state.data} />} />
+        <Route exact path="/equipo/pas306" component={() => <Pas306 data={this.state.data} />} />
         {/* Public */}
         <Route exact path="/publicaciones/" component={() => <Public data={this.state.data} />} />
         <Route exact path="/publicaciones/2007" component={() => <P2007 data={this.state.data} />} />

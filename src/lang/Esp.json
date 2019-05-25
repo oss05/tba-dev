@@ -61,7 +61,35 @@
 
             }
         },
-        "equipo": "Equipo",
+        "equipo": {
+            "nombre":"Equipo",
+            "nombreCompleto":"Nuestro Equipo",
+            "socios":"Socios",
+            "asociados":"Asociados",
+            "abogados": "Abogados",
+            "pasantes": "Pasantes",
+            "areas":{
+                "nombre":"Áreas de Práctica",
+                "uno":"p1",
+                "dos":"p2",
+                "tres":"",
+                "cuatro":"",
+                "cinco":""
+            },
+            "educacion":{
+                "nombre":"Educación",
+                "uno":"",
+                "dos":"",
+                "tres":"",
+                "cuatro":""
+            },
+            "asociaciones":{
+                "nombre":"Asociaciones profesionales",
+                "uno":"",
+                "dos":"",
+                "tres":""
+            }
+        },
         "publicaciones": "Publicaciones",
         "oficinas": "Oficinas"
         },
