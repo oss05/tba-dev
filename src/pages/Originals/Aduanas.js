@@ -6,10 +6,9 @@ import Contenido from '../../components/contenido';
 const Aduanas = props => {
     return (
         <div className="page">
-            <Izq 
-            data={props.data}
-            bgc = "#656565"
-            fc = "#fff"/>
+            <Izq data={props.data}
+                bgc="#656565"
+                fc="#fff" />
             <section className="areaTextContainer">
                 <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.aduanas.nombre} />
                 <Contenido data={props.data}

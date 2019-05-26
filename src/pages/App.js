@@ -119,7 +119,7 @@ class App extends Component {
         {/* Original */}
         <Route exact path="/areas/aduanas" component={() => <Aduanas data={this.state.data}/>}/>
         <Route exact path="/areas/asesoriafis" component={() => <AsesoriaFis data={this.state.data} />} />
-        <Route exact path="/areas/industrianav" component={() => <IndustrisNav data={this.state.data} />} />
+        <Route exact path="/areas/industriasnav" component={() => <IndustrisNav data={this.state.data} />} />
         <Route exact path="/areas/institucionesasist" component={() => <InstitucionesAsist data={this.state.data} />} />
         <Route exact path="/areas/institucionesF" component={() => <InstitucionesF data={this.state.data} />} />
         <Route exact path="/areas/litigiofiscal" component={() => <LitigioFiscal data={this.state.data} />} />

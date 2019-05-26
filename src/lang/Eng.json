@@ -22,47 +22,101 @@
                     "cuatro": "• Se nos ha encomendado la tramitación y/o seguimiento de diversos aspectos formales de comercio exterior, tales como la obtención de programas de apoyo a exportadores, autorizaciones, permisos, rectificaciones de pedimentos, registros en padrones, etc.",
                     "cinco": "• Asesoramos auditorías en materia de comercio exterior y reglas de origen por parte de autoridades nacionales y extranjeras, así como en la interposición de medios de defensa administrativos (incluyendo PAMAs), juicios de nulidad y de amparo, contra resoluciones en materia de comercio exterior."
                 },
-                "asesoriafis": {
-                    "nombre": "Tax Counseling for Individuals"
+                "asesoriafis":{
+                    "nombre": "TAX COUNSELING FOR INDIVIDUALS",
+                    "uno":"• An individual is subject to trigger tax consequences due to everyday business transactions, as well as if derived from more sophisticated ones.",
+                    "dos":"• We advise business transactions regarding transfer/acquisition of goods, titles or stocks, including securities investments and other financial activities.",
+                    "tres":"• We define the tax treatment in Mexico as consequence of income/business transactions/investments obtained or carried out abroad.",
+                    "cuatro":"• We advise expatriation situations, as well as the loss of tax residency in Mexico.",
+                    "cinco":"• We grant advice in sophisticated structuring and procedures regarding estate procedures."
                 },
-                "industriasnav": {
-                    "nombre": "Shipping Industry and Transportation"
+                "industriasnav":{
+                    "nombre": "Shipping Industry and Transportation",
+                    "uno":"The constant exchange of goods throughout the world requires that its transportation, whether multimodal, sea-based, in-land or airborne, is performed under the most efficient taxation schemes.",
+                    "dos":"• The firm is recognized for value added and income tax counseling related to the shipping industry, including shipping companies, shipping agents and operators related to the industry.",
+                    "tres":"• It is a common practice to resolve issues related to coastal trade, chartering, customs and shipping operations.",
+                    "cuatro":"• We participate in developing solutions related to taxes triggered in air cargo transportation, as well as diverse taxation issues concerning the airline industry."
                 },
-                "institucionesasist": {
-                    "nombre": "Non Profit Intitution and Foundation"
+                "institucionesasist":{
+                    "nombre": "Non Profit Intitution and Foundation",
+                    "uno":"Since its inception the firm has assumed the social responsibility of counseling entities that support vulnerable persons or social groups. These services, aside from being pro-bono, are provided under our normal quality standards.",
+                    "dos":"• Members of the firm participate on the boards of directors or patronage of these institutions.",
+                    "tres":"• The advice provided does not end with the authorization to receive deductible donations in Mexico or abroad, but also is furnished as such organizations require."
                 },
-                "institucionesF": {
-                    "nombre": "Financial Institutions" 
+                "institucionesF":{
+                    "nombre": "Financial Institutions",
+                    "uno":"Financial institutions require a tax analysis of their active, passive and service transactions, either with Mexican residents and/or residents abroad.",
+                    "dos":"• We provide counseling to companies concerning the incorporation and operation of financial institutions, such as full-service banks, non-bank banks, limited purpose financial entities, etc.",
+                    "tres":"• We advise financial institutions to improve tax efficiency of some of their products/services offered to their clients.",
+                    "cuatro":"• We participate in the design of new products offered by different institutions; for example, mutual funds."
                 },
-                "litigiofiscal": {
-                    "nombre": "Tax Litigation"
+                "litigiofiscal":{
+                    "nombre": "Tax Litigation",
+                    "uno":"Advice in the successful preparation and implementation of litigation strategies for the defense of our clients’ interests is paramount for the fair and appropriate payment of taxes, pursuant to the law and constitutional principles of equity and tax proportionality.",
+                    "dos":"• We have successfully sponsored legal remedies before tax authorities.",
+                    "tres":"• The firm has acquired the recognition and favorable participation of nullity trials against resolutions and assessments issued by federal and local tax authorities.",
+                    "cuatro":"• We have sponsored constitutional injunctions against laws considered as unconstitutional (juicio de amparo).",
+                    "cinco":"• We have participated in the implementation of mutual agreement procedures provided in double taxation treaties."
                 },
-                "planeacionp": {
-                    "nombre": "Estate Planning"
+                "planeacionp":{
+                    "nombre": "Estate Planning",
+                    "uno":"Economic and legal interaction consequences of Mexican nationals structuring vehicles abroad and foreigners devising investment alternatives in Mexico, requires a high level of interaction among Mexican and foreign tax regimes.",
+                    "dos":"• We actively advise the main subjects involved in estate planning structure analysis and implementation: (i) private clients, (ii) financial institutions and (iii) foreign legal advisors.",
+                    "tres":"• Our involvement occurs both in the creation and/or modification of investment structures, making essential the design of the various type of assets involved and specific needs of every person or family.",
+                    "cuatro":"• Solutions achieved allow all parties involved to reach the highest level of legal certainty for the structure."
                 },
-                "proyectosinfra": {
-                    "nombre": "Infraestructure Projects"
+                "proyectosinfra":{
+                    "nombre": "Infraestructure Projects",
+                    "uno":"Infrastructure projects require complex investment instruments and interaction with various domestic and foreign legal areas.",
+                    "dos":"• Counseling in some of the largest energy generation projects in Mexico.",
+                    "tres":"• We have accumulated experience in biddings, oil industry contracts, wind energy generation, as well as in using special legal vehicles to perform the investment.",
+                    "cuatro":"• Tax effects derived from financing contracts and guarantees granted from third parties.",
+                    "cinco":"• Problem resolution regarding thin capitalization requirements.",
+                    "seis" : "We are experienced in the determination and counseling of the tax regime regarding specialized equipment imports."
                 },
-                "represenfis": {
-                    "nombre": "Representation Before Tax Authorities"
+                "represenfis":{
+                    "nombre": "Representation Before Tax Authorities",
+                    "uno":"The relationship between taxpayers and tax authorities appears for several reasons, such as: tax reviews (audits), compliance of formal obligations (returns and notices), authorizations and ruling requests.",
+                    "dos":"We represent our clients’ interests before the tax authorities in several instances such as:",
+                    "tres":"• Advising in procedures in order to review their compliance with taxation issues.",
+                    "cuatro":"• Preparation and filing of authorization requests for tax regimes and ruling requests.",
+                    "cinco":"• Requesting authorization for the differed payment of taxes, preparing of notices for the due compliance of tax obligations and requests for fiscal incentives."
                 },
-                "tributacion": {
-                    "nombre": "International Taxation"
+                "tributacion":{
+                    "nombre": "International Taxation",
+                    "uno":"We actively participate with national and foreign clients analyzing and implementing transactions in Mexico and abroad. We have been involved in the following issues, among others:",
+                    "dos":"• Interpretation and application of treaties for the avoidance of double taxation.",
+                    "tres":"• Tax credit of foreign taxes",
+                    "cuatro":"• Tax heavens , Permanent establishments in Mexico and abroad, Permanent establishments in Mexico and abroad, Tax regime for expatriates"
                 },
-                "valoresp": {
-                    "nombre": "Securities and Finantial Products"
+                "valoresp":{
+                    "nombre": "Securities and Finantial Products",
+                    "uno":"The companies’ need for financing, coverage and investment make it necessary to resort to various financial products.",
+                    "dos":"• We grant counsel regarding public and private placement of stocks and bonds, carried out in Mexico and abroad, representing both issuers and securities agents.",
+                    "tres":"• Tax consequence determination of “simple” financial transactions and derivatives, such as: swaps, coverage, options (including executive option plans), etc.",
+                    "cuatro":"• Tax consequences of derivatives used as guarantee in financing (credit default swaps, total return swaps, etc.).",
+                    "cinco":"• "
                 },
-                "ventasdirec": {
-                    "nombre": "Direct Sales-MLM"
+                "ventasdirec":{
+                    "nombre": "Direct Sales-MLM",
+                    "uno":"The ways in which businesses are done has changed. Corporations must find vehicles or alternatives that guarantee that their products/services reach their consumers in a more efficient fashion. The direct sales industry allows the above and therefore, requires specialized tax advice, which not only addresses the ordinary activities of the companies, but responds in a timely manner to the needs of their markets.",
+                    "dos":"• We advise national and multinational direct sales corporations, either following systems pure direct selling or multilevel businesses models.",
+                    "tres":"• We have participated in the implementation, review and preparation of commercial structures arriving to Mexico; such as the mercantile agreements that the companies enter into with their sales forces.",
+                    "cuatro":"• We have sponsored the approach with the tax authorities, with the aim of obtaining legal certainty in this industry.",
+                    "cinco":"• Within the customs area, we have advised on the implementation of strategies in order to optimize the importation of products that are commercialized in Mexico."
                 },
-                "seguros": {
-                    "nombre": "Insurance"
+                "seguros":{
+                    "nombre": "Insurance",
+                    "uno":"The tax consequences derived from an insurance contract are of the utmost importance, both for the insurance companies, the insured, the beneficiaries and even the execution party, whether individuals or corporations.",
+                    "dos":"• We grant advice regarding the business and tax terms to be considered in several types of insurance agreements.",
+                    "tres":"• We have experience advising clients regarding the application of special rules in order to assure the deduction of premium payments.",
+                    "cuatro":"• We grant counsel regarding accounts receivable coverage or guarantees, such as credit insurance."
                 }
             }
         },
         "equipo": {
-            "nombre":"Equipo",
-            "nombreCompleto":"Nuestro Equipo",
+            "nombre":"Our Team",
+            "nombreCompleto":"Our Team",
             "socios":"Socios",
             "asociados":"Asociados",
             "abogados": "Abogados",

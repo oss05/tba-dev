@@ -22,41 +22,98 @@
                     "cuatro": "• Se nos ha encomendado la tramitación y/o seguimiento de diversos aspectos formales de comercio exterior, tales como la obtención de programas de apoyo a exportadores, autorizaciones, permisos, rectificaciones de pedimentos, registros en padrones, etc.",
                     "cinco": "• Asesoramos auditorías en materia de comercio exterior y reglas de origen por parte de autoridades nacionales y extranjeras, así como en la interposición de medios de defensa administrativos (incluyendo PAMAs), juicios de nulidad y de amparo, contra resoluciones en materia de comercio exterior."
                 },
-                "asesoriafis": {
-                    "nombre": "Asesoría Fiscal a Personas Físicas"
+                "asesoriafis":{
+                    "nombre": "Asesoría Fiscal a Personas Físicas",
+                    "uno": "Una persona física está expuesta a generar consecuencias fiscales por operaciones ordinarias, así como por las de mayor sofisticación.",
+                    "dos": "• Asesoramos operaciones de enajenación/adquisición de bienes, títulos o acciones, incluyendo inversiones bursátiles y demás actividades financieras.",
+                    "tres": "• Definimos el tratamiento fiscal en México derivado de ingresos/operaciones/inversiones obtenidos o realizadas en el extranjero.",
+                    "cuatro": "• Experiencia en casos en materia de expatriados, así como en materia de pérdida de residencia fiscal mexicana.",
+                    "cinco": "• Se asesoran procesos y estructuras de sucesión sofisticadas."
+                    
                 },
-                "industriasnav": {
-                    "nombre": "Industria Naviaera y Transportación"
+                "industriasnav":{
+                    "nombre": "Industria Naviaera y Transportación",
+                    "uno": "El constante intercambio de bienes a nivel mundial requiere que su transportación, ya sea multimodal, por vía marítima, terrestre o aérea, se lleve a cabo bajo los esquemas impositivos más eficientes.",
+                    "dos": "• La firma es reconocida por la asesoría en materia de impuesto al valor agregado e impuesto sobre la renta relacionada con la industria naviera, comprendiendo empresas de transporte marítimo, agentes navieros y operadores relacionados con dicha industria.",
+                    "tres": "• Es una práctica común resolver problemáticas relacionadas con operaciones de cabotaje, fletamento, agenciamiento y navegación de altura.",
+                    "cuatro": "• Participamos en la resolución de problemáticas relacionadas con la causación de impuestos vinculados con el transporte aéreo de carga, así como en diversas problemáticas impositivas surgidas en el ámbito de las líneas aéreas."
                 },
-                "institucionesasist": {
-                    "nombre": "Instituciones Asistenciales y Filantrópicas"
+                "institucionesasist":{
+                    "nombre": "Instituciones Asistenciales y Filantrópicas",
+                    "uno": "Desde su fundación, la firma ha contraído la obligación social de asesorar personas morales que persiguen como objetivo la atención de personas o sectores marginados que requieren de algún apoyo legal. Los servicios, además de ser pro-bono, se prestan bajo nuestros acostumbrados estándares de calidad.",
+                    "dos":"• Los miembros de la firma participan en sus consejos directivos o patronatos.",
+                    "tres":"• La asesoría brindada no concluye con la autorización para recibir donativos deducibles de México o del extranjero, sino que se prolonga en el tiempo, en la medida en que dichas organizaciones requieran de un apoyo legal."
                 },
-                "institucionesF": {
-                    "nombre": "Instituciones Financieras"
+                "institucionesF":{
+                    "nombre": "Instituciones Financieras",
+                    "uno":"Las instituciones financieras requieren del análisis fiscal de sus operaciones activas, pasivas y de servicios, tanto con residentes en México como con residentes en el extranjero.",
+                    "dos":"• Hemos asesorado a grupos empresariales en la constitución y operación de instituciones financieras, como instituciones de banca múltiple, sociedades financieras de objeto limitado, sociedades financieras de objeto múltiple, etc.",
+                    "tres":"• Se ha asesorado a instituciones financieras para la mejora de la eficiencia fiscal de algunos productos ofrecidos a sus clientes.",
+                    "cuatro":"• Hemos intervenido en el diseño de nuevos productos a ofrecerse por diferentes instituciones, por ejemplo, en el diseño de algunos fondos de inversión.",
+                    "cinco":"• Participamos de manera conjunta con nuestros clientes en el cumplimiento de obligaciones específicas del sector financiero."
                 },
-                "litigiofiscal": {
-                    "nombre": "Litigio Fiscal"
+                "litigiofiscal":{
+                    "nombre": "Litigio Fiscal",
+                    "uno":"La asesoría en la elaboración e implementación exitosa de estrategias litigiosas en la defensa de los intereses de los particulares, es indispensable para que la carga fiscal de los contribuyentes sea legal y constitucionalmente apropiada.",
+                    "dos":"• Participamos en la interposición de recursos administrativos ante las propias autoridades administrativas, incluyendo temas de comercio exterior.",
+                    "tres":"• La firma ha adquirido reconocimiento por la participación exitosa en la presentación de juicios de nulidad ante resoluciones de la autoridad fiscal (incluyendo aduanera) o ante determinaciones de impuestos por parte de dichas autoridades, ya sean locales o federales.",
+                    "cuatro":"• Patrocinamos la defensa constitucional a través de juicios de amparo en contra de disposiciones fiscales y de comercio exterior.",
+                    "cinco":"• Hemos participado en la implementación de procedimientos para solución de controversias contenidos en los tratados para evitar la doble imposición concluidos por México."
+
                 },
-                "planeacionp": {
-                    "nombre": "Planeación Patrimonial"
+                "planeacionp":{
+                    "nombre": "Planeación Patrimonial",
+                    "uno":"La interacción económica y jurídica consecuencia de nacionales estructurando vehículos en el extranjero y extranjeros formulando alternativas de inversión en México, requiere de un alto grado de interrelación de los sistemas fiscales extranjeros con el nacional.",
+                    "dos":"• Participamos activamente asesorando a los principales sujetos involucrados en el análisis e implementación de estructuras patrimoniales: clientes privados, asesores financieros y asesores legales extranjeros.",
+                    "tres":"• Nuestra participación ocurre tanto en la creación y/o modificación de las estructuras de inversión, siendo esencial en su diseño las diversas clases de activos involucrados y necesidades específicas de cada persona o familia.",
+                    "cuatro":"• Las soluciones alcanzadas permiten que todas las partes involucradas alcancen el mayor grado de seguridad jurídica en la estructura."
                 },
-                "proyectosinfra": {
-                    "nombre": "Proyectos de Infraestructura"
+                "proyectosinfra":{
+                    "nombre": "Proyectos de Infraestructura",
+                    "uno":"Generalmente, los proyectos de infraestructura requieren de vehículos de inversión complejos y de la interacción con diversas áreas del derecho nacional y extranjero.",
+                    "dos":"• Asesoría de algunos de los proyectos más grandes en México en materia de generación de energía de los últimos años.",
+                    "tres":"• Experiencia en materia de licitaciones, contratos de la industria petrolera, generación de energía eólica, así como en la utilización de vehículos legales especiales para efectuar la inversión.",
+                    "cuatro":"• Efectos fiscales derivados de los contratos de financiamiento y del otorgamiento de garantías a cargo de terceros.",
+                    "cinco":"• Resolución de problemas de capitalización insuficiente.",
+                    "seis":"• Tenemos experiencia en la determinación y asesoramiento del régimen de importación de equipo especializado."
                 },
-                "represenfis": {
-                    "nombre": "Representacion ante Autoridades"
+                "represenfis":{
+                    "nombre": "Representacion ante Autoridades",
+                    "uno":"La relación entre los contribuyentes y las autoridades fiscales se presenta, entre otras causas: con motivo de revisiones fiscales y de comercio exterior (auditorías), cumplimiento de obligaciones formales (declaraciones y avisos), solicitudes de autorización y confirmaciones de criterio.",
+                    "dos":"• Nos involucramos en procesos de auditoría sobre el cumplimiento de obligaciones fiscales por parte de la autoridad fiscal, disminuyendo e incluso eliminando contingencias fiscales.",
+                    "tres":"• Participamos en solicitudes de autorización de regímenes fiscales, de confirmación de criterio y de reestructuras corporativas.",
+                    "cuatro":"• Intervenimos en las solicitudes para pago diferido de contribuciones, así como en la preparación de avisos para el cumplimiento de obligaciones fiscales, en la aplicación de estímulos fiscales y en la tramitación y seguimiento de aspectos formales de comercio exterior.",
+                    "cinco":"• Interacción con la autoridad fiscal para la prevención y solución de problemáticas tributarias."
                 },
-                "tributacion": {
-                    "nombre": "Tributacion Internacional"
+                "tributacion":{
+                    "nombre": "Tributacion Internacional",
+                    "uno":"Participamos activamente con clientes nacionales y extranjeros en el análisis e implementación de operaciones en México y en el exterior.",
+                    "dos":"• Tenemos experiencia en la interpretación y aplicación de tratados para evitar la doble tributación.",
+                    "tres":"• Asesoramiento en temas diversos, como pagos al extranjero, el acreditamiento de impuestos extranjeros, establecimientos permanentes en México y/o en el extranjero, régimen de expatriados, reestructuras internacionales, etc.",
+                    "cuatro":"• Hemos participado en la determinación de efectos derivados de regímenes preferenciales."
                 },
-                "valoresp": {
-                    "nombre": "Valores y Productos Financieros"
+                "valoresp":{
+                    "nombre": "Valores y Productos Financieros",
+                    "uno":"La necesidad de financiamiento, coberturas e inversión de las empresas hacen cada vez más necesario recurrir a diversos productos financieros.",
+                    "dos":"• Asesoramos a clientes en ofertas públicas y privadas de acciones y títulos de deuda, realizadas en México y en el extranjero, representando tanto a las sociedades emisoras como a los agentes colocadores.",
+                    "tres":"• Determinación de consecuencias fiscales de operaciones financieras “simples” y operaciones financieras derivadas, tales como: swaps, coberturas, opciones (incluyendo planes de opciones para ejecutivos), etc.",
+                    "cuatro":"• Consecuencias tributarias de operaciones financieras derivadas utilizadas como garantía en financiamientos (“credit default swaps”, “total return swaps”, etc.).",
+                    "cinco":"• Reestructura de pasivos derivada de títulos tanto colocados en México como en el extranjero."
                 },
-                "ventasdirec": {
-                    "nombre": "Ventas Directas"
+                "ventasdirec":{
+                    "nombre": "Ventas Directas",
+                    "uno":"La necesidad de financiamiento, coberturas e inversión de las empresas hacen cada vez más necesario recurrir a diversos productos financieros.",
+                    "dos":"• Asesoramos a clientes en ofertas públicas y privadas de acciones y títulos de deuda, realizadas en México y en el extranjero, representando tanto a las sociedades emisoras como a los agentes colocadores.",
+                    "tres":"• Determinación de consecuencias fiscales de operaciones financieras “simples” y operaciones financieras derivadas, tales como: swaps, coberturas, opciones (incluyendo planes de opciones para ejecutivos), etc.",
+                    "cuatro":"• Consecuencias tributarias de operaciones financieras derivadas utilizadas como garantía en financiamientos (“credit default swaps”, “total return swaps”, etc.).",
+                    "cinco":"• Reestructura de pasivos derivada de títulos tanto colocados en México como en el extranjero."
                 },
-                "seguros": {
-                    "nombre": "Seguros"
+                "seguros":{
+                    "nombre": "Seguros",
+                    "uno":"Las repercusiones fiscales de la contratación y ejecución de un contrato de seguro son de suma importancia tanto para las aseguradoras, el asegurado, los beneficiarios y, en su caso, el contratante, ya sean éstos personas físicas o morales.",
+                    "dos":"• Asesoramos los términos y condiciones que se deben incluir en diversas especies de seguros",
+                    "tres":"• Tenemos experiencia asesorando clientes en cuanto a la aplicación de reglas especiales para asegurar la deducción del pago de primas.",
+                    "cuatro":"• Hemos asesorado la toma coberturas o garantías sobre cuentas por cobrar, como es el caso de seguros de crédito."
                 }
             }
         },

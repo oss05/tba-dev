@@ -19,6 +19,34 @@ code {
   font-size: -webkit-xxx-large;
 }
 
+@keyframes subtitleAnimation{
+  0%{
+      transform: translateX(100%);
+      }
+  100%{
+      transform: rotate(xx) translateX(0);
+      }
+}
+
+.subtitle{
+  animation: subtitleAnimation 0.5s forwards 0s linear;
+}
+
+
+@keyframes contenidoAnimation{
+  0%{
+      transform: translateY(100%);
+      }
+  100%{
+      transform: rotate(xx) translateY(0);
+      }
+}
+
+.contenido{
+  animation: contenidoAnimation 0.5s forwards 0s ease-in;
+}
+
+
 @media only screen and (max-width: 600px) {
   /* --------home----------- */
   .contenedorLogoHome {
@@ -91,7 +119,8 @@ code {
   .page {
     /* border: solid 1px #40ff00; */
     display: flex;
-    height: 3200px !important;
+    /* height: 3200px !important; */
+    margin-bottom: 4em;
     flex-direction: column !important;
   }
   .menuIzq {
