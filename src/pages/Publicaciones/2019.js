@@ -6,7 +6,9 @@ const P2019 = props => {
     const hey = "hey"
     return (
         <div className="page">
-            <Izq data={props.data} />
+            <Izq data={props.data} 
+            bgc = "#656565"
+            fc = "#fff"/>
             <Badge
                 data={props.data}
                 año="2019"

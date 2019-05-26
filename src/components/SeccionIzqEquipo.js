@@ -7,9 +7,12 @@ const Izq = props => {
     return(
         <ul className="menuIzq">
             <MenuTitle
+                
                 menuTitle={props.data.areas.equipo.socios}
             />
             <Menu
+                bgc = {props.bgc}
+                fc = {props.fc}
                 endPoint="./sos001"
                 menuArea="Mauricio Ambrosi Herrera"
             />
