@@ -61,19 +61,32 @@
             }
         },
         "equipo": {
-            "nombre": "Our Team",
-            "nombreCompleto": "Our Team",
-            "socios": "Socios",
-            "asociados": "Asociados",
+            "nombre":"Equipo",
+            "nombreCompleto":"Nuestro Equipo",
+            "socios":"Socios",
+            "asociados":"Asociados",
             "abogados": "Abogados",
             "pasantes": "Pasantes",
-            "areas": {
-                "nombre": "Áreas de Práctica",
-                "uno": "p1",
-                "dos": "p2",
-                "tres": "",
-                "cuatro": "",
-                "cinco": ""
+            "areas":{
+                "nombre":"Áreas de Práctica",
+                "uno":"•Litigio fiscal",
+                "dos":"•Tributación internacional",
+                "tres":"•Industria naviera y transportación",
+                "cuatro":"•Precios de transferencia",
+                "cinco":""
+            },
+            "educacion":{
+                "nombre":"Educación",
+                "uno":"•Abogado (mención honorífica), Universidad Panamericana",
+                "dos":"•Diploma en Impuestos, Instituto Tecnológico Autónomo de México (ITAM)",
+                "tres":"•LL.M. en Tributación Internacional, Universidad de Leiden, Países Bajos",
+                "cuatro":""
+            },
+            "asociaciones":{
+                "nombre":"Asociaciones profesionales",
+                "uno":"•International Fiscal Association (IFA)",
+                "dos":"•Comisión Fiscal Internacional del Colegio de Contadores Públicos de México",
+                "tres":"•Asociación Nacional de Abogados de Empresa (ANADE)"
             }
         },
         "publicaciones": "Mexican Fiscal Update",

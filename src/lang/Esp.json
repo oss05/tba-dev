@@ -21,7 +21,7 @@
                     "tres": "• Participamos en temas de clasificación arancelaria, valoración aduanera, importaciones temporales y reglas de origen, habiendo obtenido resoluciones innovadoras y favorables a importadores.",
                     "cuatro": "• Se nos ha encomendado la tramitación y/o seguimiento de diversos aspectos formales de comercio exterior, tales como la obtención de programas de apoyo a exportadores, autorizaciones, permisos, rectificaciones de pedimentos, registros en padrones, etc.",
                     "cinco": "• Asesoramos auditorías en materia de comercio exterior y reglas de origen por parte de autoridades nacionales y extranjeras, así como en la interposición de medios de defensa administrativos (incluyendo PAMAs), juicios de nulidad y de amparo, contra resoluciones en materia de comercio exterior."
-                },
+                }, 
                 "asesoriafis":{
                     "nombre": "Asesoría Fiscal a Personas Físicas"
                 },
@@ -70,24 +70,24 @@
             "pasantes": "Pasantes",
             "areas":{
                 "nombre":"Áreas de Práctica",
-                "uno":"p1",
-                "dos":"p2",
-                "tres":"",
-                "cuatro":"",
+                "uno":"•Litigio fiscal",
+                "dos":"•Tributación internacional",
+                "tres":"•Industria naviera y transportación",
+                "cuatro":"•Precios de transferencia",
                 "cinco":""
             },
             "educacion":{
                 "nombre":"Educación",
-                "uno":"",
-                "dos":"",
-                "tres":"",
+                "uno":"•Abogado (mención honorífica), Universidad Panamericana",
+                "dos":"•Diploma en Impuestos, Instituto Tecnológico Autónomo de México (ITAM)",
+                "tres":"•LL.M. en Tributación Internacional, Universidad de Leiden, Países Bajos",
                 "cuatro":""
             },
             "asociaciones":{
                 "nombre":"Asociaciones profesionales",
-                "uno":"",
-                "dos":"",
-                "tres":""
+                "uno":"•International Fiscal Association (IFA)",
+                "dos":"•Comisión Fiscal Internacional del Colegio de Contadores Públicos de México",
+                "tres":"•Asociación Nacional de Abogados de Empresa (ANADE)"
             }
         },
         "publicaciones": "Publicaciones",

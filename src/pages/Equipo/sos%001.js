@@ -13,9 +13,10 @@ const Abogado = props => {
                     rol={props.data.areas.equipo.socios}
                     nombreEquipo="Mauricio Ambrosi Herrera"
                     correoEquipo="mambrosi@turanzas.com.mx"
+                    linkCorreo="mailto:mambrosi@turanzas.com.mx"
                 />
                 <ContenidoEquipo
-                   
+                   data={props.data}
                 />
 
             </section>

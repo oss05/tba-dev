@@ -1,27 +1,28 @@
 import React from 'react';
+import Badge from './BadgeEquipo';
 
 const Contenido = props => {
     return(
-        <div>
-            <h2>
-                {props.titleContentUno}
-                {props.titleContentDos}
-                {props.titleContentTres}
-            </h2><br/>
-            <p className="contenido">   
-                {props.parrafoUno} <br/>
-                {props.parrafoDos} <br/>
-                {props.parrafoTres} <br/>
-                {props.parrafoCuatro} <br/>
-                {props.parrafoCinco} <br/>
-                {props.parrafoSeis} <br/>
-                {props.parrafoSiete} <br/>
-                {props.parrafoOcho} <br/>
-                {props.parrafoNueve} <br/>
-                {props.parrafoDiez} <br/>
-                {props.parrafoOnce} <br/>
-                {props.parrafoDoce} <br/>
-            </p>
+        <div className="equipoCategorias">
+            <Badge
+                badgeName={props.data.areas.equipo.areas.nombre}
+                parrafoUno={props.data.areas.equipo.areas.uno}
+                parrafoDos={props.data.areas.equipo.areas.dos}
+                parrafoTres={props.data.areas.equipo.areas.tres}
+                parrafoCuatro={props.data.areas.equipo.areas.cuatro}
+            /> <br/>
+            <Badge
+            badgeName={props.data.areas.equipo.educacion.nombre}
+            parrafoUno={props.data.areas.equipo.educacion.uno}
+            parrafoDos={props.data.areas.equipo.educacion.dos}
+            parrafoTres={props.data.areas.equipo.educacion.tres}
+            /> <br/>
+            <Badge
+            badgeName={props.data.areas.equipo.asociaciones.nombre}
+            parrafoUno={props.data.areas.equipo.asociaciones.uno}
+            parrafoDos={props.data.areas.equipo.asociaciones.dos}
+            parrafoTres={props.data.areas.equipo.asociaciones.tres}
+            />
         </div>
     )
 }

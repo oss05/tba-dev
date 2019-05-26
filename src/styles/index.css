@@ -10,7 +10,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.title > h2{
+.title>h2 {
   /* border: solid 1px; */
   display: flex;
   justify-content: center;
@@ -38,125 +38,120 @@ code {
     /* border: solid 1px #00a6ff; */
     transform: rotate(0) !important;
   }
-
-  .listaHome > ul li a {
+  .listaHome>ul li a {
     font-size: 30px;
-}
-/* ------------ofice------- */
-.oficeContainer{
-  margin-top: 1em;
-}
-.oficeCenterContainer {
-  /* border: solid 1px; */
-  height: 585px !important;
-  flex-direction: column;
-}
+  }
+  /* ------------ofice------- */
+  .oficeContainer {
+    margin-top: 1em;
+  }
+  .oficeCenterContainer {
+    /* border: solid 1px; */
+    height: 585px !important;
+    flex-direction: column;
+  }
+  .oficeImg {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    margin: 2em 0;
+  }
+  .oficeImg img {
+    /* border: solid; */
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    margin: 2em 0;
+  }
+  .oficeDirection {
+    align-items: center;
+    width: 100% !important;
+    justify-content: center;
+    padding: 0 !important;
+    text-align: center;
+  }
+  /* --------firma---------------- */
+  .parrafosFirma>article {
+    width: 80% !important;
+  }
+  .librosUp {
+    /* border: solid 1px #2fffe3; */
+    width: 70% !important;
+  }
+  .librosDown {
+    /* border: solid 1px #ffbd2f; */
+    width: 65% !important;
+    flex-direction: column;
+  }
+  /* -------Equipo---------------- */
+  .page {
+    /* border: solid 1px #40ff00; */
+    display: flex;
+    height: 3200px !important;
+    flex-direction: column !important;
+  }
+  .menuIzq {
+    /* border: solid 1px red; */
+    width: 100% !important;
+    height: auto;
+    margin-top: 2em;
+    margin: 0 !important;
+    padding-left: -40px !important;
+    padding: 0 !important;
+  }
+  .areaTextContainer {
+    /* border: solid 1px #00c3ff; */
+    width: 100% !important;
+  }
+  .headerAreas {
+    /* border: solid 1px; */
+    width: 100% !important;
+    height: 12% !important;
+    flex-direction: column;
+  }
+  .contenido {
+    /* border: solid 1px green; */
+    width: 80% !important;
+  }
+  .equipoCategorias * {
+    width: 90% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.oficeImg{
-  /* border: solid; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100% !important;
-  margin: 2em 0;
-}
-
-.oficeImg img{
-  /* border: solid; */
-  width: 100% !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100% !important;
-  margin: 2em 0;
-}
-
-.oficeDirection{
-  align-items: center;
-  width: 100% !important;
-  justify-content: center;
-  padding: 0 !important;
-  text-align: center;
-}
-/* --------firma---------------- */
-.parrafosFirma>article {
-  width: 80% !important;
-
-}
-
-.librosUp {
-  /* border: solid 1px #2fffe3; */
-  width: 70% !important;
-}
-
-.librosDown {
-  /* border: solid 1px #ffbd2f; */
-  width: 65% !important;
-  flex-direction: column;
-}
-/* -------Equipo---------------- */
-.page {
-  /* border: solid 1px #40ff00; */
-  display: flex;
-  height: 3200px !important;
-  flex-direction: column !important;
-}
-
-.menuIzq {
-  /* border: solid 1px red; */
-  width: 100% !important;
-  height: auto;
-  margin-top: 2em;
-  margin: 0 !important;
-  padding-left: -40px !important;
-  padding: 0 !important;
-}
-
-.areaTextContainer {
-  /* border: solid 1px #00c3ff; */
-  width: 100% !important;
-}
-
-.headerAreas {
-  /* border: solid 1px; */
-  width: 100% !important;
-  height: 12% !important; 
-  flex-direction: column;
-}
-
-.contenido {
-  /* border: solid 1px green; */
-  width: 80% !important;
-
+  .abogado > p {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
 }
   /* --------------footer----- */
-
-.infoGroup {
+  .infoGroup {
     /* border: solid 1px; */
     flex-direction: column;
-}
-
-.rightsContainer {
+  }
+  .rightsContainer {
     width: 100% !important;
     height: auto !important;
     /* border: solid 1px; */
     font-size: 13px;
-}
-
-.designContainer {
+  }
+  .designContainer {
     width: 100% !important;
     height: auto !important;
     /* border: solid 1px; */
     flex-direction: column;
     align-items: center !important;
     font-size: 13px;
-}
-
-.linkedinContainer{
-  height: 70px !important;
-  align-items: center !important;
-  justify-content: center !important;
-  padding: 0 !important
-}
-
+  }
+  .linkedinContainer {
+    height: 70px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important
+  }
 }
