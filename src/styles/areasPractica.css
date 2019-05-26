@@ -1,20 +1,22 @@
-.page{
+.page {
     /* border: solid 1px #40ff00; */
     display: flex;
     height: 1000px;
 }
 
-.areaTextContainer{
+.areaTextContainer {
     /* border: solid 1px #00c3ff; */
     width: 70%;
 }
 
 /* -------------menu ezquierda----- */
+
 .menuIzq {
     /* border: solid 1px red; */
     width: 30%;
     height: auto;
-    margin-top: 2em;;
+    margin-top: 2em;
+    
 }
 
 .menuTitle {
@@ -28,7 +30,7 @@
     border-bottom: #a2a1a1 solid 2px;
 }
 
-.menuIzq > .navLink li {
+.menuIzq>.navLink li {
     /* border: solid 1px #00ff40; */
     margin: 1em;
     padding: 0.3em;
@@ -41,17 +43,23 @@
     color: #fff;
 }
 
-.navLink{
+.navLink {
     color: #000;
 }
 
-.navLink:hover{
+.navLink:hover {
     text-decoration: none;
 }
 
+.publicaciones{
+    width: 20%;
+    height: auto;
+    margin-top: 2em;
+    text-align: center;
+}
 /* -------headerAreas ------------- */
 
-.headerAreas{
+.headerAreas {
     /* border: solid 1px; */
     width: 60%;
     margin-top: 2em;
@@ -61,18 +69,18 @@
     justify-content: space-between;
 }
 
-.headerAreas *{
+.headerAreas * {
     /* border: solid 1px; */
     display: flex;
     justify-content: center;
     font-weight: 600;
 }
 
-.cargo{
+.cargo {
     color: rgb(165, 165, 165);
 }
 
-.subtitle{
+.subtitle {
     width: 70%;
     align-self: center;
     text-align: center;
@@ -82,17 +90,18 @@
 
 /* ----contenido------------- */
 
-.contenido{
+.contenido {
     /* border: solid 1px green; */
     width: 65%;
     text-align: justify;
     margin-left: 2em;
-    margin-top: 2em;;
+    margin-top: 2em;
+    ;
 }
 
 /* ---------equipo--------- */
 
-.headerEquipo{
+.headerEquipo {
     /* border: solid 1px; */
     height: 15%;
     display: flex;
@@ -101,40 +110,87 @@
     margin-top: 2em;
 }
 
-.headerEquipo > h2 {
+.headerEquipo>h2 {
     padding-left: 2em;
     font-weight: 600;
 }
 
-.headerEquipo > h2 p{
-    color: #656565; 
+.headerEquipo>h2 p {
+    color: #656565;
 }
 
-.abogado{
+.abogado {
     border-bottom: solid 1px;
     align-self: center;
 }
 
-.abogado > p {
+.abogado>p {
     font-weight: 600;
 }
 
-.abogado > a , .abogado > a:hover{
+.abogado>a, .abogado>a:hover {
     color: #13a4e7;
     text-decoration: none;
 }
 
-.equipoCategorias{
+.equipoCategorias {
     /* border: solid 1px red; */
     margin-top: 4em;
     margin-left: 4em;
 }
 
-.equipoCategorias *{
+.equipoCategorias * {
     width: 500px;
 }
 
-.tituloBadge{
+.tituloBadge {
     font-size: 15px;
     font-weight: 600;
+}
+
+/* ----------Boletines-------- */
+
+.badgePublic {
+    /* border: solid; */
+    width: 60%;
+    height: 10em;
+    display: flex;
+    margin-top: 2em;
+}
+
+.izqBadge {
+    clip-path: polygon(100% 0%, 80% 100%, 0% 100%, 0% 0%);
+    background-color: rgb(148, 148, 148);
+    width: 70%;
+    /* height: 18px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+}
+
+.izqBadge > h2{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.izqBadge > article p {
+    font-size: 1.5em
+}
+
+.derBadge {
+    width: 40%;
+    height: 100%;
+    /* background: rebeccapurple; */
+    border-bottom: solid 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 1em;
+    padding-right: 2em;
+}
+
+.derBadge > a img {
+    width: 2em;
 }

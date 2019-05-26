@@ -14,7 +14,7 @@ const Home = props => {
                     <li><Link to="/firma">{props.data.areas.firma.nombre}</Link></li>
                     <li><Link to="/areas/aduanas">{props.data.areas.practica.nombre}</Link></li>
                     <li><Link to="/equipo/sos001">{props.data.areas.equipo.nombre}</Link></li>
-                    <li><Link to="/publicaciones">{props.data.areas.publicaciones}</Link></li>
+                    <li><Link to="/publicaciones/2019">{props.data.areas.publicaciones.nombre}</Link></li>
                     <li><Link to="/oficinas">{props.data.areas.oficinas}</Link></li>
                 </ul>
             </section>

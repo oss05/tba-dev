@@ -102,6 +102,7 @@ code {
     margin: 0 !important;
     padding-left: -40px !important;
     padding: 0 !important;
+    /* text-align: center !important; */
   }
   .areaTextContainer {
     /* border: solid 1px #00c3ff; */
@@ -128,6 +129,15 @@ code {
     /* border: solid; */
     display: flex;
     justify-content: center;
+}
+
+/* -------publicaciones -------- */
+.badgePublic{
+  width: 100% !important;
+}
+
+.izqBadge{
+  width: 100% !important;
 }
   /* --------------footer----- */
   .infoGroup {

@@ -1,9 +1,18 @@
 import React from 'react';
+import Izq from '../../components/SeccionIzqPublicaciones';
+import Badge from '../../components/BadgePublicaciones';
 
 const P2019 = props => {
+    const hey = "hey"
     return (
-        <div>
-
+        <div className="page">
+            <Izq data={props.data} />
+            <Badge
+                data={props.data}
+                año="2019"
+                linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2019/at2019.pdf"
+                descripcionAño="01/19"
+            />
         </div>
     )
 }

@@ -89,7 +89,10 @@
                 "tres":"•Asociación Nacional de Abogados de Empresa (ANADE)"
             }
         },
-        "publicaciones": "Mexican Fiscal Update",
+        "publicaciones": {
+            "nombre": "Mexican Fiscal Update",
+            "nombreCompleto": "Mexican Fiscal Update  "
+        },
         "oficinas": "Our Offices"
     },
     "footer": {

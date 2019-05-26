@@ -21,80 +21,82 @@
                     "tres": "• Participamos en temas de clasificación arancelaria, valoración aduanera, importaciones temporales y reglas de origen, habiendo obtenido resoluciones innovadoras y favorables a importadores.",
                     "cuatro": "• Se nos ha encomendado la tramitación y/o seguimiento de diversos aspectos formales de comercio exterior, tales como la obtención de programas de apoyo a exportadores, autorizaciones, permisos, rectificaciones de pedimentos, registros en padrones, etc.",
                     "cinco": "• Asesoramos auditorías en materia de comercio exterior y reglas de origen por parte de autoridades nacionales y extranjeras, así como en la interposición de medios de defensa administrativos (incluyendo PAMAs), juicios de nulidad y de amparo, contra resoluciones en materia de comercio exterior."
-                }, 
-                "asesoriafis":{
+                },
+                "asesoriafis": {
                     "nombre": "Asesoría Fiscal a Personas Físicas"
                 },
-                "industriasnav":{
+                "industriasnav": {
                     "nombre": "Industria Naviaera y Transportación"
                 },
-                "institucionesasist":{
+                "institucionesasist": {
                     "nombre": "Instituciones Asistenciales y Filantrópicas"
                 },
-                "institucionesF":{
+                "institucionesF": {
                     "nombre": "Instituciones Financieras"
                 },
-                "litigiofiscal":{
+                "litigiofiscal": {
                     "nombre": "Litigio Fiscal"
                 },
-                "planeacionp":{
+                "planeacionp": {
                     "nombre": "Planeación Patrimonial"
                 },
-                "proyectosinfra":{
+                "proyectosinfra": {
                     "nombre": "Proyectos de Infraestructura"
                 },
-                "represenfis":{
+                "represenfis": {
                     "nombre": "Representacion ante Autoridades"
                 },
-                "tributacion":{
+                "tributacion": {
                     "nombre": "Tributacion Internacional"
                 },
-                "valoresp":{
+                "valoresp": {
                     "nombre": "Valores y Productos Financieros"
                 },
-                "ventasdirec":{
+                "ventasdirec": {
                     "nombre": "Ventas Directas"
                 },
-                "seguros":{
+                "seguros": {
                     "nombre": "Seguros"
                 }
-
             }
         },
         "equipo": {
-            "nombre":"Equipo",
-            "nombreCompleto":"Nuestro Equipo",
-            "socios":"Socios",
-            "asociados":"Asociados",
+            "nombre": "Equipo",
+            "nombreCompleto": "Nuestro Equipo",
+            "socios": "Socios",
+            "asociados": "Asociados",
             "abogados": "Abogados",
             "pasantes": "Pasantes",
-            "areas":{
-                "nombre":"Áreas de Práctica",
-                "uno":"•Litigio fiscal",
-                "dos":"•Tributación internacional",
-                "tres":"•Industria naviera y transportación",
-                "cuatro":"•Precios de transferencia",
-                "cinco":""
+            "areas": {
+                "nombre": "Áreas de Práctica",
+                "uno": "•Litigio fiscal",
+                "dos": "•Tributación internacional",
+                "tres": "•Industria naviera y transportación",
+                "cuatro": "•Precios de transferencia",
+                "cinco": ""
             },
-            "educacion":{
-                "nombre":"Educación",
-                "uno":"•Abogado (mención honorífica), Universidad Panamericana",
-                "dos":"•Diploma en Impuestos, Instituto Tecnológico Autónomo de México (ITAM)",
-                "tres":"•LL.M. en Tributación Internacional, Universidad de Leiden, Países Bajos",
-                "cuatro":""
+            "educacion": {
+                "nombre": "Educación",
+                "uno": "•Abogado (mención honorífica), Universidad Panamericana",
+                "dos": "•Diploma en Impuestos, Instituto Tecnológico Autónomo de México (ITAM)",
+                "tres": "•LL.M. en Tributación Internacional, Universidad de Leiden, Países Bajos",
+                "cuatro": ""
             },
-            "asociaciones":{
-                "nombre":"Asociaciones profesionales",
-                "uno":"•International Fiscal Association (IFA)",
-                "dos":"•Comisión Fiscal Internacional del Colegio de Contadores Públicos de México",
-                "tres":"•Asociación Nacional de Abogados de Empresa (ANADE)"
+            "asociaciones": {
+                "nombre": "Asociaciones profesionales",
+                "uno": "•International Fiscal Association (IFA)",
+                "dos": "•Comisión Fiscal Internacional del Colegio de Contadores Públicos de México",
+                "tres": "•Asociación Nacional de Abogados de Empresa (ANADE)"
             }
         },
-        "publicaciones": "Publicaciones",
-        "oficinas": "Oficinas"
+        "publicaciones": {
+            "nombre": "Publicaciones",
+            "nombreCompleto": "Actualización Tributaria  "
         },
-        "footer": {
-            "derechos": "© Todos los Derechos Reservados",
-            "desarrollo": "Desarrollado por:"
-        }
+        "oficinas": "Oficinas"
+    },
+    "footer": {
+        "derechos": "© Todos los Derechos Reservados",
+        "desarrollo": "Desarrollado por:"
+    }
 }
