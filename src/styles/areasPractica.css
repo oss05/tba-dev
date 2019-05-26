@@ -16,7 +16,6 @@
     width: 30%;
     height: auto;
     margin-top: 2em;
-    
 }
 
 .menuTitle {
@@ -51,12 +50,13 @@
     text-decoration: none;
 }
 
-.publicaciones{
+.publicaciones {
     width: 20%;
     height: auto;
     margin-top: 2em;
     text-align: center;
 }
+
 /* -------headerAreas ------------- */
 
 .headerAreas {
@@ -152,7 +152,7 @@
 
 .badgePublic {
     /* border: solid; */
-    width: 60%;
+    width: 90%;
     height: 10em;
     display: flex;
     margin-top: 2em;
@@ -169,13 +169,13 @@
     padding-left: 2em;
 }
 
-.izqBadge > h2{
+.izqBadge>h2 {
     color: #fff;
     font-size: 3em;
     font-weight: 600;
 }
 
-.izqBadge > article p {
+.izqBadge>article p {
     font-size: 1.5em
 }
 
@@ -191,6 +191,6 @@
     padding-right: 2em;
 }
 
-.derBadge > a img {
+.derBadge>a img {
     width: 2em;
 }

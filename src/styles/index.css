@@ -124,21 +124,18 @@ code {
     flex-direction: column;
     align-items: center;
   }
-
-  .abogado > p {
+  .abogado>p {
     /* border: solid; */
     display: flex;
     justify-content: center;
-}
-
-/* -------publicaciones -------- */
-.badgePublic{
-  width: 100% !important;
-}
-
-.izqBadge{
-  width: 100% !important;
-}
+  }
+  /* -------publicaciones -------- */
+  .badgePublic {
+    width: 100% !important;
+  }
+  .izqBadge {
+    width: 100% !important;
+  }
   /* --------------footer----- */
   .infoGroup {
     /* border: solid 1px; */
