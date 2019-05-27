@@ -8,9 +8,9 @@ const Footer = (props) => {
 
         <div className="footerContainer">
             <section className="langContainer">
-                <select onChange={props.handelChangeIdioma}>
-                    <option value="Esp">Esp</option>
-                    <option value="Eng">Eng</option>
+                <select onChange={props.handelChangeIdioma} style={{border:"solid 1px"}}>
+                    <option value="Esp">ESP</option>
+                    <option value="Eng">ENG</option>
                 </select>
             </section>
             <div className="infoGroup">
