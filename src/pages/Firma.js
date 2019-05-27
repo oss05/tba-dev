@@ -24,12 +24,12 @@ const Firma = props => {
             </section>
             <section className='seccionLibros'>
                 <article className="librosUp">
-                    <img src={chambers} alt="" />
-                    <img src={legal} alt="" />
+                    <a href="https://chambers.com/"><img src={chambers} alt="chambers" /></a> 
+                    <a href="http://www.legal500.com/c/mexico/tax"><img src={legal} alt="tax" /></a> 
                 </article>
                 <article className="librosDown">
-                    <img src={wts} alt="" />
-                    <img src={latax} alt="" />
+                    <a href="https://www.wts.com/global"><img src={wts} alt="wts" /></a> 
+                    <a href="http://lataxnet.net/"><img src={latax} alt="latax" /></a> 
                 </article>
             </section>
         </div>
