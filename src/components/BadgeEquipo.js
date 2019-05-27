@@ -9,6 +9,7 @@ const Badge = props => {
             <p>{props.parrafoTres}</p>
             <p>{props.parrafoCuatro}</p>
             <p>{props.parrafoCinco}</p>
+            <p>{props.parrafoSeis}</p>
         </div>
     )
 }

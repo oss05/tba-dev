@@ -24,7 +24,7 @@ class navbar extends Component {
         return (
             <div className="custom-nav">
                 <Navbar color="transparent" light>
-                    <Link to="/" className="mr-auto logoNav">
+                    <Link to="/TBA/" className="mr-auto logoNav">
                         <img src={Logo} alt="logo turanzas" /></Link>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse className="expandedNavC" isOpen={!this.state.collapsed} navbar>

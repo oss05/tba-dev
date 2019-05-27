@@ -113,7 +113,7 @@ class App extends Component {
     return (
       <Router>
         <Navbar data={this.state.data} />
-        <Route exact path="/" component={() => <Home data={this.state.data} />} />
+        <Route exact path="/TBA/" component={() => <Home data={this.state.data} />} />
         <Route path="/oficinas" component={() => <Oficinas data={this.state.data} />} />
         <Route path="/firma" component={() => <Firma data={this.state.data} />} />
         {/* Original */}
@@ -166,7 +166,7 @@ class App extends Component {
         <Route exact path="/equipo/sos007" component={() => <Sos007 data={this.state.data} />} />
         <Route exact path="/equipo/as101" component={() => <As101 data={this.state.data} />} />
         <Route exact path="/equipo/as102" component={() => <As102 data={this.state.data} />} />
-        <Route exact path="/equipo/as103" component={() => <As103 data={this.state.data} />} />
+        <Route exact path="/equipo/as103" component={() => <As103 data={this.state.data} />} /> 
         <Route exact path="/equipo/abo201" component={() => <Abo201 data={this.state.data} />} />
         <Route exact path="/equipo/abo202" component={() => <Abo202 data={this.state.data} />} />
         <Route exact path="/equipo/abo203" component={() => <Abo203 data={this.state.data} />} />
