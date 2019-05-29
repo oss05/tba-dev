@@ -34,7 +34,7 @@
 .listaHome > ul li {
     /* border: solid 1px #00a6ff; */
     width: auto;
-    transform: rotate(270deg);
+    transform: rotate(-90deg);
     font-size: 2.5em;
     transition: 1s all ease;
     display: flex;justify-content: center;
