@@ -1,5 +1,6 @@
 import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
+import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
 const P2018 = props => {
     return (
