@@ -210,6 +210,7 @@ code {
   }
   .izqBadge {
     width: 100% !important;
+    padding: 1em;
   }
 
   .publicaciones {
