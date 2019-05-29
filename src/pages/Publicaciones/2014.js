@@ -16,6 +16,8 @@ const P2014 = props => {
                     año="2014"
                     linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2015/actualizacion-tributaria-7-2015.pdf"
                     descripcionAño="01/14"
+                    envio={props.data.areas.publicaciones.envio.enero}
+                    fecha="13/14"
                 />
             </div>
         </div>

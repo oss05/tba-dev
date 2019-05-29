@@ -10,8 +10,15 @@ const Badge = props => {
                 </h2>
                 <article>
                     <p>
-                    {props.data.areas.publicaciones.nombreCompleto}
-                    {props.descripcionAño}
+                        {props.data.areas.publicaciones.nombreCompleto}
+                        {props.descripcionAño}
+                    </p>
+                    <br/>
+                    <p>
+                        {props.data.areas.publicaciones.nombreCompleto}
+                        <br/>
+                        {props.envio}
+                        {props.fecha}
                     </p>
                 </article>
 

@@ -223,7 +223,21 @@
         },
         "publicaciones": {
             "nombre": "Publicaciones",
-            "nombreCompleto": "Actualización Tributaria  "
+            "nombreCompleto": "Actualización Tributaria ",
+            "envio": {
+                "enero":"Enviada Enero ",
+                "febrero":"Enviada Febrero ",
+                "marzo":"Enviada Marzo ",
+                "abril":"Enviada Abril ",
+                "mayo":"Enviada Mayo ",
+                "junio":"Enviada Junio ",
+                "julio":"Enviada Julio ",
+                "agosto":"Enviada Agosto ",
+                "septiembre":"Enviada Septiembre ",
+                "octubre":"Enviada Octubre ",
+                "noviembre":"Enviada Noviembre ",
+                "diciembre":"Enviada Diciembre "
+            }
         },
         "oficinas": "Oficinas"
     },

@@ -16,6 +16,8 @@ const P2019 = props => {
                 año="2019"
                 linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2019/at2019.pdf"
                 descripcionAño="01/19"
+                envio={props.data.areas.publicaciones.envio.enero}
+                fecha=""
             />
         </div>
     )

@@ -16,18 +16,24 @@ const P2015 = props => {
                     año="2015"
                     linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2015/actualizacion-tributaria-7-2015.pdf"
                     descripcionAño="07/15"
+                    envio={props.data.areas.publicaciones.envio.noviembre}
+                    fecha="25-15"
                 />
                 <Badge
                     data={props.data}
                     año="2015"
                     linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2015/actualizacion-tributaria-4-2015.pdf"
                     descripcionAño="04/15"
+                    envio={props.data.areas.publicaciones.envio.mayo}
+                    fecha="22-15"
                 />
                 <Badge
                     data={props.data}
                     año="2015"
                     linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2015/actualizacion-tributaria-3-2015.pdf"
                     descripcionAño="03/15"
+                    envio={props.data.areas.publicaciones.envio.mayo}
+                    fecha="19-15"
                 />
             </div>
         </div>

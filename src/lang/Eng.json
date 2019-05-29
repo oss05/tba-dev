@@ -219,7 +219,21 @@
         },
         "publicaciones": {
             "nombre": "Mexican Fiscal Update",
-            "nombreCompleto": "Mexican Fiscal Update  "
+            "nombreCompleto": "Mexican Fiscal Update ",
+            "envio": {
+                "enero":"Sent January",
+                "febrero":"Sent February",
+                "marzo":"Sent March",
+                "abril":"Sent April",
+                "mayo":"Sent May",
+                "junio":"Sent June",
+                "julio":"Sent July",
+                "agosto":"Sent August",
+                "septiembre":"Sent September",
+                "octubre":"Sent October",
+                "noviembre":"Sent November",
+                "diciembre":"Sent December"
+            }
         },
         "oficinas": "Our Offices"
     },
