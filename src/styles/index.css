@@ -211,6 +211,11 @@ code {
   .izqBadge {
     width: 100% !important;
   }
+
+  .publicaciones {
+    width: 80% !important;
+    padding-left: 0 !important;
+}
   /* --------------footer----- */
   .infoGroup {
     /* border: solid 1px; */

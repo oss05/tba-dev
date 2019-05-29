@@ -1,5 +1,6 @@
 import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
+import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
 
 const P2019 = props => {
@@ -9,6 +10,7 @@ const P2019 = props => {
             <Izq data={props.data} 
             bgc = "#656565"
             fc = "#fff"/>
+            <Dropdown data={props.data}/>
             <Badge
                 data={props.data}
                 año="2019"

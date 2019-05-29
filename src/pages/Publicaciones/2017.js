@@ -8,6 +8,7 @@ const P2017 = props => {
             <Izq data={props.data}
                 bgc3="#656565"
                 fc3="#fff" />
+            <Dropdown data={props.data} />
             <div style={{ width: "100%" }}>
                 <Badge
                     data={props.data}
@@ -18,7 +19,7 @@ const P2017 = props => {
                 <Badge
                     data={props.data}
                     año="2017"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2017/at-03-17.pdf"                   
+                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2017/at-03-17.pdf"
                     descripcionAño="03/17"
                 />
                 <Badge
@@ -29,7 +30,7 @@ const P2017 = props => {
                 />
                 <Badge
                     data={props.data}
-                    año="2017"                   
+                    año="2017"
                     linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2017/at-01-17.pdf"
                     descripcionAño="01/17"
                 />
