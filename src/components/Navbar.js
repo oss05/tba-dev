@@ -19,6 +19,11 @@ class navbar extends Component {
         });
     }
 
+    handleClick = (e) => {
+        this.setState({
+            collapsed: true
+        });
+    }
 
     render() {
         return (
@@ -29,20 +34,20 @@ class navbar extends Component {
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse className="expandedNavC" isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
-                            <NavItem className="navItem">
-                                <Link className="navLink" to="/firma">{this.props.data.areas.firma.nombre}</Link>
+                            <NavItem className="navItem" >
+                                <Link className="navLink" onClick={this.handleClick} to="/firma">{this.props.data.areas.firma.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link className="navLink" to="/areas/aduanas">{this.props.data.areas.practica.nombre}</Link>
+                                <Link className="navLink" onClick={this.handleClick} to="/areas/aduanas">{this.props.data.areas.practica.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to="/equipo/sos001">{this.props.data.areas.equipo.nombre}</Link>
+                                <Link to="/equipo/sos001" onClick={this.handleClick}>{this.props.data.areas.equipo.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to="/publicaciones/2019">{this.props.data.areas.publicaciones.nombre}</Link>
+                                <Link to="/publicaciones/2019" onClick={this.handleClick}>{this.props.data.areas.publicaciones.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to="/oficinas">{this.props.data.areas.oficinas}</Link>
+                                <Link to="/oficinas" onClick={this.handleClick}>{this.props.data.areas.oficinas}</Link>
                             </NavItem>
                         </Nav>
                     </Collapse>
