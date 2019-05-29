@@ -13,7 +13,6 @@ const Badge = props => {
                         {props.data.areas.publicaciones.nombreCompleto}
                         {props.descripcionAño}
                     </p>
-                    <br/>
                     <p>
                         {props.data.areas.publicaciones.nombreCompleto}
                         <br/>
