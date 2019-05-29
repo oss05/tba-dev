@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import Izq from '../components/SeccionIzqAreas';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Oficinas from '../pages/Oficinas';

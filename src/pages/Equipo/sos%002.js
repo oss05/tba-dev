@@ -1,14 +1,16 @@
 import React from 'react';
 import Izq from '../../components/SeccionIzqEquipo';
+import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
 
 const Abogado = props => {
     return (
-        <div className="page" style={{height:1500}}>
+        <div className="page" style={{height:"auto"}}>
             <Izq data={props.data}
             bgc2 = "#656565"
             fc2 = "#fff" />
+            <Dropdown data={props.data}/>
             <section className="areaTextContainer">
                 <HeaderEquipo
                     data={props.data}

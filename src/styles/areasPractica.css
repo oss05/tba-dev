@@ -19,6 +19,11 @@
     margin-top: 2em;
 }
 
+.dropdown-toggle {
+    white-space: nowrap;
+    display: none;
+}
+
 .menuTitle {
     /* border: solid 1px #00ff40; */
     margin: 1em;

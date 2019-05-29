@@ -5,7 +5,7 @@ import ContenidoEquipo from '../../components/contenidoEquipo';
 
 const Abogado = props => {
     return (
-        <div className="page" style={{height:1500}}>
+        <div className="page" style={{height:"auto"}}>
             <Izq data={props.data}
             bgc3 = "#656565"
             fc3 = "#fff" />
