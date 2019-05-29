@@ -1,24 +1,41 @@
-import React from 'react';
+import React, { Component } from 'react'
 import Logo from '../assets/logoSoma.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/footer.css';
-
-const Footer = (props) => {
-    return (
-
-        <div className="footerContainer">
+const imagesPath = {
+        mx: "https://cdn.pixabay.com/photo/2016/07/17/18/51/mexico-1524499_960_720.png",
+        us: "http://red-pub.com/img/menu_cervezas/Banderas/USA.png"
+      }
+      
+class Footer extends Component {
+    
+     
+        state = {
+          open: true,
+        }
+        toggleImage = () => {
+          this.setState(state => ({ open: !state.open }))
+        }
+        getImageName = () => this.state.open ? 'mx' : 'us'
+      
+      
+    render() { 
+        const imageName = this.getImageName();
+        return ( 
+            <div className="footerContainer">
             <section className="langContainer">
-                <select onChange={props.handelChangeIdioma} style={{border:"solid 1px"}}>
-                    <option value="Esp">ESP</option>
-                    <option value="Eng">ENG</option>
-                </select>
+            <img style={{maxWidth: '50px'}} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
+                {/* <select onChange={props.handelChangeIdioma} style={{border:"solid 1px"}}>
+                    <option value="Esp"><img src={props.data.footer.bandera} alt=""/></option>
+                    <option value="Eng">{props.data.footer.bandera}</option>
+                </select> */}
             </section>
             <div className="infoGroup">
                 <section className="rightsContainer">
-                    <p>{props.data.footer.derechos}</p>
+                    <p>{this.props.data.footer.derechos}</p>
                 </section>
                 <section className="designContainer">
-                    <p>{props.data.footer.desarrollo}</p>
+                    <p>{this.props.data.footer.desarrollo}</p>
                     <img src={Logo} alt="logo soma" />
                 </section>
             </div>
@@ -27,9 +44,9 @@ const Footer = (props) => {
                 <a href="" target="_blank"><FontAwesomeIcon className="linkedin" icon={['fab', 'linkedin-in']} /></a>
             </section>
         </div>
-    )
-
+         );
+    }
 }
-
-export default Footer
+ 
+export default Footer;
 

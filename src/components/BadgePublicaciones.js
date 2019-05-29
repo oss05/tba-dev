@@ -9,11 +9,11 @@ const Badge = props => {
                     {props.año} <br />
                 </h2>
                 <article>
-                    <p>
+                    <p className="p1">
                         {props.data.areas.publicaciones.nombreCompleto}
                         {props.descripcionAño}
                     </p>
-                    <p>
+                    <p className="p2">
                         {props.data.areas.publicaciones.nombreCompleto}
                         <br/>
                         {props.envio}

@@ -2,6 +2,7 @@ import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
+import Dos from '../../assets/dos.pdf'
 
 const P2019 = props => {
     const hey = "hey"
@@ -11,6 +12,15 @@ const P2019 = props => {
             bgc = "#656565"
             fc = "#fff"/>
             <Dropdown data={props.data}/>
+            <div style={{ width: "100%" }}>
+            <Badge
+                data={props.data}
+                año="2019"
+                linkPdf={Dos}
+                descripcionAño="02/19"
+                envio={props.data.areas.publicaciones.envio.mayo}
+                fecha=""
+            />
             <Badge
                 data={props.data}
                 año="2019"
@@ -18,7 +28,7 @@ const P2019 = props => {
                 descripcionAño="01/19"
                 envio={props.data.areas.publicaciones.envio.enero}
                 fecha=""
-            />
+            /></div>
         </div>
     )
 }

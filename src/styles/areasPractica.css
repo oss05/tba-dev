@@ -80,6 +80,7 @@
     display: flex;
     justify-content: center;
     font-weight: 600;
+    color: #1d2a59;
 }
 
 .cargo {
@@ -87,8 +88,8 @@
 }
 
 .subtitle {
-    width: 70%;
-    align-self: center;
+    width: 120%;
+    /* align-self: center; */
     text-align: center;
     color: rgb(108, 108, 108);
     border-bottom: solid 2px #a2a1a1;
@@ -119,6 +120,7 @@
 .headerEquipo>h2 {
     padding-left: 2em;
     font-weight: 600;
+    color: #1d2a59;
 }
 
 .headerEquipo>h2 p {
@@ -166,23 +168,28 @@
 
 .izqBadge {
     clip-path: polygon(100% 0%, 90% 100%, 0% 100%, 0% 0%);
-    background-color: rgb(148, 148, 148);
+    background-color: #C4C7C7;
     width: 70%;
     /* height: 18px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 2em;
+    padding: 2em;
 }
 
 .izqBadge>h2 {
     color: #fff;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
 }
 
-.izqBadge>article p {
-    font-size: 1.5em
+.izqBadge>article .p1 {
+    font-weight: 700;
+}
+
+.izqBadge>article .p2 {
+    font-weight: 200;
+    color: #0000FF;
 }
 
 .derBadge {
