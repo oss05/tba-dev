@@ -11,6 +11,7 @@ const P2018 = props => {
             <Dropdown data={props.data} />
             <div style={{ width: "100%" }}>
                 <Badge
+                    // tamanio="500px"
                     data={props.data}
                     año="2018"
                     linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2018/at-03-18.pdf"
@@ -19,6 +20,7 @@ const P2018 = props => {
                     fecha=""
                 />
                 <Badge
+                // tamanio="450px"
                     data={props.data}
                     año="2018"
                     linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2018/at-02-18.pdf"
@@ -27,6 +29,7 @@ const P2018 = props => {
                     fecha=""
                 />
                 <Badge
+                // tamanio="420px"
                     data={props.data}
                     año="2018"
                     linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2018/at-01-18.pdf"

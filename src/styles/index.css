@@ -115,6 +115,14 @@ code {
     width: 65% !important;
     flex-direction: column;
   }
+  /* ------areas----------- */
+  .subtitle {
+    width: 70% !important;
+    align-self: center;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+}
   /* -------Equipo---------------- */
   .page {
     /* border: solid 1px #40ff00; */

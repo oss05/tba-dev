@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import Logo from '../assets/logoSoma.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/footer.css';
+
 const imagesPath = {
-        mx: "https://cdn.pixabay.com/photo/2016/07/17/18/51/mexico-1524499_960_720.png",
-        us: "http://red-pub.com/img/menu_cervezas/Banderas/USA.png"
+        mx: 'https://cdn.icon-icons.com/icons2/1531/PNG/512/3253493-flag-mexico-icon_106775.png',
+        us: 'https://cdn.countryflags.com/thumbs/united-states-of-america/flag-round-250.png'
       }
       
 class Footer extends Component {
@@ -15,6 +16,7 @@ class Footer extends Component {
         }
         toggleImage = () => {
           this.setState(state => ({ open: !state.open }))
+          this.props.handelChangeIdioma()
         }
         getImageName = () => this.state.open ? 'mx' : 'us'
       
@@ -24,7 +26,7 @@ class Footer extends Component {
         return ( 
             <div className="footerContainer">
             <section className="langContainer">
-            <img style={{maxWidth: '50px'}} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
+            <img style={{width: '45px'}} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
                 {/* <select onChange={props.handelChangeIdioma} style={{border:"solid 1px"}}>
                     <option value="Esp"><img src={props.data.footer.bandera} alt=""/></option>
                     <option value="Eng">{props.data.footer.bandera}</option>

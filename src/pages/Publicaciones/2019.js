@@ -5,7 +5,6 @@ import Badge from '../../components/BadgePublicaciones';
 import Dos from '../../assets/dos.pdf'
 
 const P2019 = props => {
-    const hey = "hey"
     return (
         <div className="page">
             <Izq data={props.data} 
@@ -14,6 +13,7 @@ const P2019 = props => {
             <Dropdown data={props.data}/>
             <div style={{ width: "100%" }}>
             <Badge
+                // tamanio="100%"
                 data={props.data}
                 año="2019"
                 linkPdf={Dos}
@@ -22,6 +22,7 @@ const P2019 = props => {
                 fecha=""
             />
             <Badge
+                // tamanio= "90%"
                 data={props.data}
                 año="2019"
                 linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2019/at2019.pdf"

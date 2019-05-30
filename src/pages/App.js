@@ -98,17 +98,33 @@ const dataEng = Eng
 class App extends Component {
 
   state = {
-    data: dataEsp
+    data: dataEsp,
+    idioma: "Esp"
   }
 
-  handelChangeIdioma = (e) => {
-    const idioma = e.target.value
+  // handelChangeIdioma = (e) => {
+  //   const idioma = e.target.value
+  //   this.setState({
+  //     idioma: idioma,
+  //     data: idioma === 'Esp' ? dataEsp : dataEng
+  //   })
+  //   console.log(this.state.idioma)
+  //   console.log(this.state.data)
+  // }
+
+  handelChangeIdioma = () => {
+    this.state.idioma === "Esp" ?
     this.setState({
-      idioma: idioma,
-      data: idioma === 'Esp' ? dataEsp : dataEng
-    })
-    console.log(this.state.idioma)
-    console.log(this.state.data)
+      data:dataEng,
+      idioma:"Eng"
+    }
+    )
+    :
+    this.setState({
+      data:dataEsp,
+      idioma:"Esp"
+    }
+    )
   }
 
   

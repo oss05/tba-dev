@@ -4,7 +4,7 @@ import pdf from '../assets/pdf.png'
 const Badge = props => {
     return (
         <div className="badgePublic">
-            <section className="izqBadge">
+            <section className="izqBadge" style={{width:props.tamanio}}>
                 <h2>
                     {props.año} <br />
                 </h2>
