@@ -11,8 +11,9 @@
             }
         },
         "practica": {
-            "nombre": "Practice Areas",
-            "nombreCompleto": "Practice Areas",
+            "nombre": "Services",
+            "responsable": "Responsible:",
+            "nombreCompleto": "Services",
             "area": {
                 "aduanas": {
                     "nombre": "Customs And Foreign Trade",
@@ -118,11 +119,12 @@
             "nombre":"Team",
             "nombreCompleto":"Our Team",
             "socios":"Partners",
+            "counsel": "Counsel",
             "asociados":"Associates",
             "abogados": "Attorneys",
             "pasantes": "Law Clerks",
             "areas":{
-                "nombre":"Áreas de Práctica",
+                "nombre":"Services",
                 "uno":"• Tax litigation",
                 "dos":"• International taxation",
                 "tres":"• Shipping and transportation industry",
@@ -192,7 +194,7 @@
                 "GBuno":"• Universidad Panamericana"
             },
             "asociaciones":{
-                "nombre":"Asociaciones profesionales",
+                "nombre":"Professional Associations",
                 "MAuno":"• International Fiscal Association (IFA)",
                 "MAdos":"• International Tax Committee of the Colegio de Contadores Públicos de México",
                 "MAtres":"• Asociación Nacional de Abogados de Empresa (ANADE)",

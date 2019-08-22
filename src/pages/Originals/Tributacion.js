@@ -3,6 +3,7 @@ import Izq from '../../components/SeccionIzqAreas';
 import Dropdown from '../../components/DropdownAreas'
 import HeaderAreas from '../../components/HeaderAreas';
 import Contenido from '../../components/contenido';
+import Responsable from '../../components/Responsable';
 
 
 const Tributacion = props => {
@@ -19,6 +20,10 @@ const Tributacion = props => {
                 parrafoTres={props.data.areas.practica.area.tributacion.tres}
                 parrafoCuatro={props.data.areas.practica.area.tributacion.cuatro}
             />
+            <Responsable 
+            data={props.data}
+            responsable="Mauricio Ambrosi Herrera"    
+        />
         </section>
     </div>
     )

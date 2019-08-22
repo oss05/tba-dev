@@ -53,6 +53,15 @@ const Izq = props => {
                 menuArea="Angel J. Turanzas Díaz"
             />
             <MenuTitle
+                menuTitle={props.data.areas.equipo.counsel}
+            />
+            <Menu
+                bgc={props.bgc13}
+                fc={props.fc13}
+                endPoint="./as103"
+                menuArea="Norma Martínez Betanzos"
+            />
+            <MenuTitle
                 menuTitle={props.data.areas.equipo.asociados}
             />
             <Menu
@@ -66,12 +75,6 @@ const Izq = props => {
                 fc={props.fc12}
                 endPoint="./as102"
                 menuArea="Cecilia Bustamante"
-            />
-            <Menu
-                bgc={props.bgc13}
-                fc={props.fc13}
-                endPoint="./as103"
-                menuArea="Norma Martínez Betanzos"
             />
             <MenuTitle
                 menuTitle={props.data.areas.equipo.abogados}

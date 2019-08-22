@@ -28,7 +28,7 @@ code {
       }
 }
 
-.subtitle{
+.subtitle , .responsable{
   animation: subtitleAnimation 0.5s forwards 0s linear;
 }
 

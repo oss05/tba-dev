@@ -1,6 +1,6 @@
 .footerContainer {
     /* border: solid 1px green; */
-    height: 11vh;
+    /* height: 11vh; */
     display: flex;
     align-items: flex-end
 }
@@ -18,8 +18,8 @@
 .infoGroup {
     /* border: solid 1px; */
     width: 60%;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .rightsContainer {

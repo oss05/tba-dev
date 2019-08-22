@@ -12,13 +12,17 @@ const Abogado = props => {
             fc3 = "#fff" />
             <Dropdown data={props.data}/>
             <section className="areaTextContainer">
-                <HeaderEquipo
+                <div className="d-flex justify-content-around">
+                    <HeaderEquipo
+                     img="http://turanzas.com.mx/NvoDesign/images/abogados/jorgetba.jpg"
                     data={props.data}
                     rol={props.data.areas.equipo.socios}
                     nombreEquipo="Jorge Fuentes Pérez"
                     correoEquipo="jfuentes@turanzas.com.mx"
                     linkCorreo="mailto:jfuentes@turanzas.com.mx"
                 />
+                </div>
+                
                  <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}

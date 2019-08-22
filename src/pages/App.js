@@ -133,10 +133,11 @@ class App extends Component {
       <Router>
         <Navbar data={this.state.data} />
         {/* <NavSinLogo data={this.state.data} /> */}
-        <Route exact path="/TBA/" component={() => <Home data={this.state.data} />} />
+        <Route exact path="/TBA/" component={(  ) => <Home data={this.state.data}/>} />
         <Route path="/oficinas" component={() => <Oficinas data={this.state.data} />} />
         <Route path="/firma" component={() => <Firma data={this.state.data} />} />
         {/* Original */}
+        <Route exact path="/areas/home" component={() => <Original data={this.state.data}/>}/>
         <Route exact path="/areas/aduanas" component={() => <Aduanas data={this.state.data}/>}/>
         <Route exact path="/areas/asesoriafis" component={() => <AsesoriaFis data={this.state.data} />} />
         <Route exact path="/areas/industriasnav" component={() => <IndustrisNav data={this.state.data} />} />

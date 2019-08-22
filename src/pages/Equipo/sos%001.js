@@ -12,13 +12,17 @@ const Abogado = props => {
             fc = "#fff" />
             <Dropdown data={props.data}/>
             <section className="areaTextContainer">
+                <div className="d-flex justify-content-around">
                 <HeaderEquipo
+                    img="http://turanzas.com.mx/NvoDesign/images/fotos/MauricioAmbrosi.jpg"
                     data={props.data}
                     rol={props.data.areas.equipo.socios}
                     nombreEquipo="Mauricio Ambrosi Herrera"
                     correoEquipo="mambrosi@turanzas.com.mx"
                     linkCorreo="mailto:mambrosi@turanzas.com.mx"
                 />
+                 
+                </div>
                  <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
@@ -26,6 +30,10 @@ const Abogado = props => {
                     parrafoDos={props.data.areas.equipo.areas.dos}
                     parrafoTres={props.data.areas.equipo.areas.tres}
                     parrafoCuatro={props.data.areas.equipo.areas.cuatro}
+                    href="/areas/litigiofiscal"
+                    href2="/areas/tributacion"
+                    href3="/areas/industriasnav"
+                    href4="/areas/aduanas"
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.MAuno}

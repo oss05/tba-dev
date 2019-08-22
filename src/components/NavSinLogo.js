@@ -4,7 +4,7 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 import Logo from '../assets/logoTuranzas.png';
 import "../styles/navbar.css"
 
-class navbar extends Component {
+class navSinLogo extends Component {
     constructor(props) {
         super(props);
 
@@ -30,7 +30,8 @@ class navbar extends Component {
             <div className="custom-nav">
                 <Navbar color="transparent" light>
                     <Link to="/TBA/" className="mr-auto logoNav">
-                        <img src={Logo} alt="logo turanzas" /></Link>
+                       
+                    </Link>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse className="expandedNavC" isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
@@ -57,4 +58,4 @@ class navbar extends Component {
     }
 }
 
-export default navbar;
+export default navSinLogo;

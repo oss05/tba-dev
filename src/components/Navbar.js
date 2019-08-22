@@ -25,12 +25,13 @@ class navbar extends Component {
         });
     }
 
-    render() {
+    render() { 
         return (
             <div className="custom-nav">
                 <Navbar color="transparent" light>
                     <Link to="/TBA/" className="mr-auto logoNav">
-                        <img src={Logo} alt="logo turanzas" /></Link>
+                        <img style={{display: this.props.display}} src={Logo} alt="logo turanzas" />
+                    </Link>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse className="expandedNavC" isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
@@ -38,7 +39,7 @@ class navbar extends Component {
                                 <Link className="navLink" onClick={this.handleClick} to="/firma">{this.props.data.areas.firma.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link className="navLink" onClick={this.handleClick} to="/areas/aduanas">{this.props.data.areas.practica.nombre}</Link>
+                                <Link className="navLink" onClick={this.handleClick} to="/areas/home">{this.props.data.areas.practica.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
                                 <Link to="/equipo/sos001" onClick={this.handleClick}>{this.props.data.areas.equipo.nombre}</Link>

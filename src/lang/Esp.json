@@ -11,8 +11,9 @@
             }
         },
         "practica": {
-            "nombre": "Práctica",
-            "nombreCompleto": "Áreas de Práctica",
+            "nombre": "Servicios",
+            "responsable": "Responsable:",
+            "nombreCompleto": "Servicios",
             "area": {
                 "aduanas": {
                     "nombre": "Aduanas y Comercio Exterior",
@@ -121,11 +122,12 @@
             "nombre": "Equipo",
             "nombreCompleto": "Nuestro Equipo",
             "socios": "Socios",
+            "counsel": "Counsel",
             "asociados": "Asociados",
             "abogados": "Abogados",
             "pasantes": "Pasantes",
             "areas": {
-                "nombre":"Áreas de Práctica",
+                "nombre":"Servicios",
                 "uno":"• Litigio fiscal",
                 "dos":"• Tributación internacional",
                 "tres":"• Industria naviera y transportación",

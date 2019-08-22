@@ -1,18 +1,20 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'; 
-import Navbar from '../components/Navbar';
-import NavSinLogo from '../components/NavSinLogo';   
-const NavbarHide = (props) => {
+import navbar from '../components/Navbar';
+import navSinLogo from '../components/NavSinLogo';   
+
+
+const navbar = (props) => {
   const { location } = props;
   if (location.pathname.match(/TBA/)){
     return null;
   }
 
   return (
-    <NavSinLogo/>
+    <navSinLogo/>
   )
 }
 
-const NavbarH = withRouter(NavbarHide);
+const navSinLogo = withRouter(navbar);
 
-export default NavbarHide;
+

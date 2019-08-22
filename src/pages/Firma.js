@@ -1,8 +1,8 @@
 import React from 'react';
 import chambers from '../assets/chambers.png';
 import legal from '../assets/legal-500.png';
-import wts from '../assets/wts.png';
-import latax from '../assets/latax.png';
+// import wts from '../assets/wts.png';
+// import latax from '../assets/latax.png';
 import '../styles/firma.css'
 
 const Firma = props => {
@@ -27,10 +27,10 @@ const Firma = props => {
                     <a href="https://chambers.com/"><img src={chambers} alt="chambers" /></a> 
                     <a href="http://www.legal500.com/c/mexico/tax"><img src={legal} alt="tax" /></a> 
                 </article>
-                <article className="librosDown">
+                {/* <article className="librosDown">
                     <a href="https://www.wts.com/global"><img src={wts} alt="wts" /></a> 
                     <a href="http://lataxnet.net/"><img src={latax} alt="latax" /></a> 
-                </article>
+                </article> */}
             </section>
         </div>
     )

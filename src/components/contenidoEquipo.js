@@ -7,6 +7,12 @@ const Contenido = props => {
             <Badge
                 badgeName={props.badgeName}
                 parrafoUno={props.parrafoUno}
+                href={props.href}
+                href2={props.href2}
+                href3={props.href3}
+                href4={props.href4}
+                href5={props.href5}
+                href6={props.href6}
                 parrafoDos={props.parrafoDos}
                 parrafoTres={props.parrafoTres}
                 parrafoCuatro={props.parrafoCuatro}

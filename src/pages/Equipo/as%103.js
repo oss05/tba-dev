@@ -6,20 +6,23 @@ import ContenidoEquipo from '../../components/contenidoEquipo';
 
 const Abogado = props => {
     return (
-        <div className="page" style={{height:"auto"}}>
+        <div className="page" style={{ height: "auto" }}>
             <Izq data={props.data}
-            bgc13 = "#656565"
-            fc13 = "#fff" />
-            <Dropdown data={props.data}/>
+                bgc13="#656565"
+                fc13="#fff" />
+            <Dropdown data={props.data} />
             <section className="areaTextContainer">
-                <HeaderEquipo
-                    data={props.data}
-                    rol={props.data.areas.equipo.asociados}
-                    nombreEquipo="Norma Martínez Betanzos"
-                    correoEquipo="nmartinez@turanzas.com.mx"
-                    linkCorreo="mailto:nmartinez@turanzas.com.mx"
-                />
-                   <ContenidoEquipo
+                <div className="d-flex justify-content-around">
+                    <HeaderEquipo
+                        img="http://turanzas.com.mx/NvoDesign/images/abogados/norma.png"
+                        data={props.data}
+                        rol={props.data.areas.equipo.asociados}
+                        nombreEquipo="Norma Martínez Betanzos"
+                        correoEquipo="nmartinez@turanzas.com.mx"
+                        linkCorreo="mailto:nmartinez@turanzas.com.mx"
+                    />
+                </div>
+                <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
                     parrafoUno={props.data.areas.equipo.areas.cinco}

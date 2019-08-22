@@ -7,15 +7,55 @@
 
 .logoTuranzasHome{
     /* border: solid 1px red; */
-    width: 18em;
-    height: 7em;
+    width: 40em;
+    /* height: 7em; */
+    /* margin-top: 2em; */
+}
+
+/* ----imagen oficina--------- */
+
+.imgOficinaHome{
+    width: 100%;
+    background-color: rgb(1, 5, 79);
+    height: 350px;
     margin-top: 2em;
 }
 
-/* ---------------lista Home------------ */
+/* ----carousel--------- */
+.carouselContainer{
+    /* border: solid 1px red; */
+    /* background-color: blue; */
+    height: 250px;
+}
 
+.carousel{
+    width: 35%;
+    height: 100%;
+}
+
+.carousel-item {
+    width: 74%;
+    margin-left: 13%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(http://pngriver.com/wp-content/uploads/2018/04/Download-Right-Arrow-Transparent-Background.png);
+    transform: rotate(180deg)
+}
+
+.carousel-control-next-icon {
+    background-image: url(http://pngriver.com/wp-content/uploads/2018/04/Download-Right-Arrow-Transparent-Background.png);
+}
+
+.carouselImage{
+    width: 100%;
+    height: 250px;
+}
+
+/* ---------------lista Home------------ */
+/* 
 .listaHome{
-    /* border: solid 1px orange; */
+    border: solid 1px orange;
     height: 58vh;
     display: flex;
     justify-content: center;
@@ -23,7 +63,7 @@
 }
 
 .listaHome > ul {
-    /* border: solid 1px #00ff4c; */
+    border: solid 1px #00ff4c;
     width: 100%;
     height: auto;
     list-style: none;
@@ -32,7 +72,7 @@
 }
 
 .listaHome > ul li {
-    /* border: solid 1px #00a6ff; */
+    border: solid 1px #00a6ff;
     width: auto;
     transform: rotate(-90deg);
     font-size: 2.5em;
@@ -43,7 +83,7 @@
 }
 
 .listaHome > ul li:hover{
-    /* border: solid 1px #00a6ff; */
+    border: solid 1px #00a6ff;
     transform: rotate(0deg);
     font-size: 3em;
 }
@@ -55,4 +95,4 @@
 .listaHome > ul li a:hover{
     text-decoration: none;
     color: #AE1E29;
-}
+} */

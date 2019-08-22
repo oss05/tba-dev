@@ -3,6 +3,7 @@ import Izq from '../../components/SeccionIzqAreas';
 import Dropdown from '../../components/DropdownAreas'
 import HeaderAreas from '../../components/HeaderAreas';
 import Contenido from '../../components/contenido';
+import Responsable from '../../components/Responsable';
 
 const LitigioFiscal = props => {
     return (
@@ -12,7 +13,9 @@ const LitigioFiscal = props => {
                 fc6="#fff" />
         <Dropdown data={props.data} />
         <section className="areaTextContainer">
-            <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.litigiofiscal.nombre} />
+            <HeaderAreas 
+                data={props.data} 
+                nombreArea={props.data.areas.practica.area.litigiofiscal.nombre} />
             <Contenido data={props.data}
                 parrafo={props.data.areas.practica.area.litigiofiscal.uno}
                 parrafoDos={props.data.areas.practica.area.litigiofiscal.dos}
@@ -20,6 +23,10 @@ const LitigioFiscal = props => {
                 parrafoCuatro={props.data.areas.practica.area.litigiofiscal.cuatro}
                 parrafoCinco={props.data.areas.practica.area.litigiofiscal.cinco}
             />
+        <Responsable 
+            data={props.data}
+            responsable="Mauricio Ambrosi Herrera"    
+        />
         </section>
     </div>
     )
