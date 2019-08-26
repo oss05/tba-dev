@@ -40,8 +40,9 @@ class Footer extends Component {
                         <a href="http://lataxnet.net/" target="_blank"><img src={latax} alt="latax" /></a>
                     </section>
                     <section className="d-flex">
-                        <article className="rightsContainer">
-                            <p>{this.props.data.footer.derechos}</p>
+                        <article className="rightsContainer flex-column">
+                            <p style={{marginBottom:0, fontSize: "10px"}}>{this.props.data.footer.derechos}</p>
+                            <a href="" style={{fontSize:"12px", color: "#000", textDecoration: "none"}}><p>{this.props.data.footer.privacidad}</p></a>
                         </article>
                         <article className="designContainer">
                             <p>{this.props.data.footer.desarrollo}</p>

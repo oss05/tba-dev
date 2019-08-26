@@ -5,6 +5,7 @@ import Logo from '../assets/logoTuranzas.png';
 import "../styles/navbar.css"
 
 class navbar extends Component {
+    
     constructor(props) {
         super(props);
 
@@ -13,6 +14,7 @@ class navbar extends Component {
             collapsed: true
         };
     }
+
     toggleNavbar() {
         this.setState({
             collapsed: !this.state.collapsed
@@ -42,7 +44,7 @@ class navbar extends Component {
                                 <Link className="navLink" onClick={this.handleClick} to="/areas/home">{this.props.data.areas.practica.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to="/equipo/sos001" onClick={this.handleClick}>{this.props.data.areas.equipo.nombre}</Link>
+                                <Link to="/equipo/" onClick={this.handleClick}>{this.props.data.areas.equipo.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
                                 <Link to="/publicaciones/2019" onClick={this.handleClick}>{this.props.data.areas.publicaciones.nombre}</Link>
