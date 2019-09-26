@@ -7,7 +7,7 @@ import latax from '../assets/latax.png';
 
 const imagesPath = {
     mx: 'https://cdn.countryflags.com/thumbs/mexico/flag-round-250.png',
-    us: 'https://cdn.countryflags.com/thumbs/united-states-of-america/flag-round-250.png'
+    us: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/United-kingdom_flag_icon_round.svg/512px-United-kingdom_flag_icon_round.svg.png'
 }
 
 class Footer extends Component {
@@ -35,14 +35,16 @@ class Footer extends Component {
                 </select> */}
                 </section>
                 <div className="infoGroup">
-                    <section className="d-flex justify-content-around">
+                    <section className="d-flex flex-column flex-md-row justify-content-around">
                         <a href="https://www.wts.com/global" target="_blank"><img src={wts} alt="wts" /></a>
-                        <a href="http://lataxnet.net/" target="_blank"><img src={latax} alt="latax" /></a>
+                        <a href="http://lataxnet.net/" target="_blank" className="mt-4 mt-lg-0"><img src={latax} alt="latax" /></a>
                     </section>
                     <section className="d-flex">
-                        <article className="rightsContainer flex-column">
-                            <p style={{marginBottom:0, fontSize: "10px"}}>{this.props.data.footer.derechos}</p>
-                            <a href="" style={{fontSize:"12px", color: "#000", textDecoration: "none"}}><p>{this.props.data.footer.privacidad}</p></a>
+                        <article className="rightsContainer flex-column mt-4 mt-lg-0">
+                            <p style={{marginBottom:0, fontSize: "10px"}} className="mb-3 mb-lg-0 text-center">{this.props.data.footer.derechos}</p>
+                            <a href="" style={{fontSize:"12px", color: "#000", textDecoration: "none", textAlign: "center"}}>
+                                <p>{this.props.data.footer.privacidad}</p>
+                            </a>
                         </article>
                         <article className="designContainer">
                             <p>{this.props.data.footer.desarrollo}</p>

@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link, withRouter } from "react-router-dom";
-import NavSinLogo from '../components/NavSinLogo'
 import Logo from '../assets/logoHome.png';
 import '../styles/home.css';
 import Esp from '../lang/Esp.json'
@@ -12,22 +10,24 @@ class Home extends Component {
     state = {
         data: dataEsp,
         idioma: "Esp"
-      }
-    
-    render() { 
-        return ( 
-            <div>
-            {/* <NavSinLogo data={this.props.data}/> */}
-            <section className="contenedorLogoHome">
-               <img className="logoTuranzasHome" src={Logo} alt="logo turanzas"/> 
-            </section>
-            <section className="imgOficinaHome">
+    }
 
-            </section>
-            <section className="carouselContainer d-flex justify-content-center mt-3 mb-5">
-                <CustomCarousel/>
-            </section>
-            {/* <section className="listaHome">
+    render() {
+        return (
+            <div>
+                <section className="imgOficinaHome">
+
+                </section>
+                <section className="carouselContainer d-flex justify-content-center mt-3 mb-5">
+                    <CustomCarousel />
+                </section>
+                <section className="text-center mb-4">
+                    <p>Teléfono: (55) 5081 4590</p>
+                    <p>Correo: <a href="mailto:" style={{color: "#000", textDecoration: "none"}}>tba@prueba.mx</a></p>
+                    <p>Edificio Corporativo Arcos Norte “C” Paseo de los Tamarindos No. 100, Piso 3 Bosques de las Lomas,México D.F. 05120
+                </p>
+                </section>
+                {/* <section className="listaHome">
                 <ul>
                     <li><Link to="/firma">{this.props.data.areas.firma.nombre}</Link></li>
                     <li><Link to="/areas/aduanas">{this.props.data.areas.practica.nombre}</Link></li>
@@ -36,9 +36,9 @@ class Home extends Component {
                     <li><Link to="/oficinas">{this.props.data.areas.oficinas}</Link></li>
                 </ul>
             </section> */}
-        </div>
-         );
+            </div>
+        );
     }
 }
- 
+
 export default Home;

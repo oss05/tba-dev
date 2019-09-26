@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import Logo from '../assets/logoTuranzas.png';
+import Logo from '../assets/LogoTBA.png';
 import "../styles/navbar.css"
 
 class navbar extends Component {
@@ -32,7 +32,7 @@ class navbar extends Component {
             <div className="custom-nav">
                 <Navbar color="transparent" light>
                     <Link to="/TBA/" className="mr-auto logoNav">
-                        <img style={{display: this.props.display}} src={Logo} alt="logo turanzas" />
+                        <img src={Logo} alt="logo turanzas" />
                     </Link>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse className="expandedNavC" isOpen={!this.state.collapsed} navbar>

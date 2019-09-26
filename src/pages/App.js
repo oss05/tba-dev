@@ -4,7 +4,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import NavSinLogo from '../components/NavSinLogo';
 // import Hide from '../components/Hide';
 import Oficinas from '../pages/Oficinas';
 import Firma from '../pages/Firma';
