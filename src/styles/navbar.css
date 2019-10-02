@@ -4,7 +4,7 @@
 }
 
 .logoNav img{
-    width: 15em;
+    width: 22em;
     margin-top: 0.3em;
     display: initial;
 }
@@ -52,7 +52,7 @@
 
 .navbar-nav > li a{
     width: 100%;
-    color: #000;
+    color: #454545;
 }
 
 .navbar-nav > li a:hover{
@@ -67,5 +67,5 @@
 .navItem{
     width: 100%;
     text-align: center;
-    font-size: 22px;
+    font-size: 2.5em;
 }
