@@ -20,6 +20,8 @@ const AsesoriaFiscal = props => {
                 parrafoTres={props.data.areas.practica.area.asesoriafis.tres}
                 parrafoCuatro={props.data.areas.practica.area.asesoriafis.cuatro}
                 parrafoCinco={props.data.areas.practica.area.asesoriafis.cinco}
+                parrafoSeis={props.data.areas.practica.area.asesoriafis.seis}
+                parrafoSiete={props.data.areas.practica.area.asesoriafis.siete}
             />
         </section>
     </div>

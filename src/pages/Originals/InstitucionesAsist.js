@@ -17,6 +17,8 @@ const InstitucionesAsist = props => {
                 parrafo={props.data.areas.practica.area.institucionesasist.uno}
                 parrafoDos={props.data.areas.practica.area.institucionesasist.dos}
                 parrafoTres={props.data.areas.practica.area.institucionesasist.tres}
+                parrafoCuatro={props.data.areas.practica.area.institucionesasist.cuatro}
+                parrafoCinco={props.data.areas.practica.area.institucionesasist.cinco}
             />
         </section>
     </div>

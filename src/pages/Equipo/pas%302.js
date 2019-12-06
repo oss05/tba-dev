@@ -15,6 +15,7 @@ const Abogado = props => {
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.pasantes}
+                    display="none"
                     nombreEquipo="Juan Pablo Morales Cortés"
                     correoEquipo="jpmorales@turanzas.com.mx"
                     linkCorreo="mailto:jpmorales@turanzas.com.mx"

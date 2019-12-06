@@ -15,6 +15,7 @@ const Abogado = props => {
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.pasantes}
+                    display="none"
                     nombreEquipo="Luis Manuel Lorenzana Leyva"
                     correoEquipo="llorenzana@turanzas.com.mx"
                     linkCorreo="mailto:llorenzana@turanzas.com.mx"

@@ -8,7 +8,9 @@ const Contenido = props => {
             {props.parrafoDos}<br/><br/> 
             {props.parrafoTres}<br/><br/> 
             {props.parrafoCuatro} <br/><br/> 
-            {props.parrafoCinco}
+            {props.parrafoCinco} <br/><br/>
+            {props.parrafoSeis} <br/><br/>
+            {props.parrafoSiete} <br/><br/>
             </p>
         </div>
     )

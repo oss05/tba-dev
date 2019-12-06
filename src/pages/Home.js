@@ -3,7 +3,7 @@ import Logo from '../assets/logoHome.png';
 import '../styles/home.css';
 import Esp from '../lang/Esp.json'
 import CustomCarousel from '../components/Carousel';
-import panoramica from '../assets/panoramica.jpg';
+// import panoramica from '../assets/panoramica2.png';
 
 const dataEsp = Esp
 
@@ -17,7 +17,7 @@ class Home extends Component {
         return (
             <div>
                 <section className="imgOficinaHome">
-                    <img src={panoramica} alt="Imagen panoramica home"/>
+                    {/* <img src={panoramica} alt="Imagen panoramica home"/> */}
                 </section>
                 <section className="carouselContainer d-flex justify-content-center mt-3 mb-5">
                     <CustomCarousel />

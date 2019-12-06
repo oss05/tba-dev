@@ -15,6 +15,7 @@ const Abogado = props => {
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.pasantes}
+                    display="none"
                     nombreEquipo="Gonzalo Bugeda Salido"
                     correoEquipo="gbugeda@turanzas.com.mx"
                     linkCorreo="mailto:gbugeda@turanzas.com.mx"

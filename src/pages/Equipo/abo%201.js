@@ -15,6 +15,7 @@ const Abogado = props => {
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.abogados}
+                    display="none"
                     nombreEquipo="Luis Alberto Rosas Ortiz"
                     correoEquipo="lrosas@turanzas.com.mx"
                     linkCorreo="mailto:lrosas@turanzas.com.mx"

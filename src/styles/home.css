@@ -14,13 +14,25 @@
 
 /* ----imagen oficina--------- */
 
-.imgOficinaHome > img{
+.imgOficinaHome {
     width: 100%;
     /* background-color: rgb(1, 5, 79); */
     height: 450px;
     margin-top: 2em;
-    object-fit: cover;
+    background-image: url(../assets/panoramica2.png);
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y: top; */
 }
+
+/* .imgOficinaHome > img{
+    width: 100%;
+    background-color: rgb(1, 5, 79);
+    height: 450px;
+    margin-top: 2em;
+    object-fit: cover;
+    
+} */
 
 /* ----carousel--------- */
 .carouselContainer{

@@ -3,6 +3,7 @@ import Izq from '../../components/SeccionIzqEquipo';
 import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
+import fotoSocio from '../../assets/equipo/webPC.jpg';
 
 const Abogado = props => {
     return (
@@ -14,7 +15,7 @@ const Abogado = props => {
             <section className="areaTextContainer">
                 <div className="d-flex justify-content-around">
                     <HeaderEquipo
-                        img="http://turanzas.com.mx/NvoDesign/images/abogados/pablotba.jpg"
+                        img={fotoSocio}
                         data={props.data}
                         rol={props.data.areas.equipo.asociados}
                         nombreEquipo="Pablo Fernández de Cevallos y Torres"

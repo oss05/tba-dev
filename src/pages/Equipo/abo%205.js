@@ -15,6 +15,7 @@ const Abogado = props => {
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.abogados}
+                    display="none"
                     nombreEquipo="Sixto Duarte Álvarez"
                     correoEquipo="sduarte@turanzas.com.mx"
                     linkCorreo="mailto:sduarte@turanzas.com.mx"

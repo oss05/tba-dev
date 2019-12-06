@@ -83,6 +83,24 @@ const Izq = props => {
                 endPoint="./seguros"
                 menuArea={props.data.areas.practica.area.seguros.nombre}
             />
+            <Menu
+            bgc={props.bgc14}
+                fc={props.fc14}
+                endPoint="./comercioInter"
+                menuArea={props.data.areas.practica.area.comercioInter.nombre}
+            />
+            <Menu
+            bgc={props.bgc15}
+                fc={props.fc15}
+                endPoint="./contribuciones"
+                menuArea={props.data.areas.practica.area.contribuciones.nombre}
+            />
+            <Menu
+            bgc={props.bgc16}
+                fc={props.fc16}
+                endPoint="./fundaciones"
+                menuArea={props.data.areas.practica.area.fundaciones.nombre}
+            />
         </ul>
     )
 }

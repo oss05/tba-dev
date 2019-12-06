@@ -16,10 +16,13 @@ const Original = props => {
                     borderBottom="solid 2px gray"
                     borderBottom2="none"
                     />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cumque quasi, modi illo quam aperiam eius <br/> repudiandae nulla similique placeat iure voluptas et itaque nesciunt unde quis ipsa adipisci facilis. <br/>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque perspiciatis dicta, odit consequatur <br/> provident nihil tempora voluptatem voluptates nostrum modi molestiae dolorum commodi laboriosam <br/> maxime voluptas, cumque iste inventore distinctio?
-                </p>
+                <p>{props.data.areas.practica.intro.p1}</p> <br/>
+                <p>{props.data.areas.practica.intro.p2}</p>
+                <p>{props.data.areas.practica.intro.p3}</p>
+                <p>{props.data.areas.practica.intro.p4}</p>
+                <p>{props.data.areas.practica.intro.p5}</p>
+                <p>{props.data.areas.practica.intro.p6}</p> 
+                
             </section>
         </div>
     )

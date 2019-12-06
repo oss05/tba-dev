@@ -15,6 +15,7 @@ const Abogado = props => {
             <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.pasantes}
+                    display="none"
                     nombreEquipo="María Fernanda López Zerecero"
                     correoEquipo="flopez@turanzas.com.mx"
                     linkCorreo="mailto:flopez@turanzas.com.mx"

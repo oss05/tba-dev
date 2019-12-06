@@ -22,6 +22,15 @@ const P2019 = props => {
                 fecha=""
             />
             <Badge
+                // tamanio="100%"
+                data={props.data}
+                año="2019"
+                linkPdf={Dos}
+                descripcionAño="02/19"
+                envio={props.data.areas.publicaciones.envio.mayo}
+                fecha=""
+            />
+            <Badge
                 // tamanio= "90%"
                 data={props.data}
                 año="2019"

@@ -15,6 +15,7 @@ const Abogado = props => {
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.pasantes}
+                    display="none"
                     nombreEquipo="Alejandro Diener Cabieses"
                     correoEquipo="adiener@turanzas.com.mx"
                     linkCorreo="mailto:adiener@turanzas.com.mx"

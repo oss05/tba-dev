@@ -22,6 +22,9 @@ import Trubutacion from './Originals/Tributacion'
 import ValoresP from './Originals/ValoresP'
 import VentasDirect from './Originals/VentasDirect'
 import Seguros from './Originals/Seguros'
+import Fundaciones from './Originals/fundaciones';
+import ComercioInter from './Originals/comercioInter';
+import Contribuciones from './Originals/contribuciones';
 //Paracticas
 import Banking from './Practicas/Banking'
 import Corporate from './Practicas/Corporate'
@@ -150,7 +153,10 @@ class App extends Component {
         <Route exact path="/areas/valoresp" component={() => <ValoresP data={this.state.data} />} />
         <Route exact path="/areas/ventasdirec" component={() => <VentasDirect data={this.state.data} />} />
         <Route exact path="/areas/seguros" component={() => <Seguros data={this.state.data} />} />
-        {/* Practicas */}
+        <Route exact path="/areas/comercioInter" component={() => <ComercioInter data={this.state.data} />} />
+        <Route exact path="/areas/contribuciones" component={() => <Contribuciones data={this.state.data} />} />
+        <Route exact path="/areas/fundaciones" component={() => <Fundaciones data={this.state.data} />} />
+        {/* Practicas */}<i class="fa fa-battery-quarter" aria-hidden="true"></i>
         <Route exact path="/practicas" component={() => <Practicas data={this.state.data} />} />
         <Route exact path="/practicas/private" component={() => <Private data={this.state.data} />} />
         <Route exact path="/practicas/banking" component={() => <Banking data={this.state.data} />} />
