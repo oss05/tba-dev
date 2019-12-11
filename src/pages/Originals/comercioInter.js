@@ -22,10 +22,10 @@ const ComercioInter = props => {
                     parrafoCuatro={props.data.areas.practica.area.comercioInter.cuatro}
                     parrafoCinco={props.data.areas.practica.area.comercioInter.cinco}
                 />
-                <Responsable
+                {/* <Responsable
                     data={props.data}
                     responsable="Mauricio Ambrosi Herrera"
-                />
+                /> */}
             </section>
         </div>
     );

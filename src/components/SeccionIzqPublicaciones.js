@@ -6,6 +6,12 @@ const Izq = props => {
     return (
         <ul className="menuIzq publicaciones">
             <Menu
+                bgc={props.bgc0}
+                fc={props.fc0}
+                endPoint="./2020"
+                menuArea="2020"
+            />
+            <Menu
                 bgc={props.bgc}
                 fc={props.fc}
                 endPoint="./2019"

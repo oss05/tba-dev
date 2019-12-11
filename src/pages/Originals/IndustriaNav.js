@@ -21,10 +21,10 @@ const IndustriaNav = props => {
                 parrafoTres={props.data.areas.practica.area.industriasnav.tres}
                 parrafoCuatro={props.data.areas.practica.area.industriasnav.cuatro}
             />
-            <Responsable 
+            {/* <Responsable 
             data={props.data}
             responsable="Mauricio Ambrosi Herrera"    
-        />
+        /> */}
         </section>
     </div>
     )

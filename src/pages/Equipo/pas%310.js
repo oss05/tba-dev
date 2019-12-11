@@ -8,17 +8,17 @@ const Abogado = props => {
     return (
         <div className="page" style={{height:"auto"}}>
             <Izq data={props.data}
-            bgc36 = "#656565"
-            fc36 = "#fff" />
+            bgc310 = "#656565"
+            fc310 = "#fff" />
             <Dropdown data={props.data}/>
             <section className="areaTextContainer">
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.pasantes}
                     display="none"
-                    nombreEquipo="Luis Alejandro Ramírez González"
-                    correoEquipo="aramirez@turanzas.com.mx"
-                    linkCorreo="mailto:aramirez@turanzas.com.mx"
+                    nombreEquipo="David Guakil Raffoul"
+                    correoEquipo="dguakil@turanzas.com.mx"
+                    linkCorreo="mailto:dguakil@turanzas.com.mx"
                 />
                  {/* <ContenidoEquipo
                     data={props.data}

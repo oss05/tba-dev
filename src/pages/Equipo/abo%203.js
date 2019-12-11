@@ -16,7 +16,7 @@ const Abogado = props => {
                     data={props.data}
                     rol={props.data.areas.equipo.abogados}
                     display="none"
-                    nombreEquipo="Regina Figueroa"
+                    nombreEquipo="Regina Figueroa Aguayo"
                     correoEquipo="rfigueroa@turanzas.com.mx"
                     linkCorreo="mailto:rfigueroa@turanzas.com.mx"
                 />

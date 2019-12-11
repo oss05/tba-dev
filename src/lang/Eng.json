@@ -144,7 +144,7 @@
                 "diesciocho":"• Financial institutions",
                 "diescinueve":"• Fringe benefits",
                 "veinte":"• Transfer pricing",
-                "ventiuno":"• "
+                "ventiuno":"• Corporate tax planning"
             },
             "educacion":{
                 "nombre":"Education",
@@ -187,11 +187,18 @@
                 "FHdos":"• Certificate of International Tax Law by the New York University",
                 "FHtres":"• Certificate of Introduction to the U.S Law System by the Frodham University in New York",
                 "ADuno":"• Universidad Panamericana",
-                "JPuno":"• Universidad Iberoamericana",
+                "JPuno": "• Attorney at law, Universidad Iberoamericana",
+                "JPdos": "• Currently studying degree in Tax Law, at Escuela Libre de Derecho",
                 "MFuno":"• Universidad Westhill",
                 "LMuno":"• Universidad Panamericana",
                 "JCuno":"• Universidad Panamericana",
-                "GBuno":"• Universidad Panamericana"
+                "GBuno":"• Universidad Panamericana",
+                "FLuno": "• Lawyer degree by the Universidad Panamerican",
+                "FLdos": "• Certificate of International Tax Law by the New York University",
+                "FLtres": "• Certificate of Introduction to the U.S Law System by the Frodham University in New York",
+                "JAuno":"• Law degree from Universidad Panamericana México",
+                "JAdos":"• Diploma Course “International Tax Law” from New York University",
+                "JAtres":"• Master ́s Degree in Tax Law from Universidad Panamericana México (in progress)"
             },
             "asociaciones":{
                 "nombre":"Professional Associations",

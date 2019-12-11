@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/footer.css';
 import wts from '../assets/wts.png';
 import latax from '../assets/latax.png';
+import avisoPrivacidad from '../assets/AvisoDePrivacidad.pdf';
 
 const imagesPath = {
     mx: 'https://cdn.countryflags.com/thumbs/mexico/flag-round-250.png',
@@ -42,7 +43,7 @@ class Footer extends Component {
                     <section className="d-flex">
                         <article className="rightsContainer flex-column mt-4 mt-lg-0">
                             <p style={{marginBottom:0, fontSize: "10px"}} className="mb-3 mb-lg-0 text-center">{this.props.data.footer.derechos}</p>
-                            <a href="" style={{fontSize:"12px", color: "#000", textDecoration: "none", textAlign: "center"}}>
+                            <a href={avisoPrivacidad} target="_blank" style={{fontSize:"12px", color: "#000", textDecoration: "none", textAlign: "center"}}>
                                 <p>{this.props.data.footer.privacidad}</p>
                             </a>
                         </article>

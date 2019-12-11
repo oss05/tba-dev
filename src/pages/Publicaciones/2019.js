@@ -17,7 +17,7 @@ const P2019 = props => {
                 data={props.data}
                 año="2019"
                 linkPdf={Dos}
-                descripcionAño="02/19"
+                descripcionAño="03/19"
                 envio={props.data.areas.publicaciones.envio.mayo}
                 fecha=""
             />

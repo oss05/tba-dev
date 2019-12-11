@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../assets/imgOficinas.png';
+import img from '../assets/oficinas.png';
 import '../styles/oficinas.css';
 
 const Oficinas = props => {

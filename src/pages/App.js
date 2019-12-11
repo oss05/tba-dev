@@ -73,6 +73,12 @@ import Pas303 from './Equipo/pas%303'
 import Pas304 from './Equipo/pas%304'
 import Pas305 from './Equipo/pas%305'
 import Pas306 from './Equipo/pas%306'
+import Pas307 from './Equipo/pas%307'
+import Pas308 from './Equipo/pas%308'
+import Pas309 from './Equipo/pas%309'
+import Pas310 from './Equipo/pas%310'
+import Pas311 from './Equipo/pas%311'
+import Pas312 from './Equipo/pas%312'
 //Publicaciones
 import Public from './Publicaciones/Publicacion'
 import P2007 from './Publicaciones/2007'
@@ -88,6 +94,7 @@ import P2016 from './Publicaciones/2016'
 import P2017 from './Publicaciones/2017'
 import P2018 from './Publicaciones/2018'
 import P2019 from './Publicaciones/2019'
+import P2020 from './Publicaciones/2020'
 import Esp from '../lang/Esp.json'
 import Eng from '../lang/Eng.json'
 import Home from './Home';
@@ -204,6 +211,12 @@ class App extends Component {
         <Route exact path="/equipo/pas304" component={() => <Pas304 data={this.state.data} />} />
         <Route exact path="/equipo/pas305" component={() => <Pas305 data={this.state.data} />} />
         <Route exact path="/equipo/pas306" component={() => <Pas306 data={this.state.data} />} />
+        <Route exact path="/equipo/pas307" component={() => <Pas307 data={this.state.data} />} />
+        <Route exact path="/equipo/pas308" component={() => <Pas308 data={this.state.data} />} />
+        <Route exact path="/equipo/pas309" component={() => <Pas309 data={this.state.data} />} />
+        <Route exact path="/equipo/pas310" component={() => <Pas310 data={this.state.data} />} />
+        <Route exact path="/equipo/pas311" component={() => <Pas311 data={this.state.data} />} />
+        <Route exact path="/equipo/pas312" component={() => <Pas312 data={this.state.data} />} />
         {/* Public */}
         <Route exact path="/publicaciones/" component={() => <Public data={this.state.data} />} />
         <Route exact path="/publicaciones/2007" component={() => <P2007 data={this.state.data} />} />
@@ -219,6 +232,7 @@ class App extends Component {
         <Route exact path="/publicaciones/2017" component={() => <P2017 data={this.state.data} />} />
         <Route exact path="/publicaciones/2018" component={() => <P2018 data={this.state.data} />} />
         <Route exact path="/publicaciones/2019" component={() => <P2019 data={this.state.data} />} />
+        <Route exact path="/publicaciones/2020" component={() => <P2020 data={this.state.data} />} />
         <Footer handelChangeIdioma={this.handelChangeIdioma} idioma={this.state.idioma} data={this.state.data} />
       </Router>
     );

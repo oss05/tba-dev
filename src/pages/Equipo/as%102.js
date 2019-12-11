@@ -18,7 +18,7 @@ const Abogado = props => {
                         img={fotoSocio}
                         data={props.data}
                         rol={props.data.areas.equipo.asociados}
-                        nombreEquipo="Cecilia Bustamante"
+                        nombreEquipo="Cecilia Bustamante Bejarano"
                         correoEquipo="cbustamante@turanzas.com.mx"
                         linkCorreo="mailto:cbustamante@turanzas.com.mx"
                     />

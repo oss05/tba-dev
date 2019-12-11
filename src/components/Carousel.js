@@ -6,9 +6,9 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import firstSlide from '../assets/03-2019.png'
-import secondSlide from '../assets/04-2019.png'
-import thirdSlide from '../assets/b.jpg'
+import firstSlide from '../assets/carousel2020.png'
+import secondSlide from '../assets/carousel2020.png'
+import thirdSlide from '../assets/carousel2020.png'
 
 const items = [
   {

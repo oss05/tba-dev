@@ -8,23 +8,29 @@ const Abogado = props => {
     return (
         <div className="page" style={{height:"auto"}}>
             <Izq data={props.data}
-            bgc36 = "#656565"
-            fc36 = "#fff" />
+            bgc38 = "#656565"
+            fc38 = "#fff" />
             <Dropdown data={props.data}/>
             <section className="areaTextContainer">
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.pasantes}
                     display="none"
-                    nombreEquipo="Luis Alejandro Ramírez González"
-                    correoEquipo="aramirez@turanzas.com.mx"
-                    linkCorreo="mailto:aramirez@turanzas.com.mx"
+                    nombreEquipo="Julio Armando Montelongo Ceballos"
+                    correoEquipo="gbugeda@turanzas.com.mx"
+                    linkCorreo="mailto:gbugeda@turanzas.com.mx"
                 />
-                 {/* <ContenidoEquipo
+                <ContenidoEquipo
                     data={props.data}
+                    badgeName={props.data.areas.equipo.areas.nombre}
+                    parrafoUno={props.data.areas.equipo.areas.uno}
+                    parrafoDos={props.data.areas.equipo.areas.nueve}
+
                     badgeName2={props.data.areas.equipo.educacion.nombre}
-                    parrafoUno2={props.data.areas.equipo.educacion.GB}
-                /> */}
+                    parrafoUno2={props.data.areas.equipo.educacion.JAuno}
+                    parrafoDos2={props.data.areas.equipo.educacion.JAdos}
+                    parrafoTres2={props.data.areas.equipo.educacion.JAtres}
+                />
             </section>
 
         </div>

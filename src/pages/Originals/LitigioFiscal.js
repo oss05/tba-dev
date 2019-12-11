@@ -23,10 +23,10 @@ const LitigioFiscal = props => {
                 parrafoCuatro={props.data.areas.practica.area.litigiofiscal.cuatro}
                 parrafoCinco={props.data.areas.practica.area.litigiofiscal.cinco}
             />
-        <Responsable 
+        {/* <Responsable 
             data={props.data}
             responsable="Mauricio Ambrosi Herrera"    
-        />
+        /> */}
         </section>
     </div>
     )

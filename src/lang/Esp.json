@@ -24,7 +24,7 @@
             },
             "area": {
                 "aduanas": {
-                    "nombre": "Tributación Corporativa",
+                    "nombre": "Tributación corporativa",
                     "uno": "La  firma   lleva   a   cabo   la   prestación   de   asesoría   fiscal   a   todo   tipo   de entidades   jurídicas   en   los   diversos   sectores   de   negocios,   para   la adecuada interpretación y aplicación de disposiciones en materia impositiva a nivel federal.",
                     "dos": "Esta   asesoría   comprende   desde   normas   aplicables   a   operaciones cotidianas, hasta reestructuras corporativas y operaciones estratégicas, logrando la profundización y simplificación necesarias para la resolución de   las   complejas   problemáticas   que   demanda   el   ámbito   tributario mexicano.",
                     "tres": "La   asesoría   fiscal   cubre   necesidades   en   materia   de   estructuras   de inversión,   alianzas   estratégicas   o   participación   en   negocios   diversos, siempre   considerando   la   naturaleza   productiva   de   las   operaciones,   el ámbito  económico   prevaleciente   y  las  relaciones   económicas   entre   las entidades jurídicas y sus socios o accionistas.",
@@ -49,7 +49,7 @@
                     "cuatro": "La   asesoría   brindada   ha   comprendido   implicaciones   en   operaciones internacionales de impuestos indirectos, particularmente el impuesto alvalor agregado (IVA), temas vinculados con residencia fiscal, así como el cumplimiento   de   la   normatividad   mexicana   en   materia   de   inversiones mexicanas en el extranjero."
                 },
                 "institucionesasist": {
-                    "nombre": "Clientes Privados",
+                    "nombre": "Clientes privados",
                     "uno": "La   firma   asesora   a   personas   físicas   en   la   determinación    de consecuencias   fiscales   derivadas   de   todas   sus   operaciones,   tanto ordinarias como extraordinarias.",
                     "dos": "Definimos   los   aspectos   fiscales   derivados   de   la   adquisición,   tenencia, conservación   y   disposición   del    patrimonio   familiar,   incluyendo inversiones   financieras   (bursátiles   y   privadas),   inmuebles,   así   como bienes   o   inversiones   no   tradicionales   como   arte,   aeronaves   o embarcaciones.",
                     "tres": "Podemos brindar asesoría relacionada con el proceso de adquisición de residencia fiscal  en   México,   así   como   a   personas   que   cesan   de   ser residentes fiscales en el mismo.",
@@ -102,7 +102,7 @@
                     "dos": "Desde     la     distribución     de     energía     eléctrica,     la     producción     de hidrocarburos  y la  estructura  de   compañías  de  energía  limpia;  nuestro despacho tiene amplia experiencia en las diversas problemáticas fiscales específicas   para   dichos   sectores,   incluyendo   los   regímenes   específicos aplicables a ciertos casos."
                 },
                 "ventasdirec": {
-                    "nombre": "Ventas Directas",
+                    "nombre": "Venta Directa",
                     "uno": "Asesoramos y representamos a empresas nacionales y multinacionales dedicadas a la venta directa pura y multinivel, además de participar en   la    implementación,    revisión    y/o   elaboración    de    estructuras comerciales,   incluyendo,   entre   otros   aspectos,   los   contratos   que   dicha industria celebra con su fuerza de ventas.",
                     "dos": "También patrocinamos la relación con las autoridades fiscales, con el fin de brindar seguridad jurídica en el régimen de tributación del sector y brindamos asesoría legal y fiscal a empresas de venta directa extranjera que desean expandir sus negocios al mercado mexicano."
                 },
@@ -201,12 +201,21 @@
                 "FHuno": "• Licenciatura en derecho por la Universidad Panamericana",
                 "FHdos": "• Curso de Fiscalidad Internacional “International Tax Law” por la Universidad de Nueva York",
                 "FHtres": "• Curso de Introducción al sistema legal Estadounidense “Introduction to the U.S Law System” por la Universidad de Fordham, Nueva York",
-                "AD": "• Universidad Panamericana",
-                "JP": "• Universidad Iberoamericana",
+                "ADuno": "• Licenciatura en derecho por la Universidad Panamericana",
+                "ADdos": "• Diploma en “International Tax Law”, New York Universidad, Nueva York",
+                "ADtres": "Diploma en “Introduction to the U.S. Legal System”, Fordham University, Nueva York",
+                "JPuno": "• Licenciatura en derecho por la Universidad Iberoamericana",
+                "JPdos": "• Cursando Especialidad en Derecho Tributario en la Escuela Libre de Derecho",
                 "MF": "• Universidad Westhill",
                 "LM": "• Universidad Panamericana",
                 "JC": "• Universidad Panamericana",
-                "GB": "• Universidad Panamericana"
+                "GB": "• Universidad Panamericana",
+                "FLuno": "• Licenciatura en derecho por la Universidad Panamericana",
+                "FLdos": "• Curso de Fiscalidad Internacional “International Tax Law” por la Universidad de Nueva York",
+                "FLtres": "• Curso de Introducción al sistema legal Estadounidense “Introduction to the U.S Law System” por la Universidad de Fordham, Nueva York",
+                "JAuno":"• Licenciatura en derecho por la Universidad Iberoamericana",
+                "JAdos":"• Diplomado de Fiscalidad Internacional “International Tax Law” por la Universidad de Nueva York",
+                "JAtres":"• Maestría en Derecho Fiscal, Universidad Panamericana. (en proceso)"
             },
             "asociaciones": {
                 "nombre": "Asociaciones profesionales",

@@ -74,7 +74,7 @@ const Izq = props => {
                 bgc={props.bgc12}
                 fc={props.fc12}
                 endPoint="./as102"
-                menuArea="Cecilia Bustamante"
+                menuArea="Cecilia Bustamante Bejarano"
             />
             <Menu
                 bgc={props.bgc21}
@@ -95,7 +95,7 @@ const Izq = props => {
                 bgc={props.bgc23}
                 fc={props.fc23}
                 endPoint="./abo203"
-                menuArea="Regina Figueroa"
+                menuArea="Regina Figueroa Aguayo"
             />
             <Menu
                 bgc={props.bgc24}
@@ -109,25 +109,38 @@ const Izq = props => {
                 endPoint="./abo205"
                 menuArea="Sixto Duarte Álvarez"
             />
-            <MenuTitle
-                menuTitle={props.data.areas.equipo.pasantes}
+            <Menu
+                bgc={props.bgc37}
+                fc={props.fc37}
+                endPoint="./pas307"
+                menuArea="Francisco Humberto López Vega"
             />
             <Menu
                 bgc={props.bgc31}
                 fc={props.fc31}
                 endPoint="./pas301"
                 menuArea="Alejandro Diener Cabieses"
-            /> <Menu
+            />
+            <Menu
                 bgc={props.bgc32}
                 fc={props.fc32}
                 endPoint="./pas302"
                 menuArea="Juan Pablo Morales Cortés"
             />
             <Menu
-                bgc={props.bgc33}
-                fc={props.fc33}
-                endPoint="./pas303"
-                menuArea="María Fernanda López Zerecero"
+                bgc={props.bgc38}
+                fc={props.fc38}
+                endPoint="./pas308"
+                menuArea="Julio Armando Montelongo Ceballos"
+            />
+            <MenuTitle
+                menuTitle={props.data.areas.equipo.pasantes}
+            />
+            <Menu
+                bgc={props.bgc36}
+                fc={props.fc36}
+                endPoint="./pas306"
+                menuArea="Luis Alejandro Ramírez González"
             />
             <Menu
                 bgc={props.bgc34}
@@ -142,10 +155,34 @@ const Izq = props => {
                 menuArea="Javier Caire Barranco"
             />
             <Menu
-                bgc={props.bgc36}
-                fc={props.fc36}
-                endPoint="./pas306"
-                menuArea="Gonzalo Bugeda Salido"
+                bgc={props.bgc33}
+                fc={props.fc33}
+                endPoint="./pas303"
+                menuArea="María Fernanda López Zerecero"
+            />
+            <Menu
+                bgc={props.bgc39}
+                fc={props.fc39}
+                endPoint="./pas309"
+                menuArea="Pablo Múgica Ortiz"
+            />
+            <Menu
+                bgc={props.bgc310}
+                fc={props.fc310}
+                endPoint="./pas310"
+                menuArea="David Guakil Raffoul"
+            />
+            <Menu
+                bgc={props.bgc311}
+                fc={props.fc311}
+                endPoint="./pas311"
+                menuArea="Arturo Lomelín López"
+            />
+            <Menu
+                bgc={props.bgc312}
+                fc={props.fc312}
+                endPoint="./pas312"
+                menuArea="José Manuel Valderrama Ubando"
             />
         </ul>
     )

@@ -64,7 +64,7 @@ const IzqResponsive = props => {
                 bgc={props.bgc12}
                 fc={props.fc12}
                 endPoint="./as102"
-                menuArea="Cecilia Bustamante"
+                menuArea="Cecilia Bustamante Bejarano"
             />
             <Menu
                 bgc={props.bgc13}
@@ -91,7 +91,7 @@ const IzqResponsive = props => {
                 bgc={props.bgc23}
                 fc={props.fc23}
                 endPoint="./abo203"
-                menuArea="Regina Figueroa"
+                menuArea="Regina Figueroa Aguayo"
             />
             <Menu
                 bgc={props.bgc24}

@@ -8,6 +8,12 @@ const Izq = props => {
             <Menu
                 bgc={props.bgc}
                 fc={props.fc}
+                endPoint="./2020"
+                menuArea="2020"
+            />
+            <Menu
+                bgc={props.bgc}
+                fc={props.fc}
                 endPoint="./2019"
                 menuArea="2019"
             />
