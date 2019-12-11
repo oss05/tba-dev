@@ -3,6 +3,7 @@ import Izq from '../../components/SeccionIzqEquipo';
 import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
+import fotoSocio from '../../assets/equipo/webLR.jpg';
 
 const Abogado = props => {
     return (
@@ -13,9 +14,9 @@ const Abogado = props => {
             <Dropdown data={props.data}/>
             <section className="areaTextContainer">
                 <HeaderEquipo
+                    img={fotoSocio}
                     data={props.data}
                     rol={props.data.areas.equipo.abogados}
-                    display="none"
                     nombreEquipo="Luis Alberto Rosas Ortiz"
                     correoEquipo="lrosas@turanzas.com.mx"
                     linkCorreo="mailto:lrosas@turanzas.com.mx"

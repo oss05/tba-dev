@@ -3,8 +3,8 @@ import Izq from '../../components/SeccionIzqEquipo';
 import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
-import fotoSocio from '../../assets/equipo/web.png';
-
+import fotoSocio from '../../assets/equipo/webFB.png';
+ 
 const Abogado = props => {
     return (
         <div className="page" style={{height:"auto"}}>

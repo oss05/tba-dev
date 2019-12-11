@@ -3,7 +3,7 @@ import Izq from '../../components/SeccionIzqEquipo';
 import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
-import fotoSocio from '../../assets/equipo/webCB.jpg';
+import fotoSocio from '../../assets/equipo/webCB.png';
 
 const Abogado = props => {
     return (

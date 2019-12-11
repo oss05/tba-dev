@@ -54,7 +54,7 @@ class Footer extends Component {
                 </div>
 
                 <section className="linkedinContainer">
-                    <a href="" target="_blank"><FontAwesomeIcon className="linkedin" icon={['fab', 'linkedin-in']} /></a>
+                    <a href="https://www.linkedin.com/company/turanzas-bravo-&-ambrosi/?viewAsMember=true" target="_blank"><FontAwesomeIcon className="linkedin" icon={['fab', 'linkedin-in']} /></a>
                 </section>
             </div>
         );

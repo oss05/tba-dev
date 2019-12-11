@@ -3,7 +3,7 @@ import Logo from '../assets/logoHome.png';
 import '../styles/home.css';
 import Esp from '../lang/Esp.json'
 import CustomCarousel from '../components/Carousel';
-// import panoramica from '../assets/panoramica2.png';
+// import panoramica from '../assets/panoramica.png';
 
 const dataEsp = Esp
 
