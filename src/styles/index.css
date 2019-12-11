@@ -56,6 +56,10 @@ p {
   animation: contenidoAnimation 0.5s forwards 0s ease-in;
 }
 
+.homeRespo{
+  width: 70%;
+}
+
 @media only screen and (max-width: 600px) {
   /* --------home----------- */
   p {
@@ -154,6 +158,9 @@ p {
     justify-content: center;
   }
   /* -------Equipo---------------- */
+  .homeRespo{
+    width: 100%;
+  }
   .page {
     /* border: solid 1px #40ff00; */
     display: flex;

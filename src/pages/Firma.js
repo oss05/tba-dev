@@ -17,7 +17,6 @@ const Firma = props => {
                         {props.data.areas.firma.contenido.uno} <br /> <br/>
                         {props.data.areas.firma.contenido.dos}  <br /><br/>
                         {props.data.areas.firma.contenido.tres} <br /><br/>
-                        {props.data.areas.firma.contenido.cuatro} <br /> <br/>
                         {props.data.areas.firma.contenido.cinco} <br />
                     </p>
                 </article>

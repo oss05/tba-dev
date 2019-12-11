@@ -16,9 +16,9 @@ const P2019 = props => {
                 // tamanio="100%"
                 data={props.data}
                 año="2019"
-                linkPdf={Dos}
+                linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2019/ActualizacionTributaria3-1-2019.pdf"
                 descripcionAño="03/19"
-                envio={props.data.areas.publicaciones.envio.mayo}
+                envio={props.data.areas.publicaciones.envio.septiembre}
                 fecha=""
             />
             <Badge

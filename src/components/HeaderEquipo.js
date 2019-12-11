@@ -10,7 +10,7 @@ const HeaderEquipo = props => {
 
             <div className="d-flex flex-column flex-md-row justify-content-around">
                 <img src={props.img} alt={props.alt} style={{ width: "200px", height: "200px", objectFit: "cover", display: props.display }} />
-                <h3 className="abogado" style={{ marginLeft: "-5em" }}>
+                <h3 className="abogado">
                     <p>{props.nombreEquipo}</p>
                     <a href={props.linkCorreo}>{props.correoEquipo}</a>
                 </h3>
