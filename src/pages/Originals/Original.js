@@ -16,7 +16,7 @@ const Original = props => {
                     borderBottom="solid 2px gray"
                     borderBottom2="none"
                     />
-                <div className="homeRespo">
+                <div className="homeRespo text-justify">
                    <p>{props.data.areas.practica.intro.p1}</p> <br/>
                 <p>{props.data.areas.practica.intro.p2}</p>
                 <p>{props.data.areas.practica.intro.p3}</p>

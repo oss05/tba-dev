@@ -17,7 +17,7 @@ const Abogado = props => {
                     rol={props.data.areas.equipo.socios}
                     rolDisp="none"
                 />
-                 <p className="homeRespo">
+                 <p className="homeRespo text-justify">
                     {props.data.areas.firma.contenido.cuatro} 
                  </p>
 

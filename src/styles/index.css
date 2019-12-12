@@ -57,7 +57,7 @@ p {
 }
 
 .homeRespo{
-  width: 70%;
+  width: 60%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -236,7 +236,7 @@ p {
     width: 90% !important;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
   }
   .abogado>p {
     /* border: solid; */

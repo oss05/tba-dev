@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, withRouter, Link } from "react-router-d
 const Badge = props => {
     return(
         <div>
-            <h2 className="tituloBadge">{props.badgeName}</h2>
+            <h2 className="tituloBadge text-center">{props.badgeName}</h2>
             <Link to={props.href} style={{color: "#000", textDecoration: "none"}}><p>{props.parrafoUno}</p></Link>
             <Link to={props.href2} style={{color: "#000", textDecoration: "none"}}><p>{props.parrafoDos}</p></Link>
             <Link to={props.href3} style={{color: "#000", textDecoration: "none"}}><p>{props.parrafoTres}</p></Link>
