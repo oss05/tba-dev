@@ -17,12 +17,10 @@ const Original = props => {
                     borderBottom2="none"
                     />
                 <div className="homeRespo text-justify">
-                   <p>{props.data.areas.practica.intro.p1}</p> <br/>
-                <p>{props.data.areas.practica.intro.p2}</p>
-                <p>{props.data.areas.practica.intro.p3}</p>
-                <p>{props.data.areas.practica.intro.p4}</p>
-                <p>{props.data.areas.practica.intro.p5}</p>
-                <p>{props.data.areas.practica.intro.p6}</p>  
+                   <p>{props.data.areas.practica.intro.p1}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.intro.p2}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.intro.bold}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.intro.p21}</p>
                 </div>  
             </section>
         </div>

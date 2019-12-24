@@ -71,7 +71,7 @@
     /* border: solid 1px; */
     width: 60%;
     margin-top: 2em;
-    height: 90px;
+    /* height: 90px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -159,7 +159,7 @@
 }
 
 .tituloBadge {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
 }
 

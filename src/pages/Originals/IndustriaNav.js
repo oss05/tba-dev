@@ -15,12 +15,18 @@ const IndustriaNav = props => {
         <Dropdown data={props.data} />
         <section className="areaTextContainer">
             <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.industriasnav.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.industriasnav.uno}
-                parrafoDos={props.data.areas.practica.area.industriasnav.dos}
-                parrafoTres={props.data.areas.practica.area.industriasnav.tres}
-                parrafoCuatro={props.data.areas.practica.area.industriasnav.cuatro}
-            />
+            <div className="contenido">
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.industriasnav.uno}</p>
+                <p style={{display:"inline", fontWeight: "bold"}}>{props.data.areas.practica.area.industriasnav.bold}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.industriasnav.unopuntouno}</p> <br/><br/>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.industriasnav.dos}</p>
+                <p style={{display:"inline", fontWeight: "bold"}}>{props.data.areas.practica.area.industriasnav.bold2}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.industriasnav.dospuntouno}</p> <br/><br/>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.industriasnav.tres}</p>
+                <p style={{display:"inline", fontWeight: "bold"}}>{props.data.areas.practica.area.industriasnav.bold3}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.industriasnav.trespuntouno}</p> <br/><br/>
+                <p>{props.data.areas.practica.area.industriasnav.cuatro}</p>
+            </div>
             {/* <Responsable 
             data={props.data}
             responsable="Mauricio Ambrosi Herrera"    

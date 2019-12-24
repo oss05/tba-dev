@@ -16,11 +16,14 @@ const Abogado = props => {
                     data={props.data}
                     rol={props.data.areas.equipo.socios}
                     rolDisp="none"
+                    displayPhoto="none"
                 />
-                 <p className="homeRespo text-justify">
-                    {props.data.areas.firma.contenido.cuatro} 
-                 </p>
-
+                <div className="contenido">
+                    <p>{props.data.areas.firma.contenido.dos} <br/><br/></p>
+                    <p style={{display:"inline"}}>{props.data.areas.firma.contenido.cuatro}</p>
+                    <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.firma.contenido.bold3}</p>
+                    <p style={{display:"inline"}}>{props.data.areas.firma.contenido.cuatropuntouno}</p>
+                </div>
             </section>
 
         </div>

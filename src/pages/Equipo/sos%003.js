@@ -3,7 +3,7 @@ import Izq from '../../components/SeccionIzqEquipo';
 import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
-import fotoSocio from '../../assets/equipo/webjf.png';
+import fotoSocio from '../../assets/equipo/webJF.png';
 
 const Abogado = props => {
     return (
@@ -27,8 +27,12 @@ const Abogado = props => {
                  <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.uno}
-                    parrafoDos={props.data.areas.equipo.areas.nueve}
+                    parrafoUno={props.data.areas.equipo.areas.dos}
+                    parrafoDos={props.data.areas.equipo.areas.quince}
+                    parrafoTres={props.data.areas.equipo.areas.dieciseis}
+                    href="/areas/asesoriafis"
+                    href2="/areas/comercioInter"
+                    href3="/areas/contribuciones"
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.JFuno}

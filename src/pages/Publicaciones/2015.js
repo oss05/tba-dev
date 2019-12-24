@@ -2,6 +2,9 @@ import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
+import Tres from '../../assets/DocsTBA/2015/actualizacion-tributaria-7-2015.pdf';
+import Dos from '../../assets/DocsTBA/2015/actualizacion-tributaria-4-2015.pdf';
+import Uno from '../../assets/DocsTBA/2015/actualizacion-tributaria-3-2015.pdf';
 
 const P2015 = props => {
     return (
@@ -14,7 +17,7 @@ const P2015 = props => {
                 <Badge
                     data={props.data}
                     año="2015"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2015/actualizacion-tributaria-7-2015.pdf"
+                    linkPdf={Tres}
                     descripcionAño="07/15"
                     envio={props.data.areas.publicaciones.envio.noviembre}
                     fecha="25-15"
@@ -22,7 +25,7 @@ const P2015 = props => {
                 <Badge
                     data={props.data}
                     año="2015"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2015/actualizacion-tributaria-4-2015.pdf"
+                    linkPdf={Dos}
                     descripcionAño="04/15"
                     envio={props.data.areas.publicaciones.envio.mayo}
                     fecha="22-15"
@@ -30,7 +33,7 @@ const P2015 = props => {
                 <Badge
                     data={props.data}
                     año="2015"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2015/actualizacion-tributaria-3-2015.pdf"
+                    linkPdf={Uno}
                     descripcionAño="03/15"
                     envio={props.data.areas.publicaciones.envio.mayo}
                     fecha="19-15"

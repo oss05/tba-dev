@@ -13,13 +13,19 @@ const InstitucionesAsist = props => {
         <Dropdown data={props.data} />
         <section className="areaTextContainer">
             <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.institucionesasist.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.institucionesasist.uno}
-                parrafoDos={props.data.areas.practica.area.institucionesasist.dos}
-                parrafoTres={props.data.areas.practica.area.institucionesasist.tres}
-                parrafoCuatro={props.data.areas.practica.area.institucionesasist.cuatro}
-                parrafoCinco={props.data.areas.practica.area.institucionesasist.cinco}
-            />
+            <div className="contenido">
+                <p>{props.data.areas.practica.area.institucionesasist.uno}</p>
+                <p style={{display: "inline"}}>{props.data.areas.practica.area.institucionesasist.dos}</p>
+                <p style={{display: "inline", fontWeight:"bold"}}>{props.data.areas.practica.area.institucionesasist.bold}</p> 
+                <p style={{display: "inline"}}>{props.data.areas.practica.area.institucionesasist.dospuntouno}</p><br/><br/>
+                <p style={{display: "inline"}}>{props.data.areas.practica.area.institucionesasist.tres}</p>
+                <p style={{display: "inline", fontWeight:"bold"}}>{props.data.areas.practica.area.institucionesasist.bold2}</p> 
+                <p style={{display: "inline"}}>{props.data.areas.practica.area.institucionesasist.trespuntouno}</p><br/><br/>
+                <p>{props.data.areas.practica.area.institucionesasist.cuatro}</p>
+                <p style={{display: "inline"}}>{props.data.areas.practica.area.institucionesasist.cinco}</p>
+                <p style={{display: "inline", fontWeight:"bold"}}>{props.data.areas.practica.area.institucionesasist.bold3}</p>
+                <p style={{display: "inline"}}>{props.data.areas.practica.area.institucionesasist.cincopuntouno}</p>
+            </div>
         </section>
     </div>
     )

@@ -14,13 +14,12 @@ const InstitucionesF = props => {
         <Dropdown data={props.data} />
         <section className="areaTextContainer">
             <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.institucionesF.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.institucionesF.uno}
-                parrafoDos={props.data.areas.practica.area.institucionesF.dos}
-                parrafoTres={props.data.areas.practica.area.institucionesF.tres}
-                parrafoCuatro={props.data.areas.practica.area.institucionesF.cuatro}
-                parrafoCinco={props.data.areas.practica.area.institucionesF.cinco}
-            />
+            <div className="contenido">
+                <p>{props.data.areas.practica.area.institucionesF.uno}</p>
+                <p>{props.data.areas.practica.area.institucionesF.dos}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.institucionesF.tres}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.institucionesF.bold}</p>
+            </div>
         </section>
     </div>
     )

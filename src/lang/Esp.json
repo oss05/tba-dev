@@ -3,11 +3,17 @@
         "firma": {
             "nombre": "Firma",
             "contenido": {
-                "uno": "Turanzas, Bravo & Ambrosi es un firma boutique independiente integrada por abogados tributarios con experiencia en la presentación de servicios de consultoría, litigio y planeación fiscal, incluyendo el área de comercio exterior.",
-                "dos": "La firma surge como respuesta categórica a la evidente necesidad de modernización y especialización requerida por el dinámico y sofisticado medio fiscal mexicano.",
-                "tres": "La experiencia y el reconocimiento ético y profesional logrado por sus miembros a travésde la participación en el medio fiscal, denotan la firme convicción de ser una institución que trascienda como la mejor opción en México para la solución de los retos impositivos de los clientes.",
-                "cuatro": "Nuestro principal objetivo es la generación de confianza a través de un servicio que exceda expectativas, que proporcione soluciones jurídicas de calidad, siempre oportunas y con un equilibrio en la relación costo-beneficio. Esta confianza continuará forjando relaciones profesionales de largo plazo distinguidas por la esencia de nuestro principal valor: Nuestro Equipo.",
-                "cinco": "La consolidación alcanzada por la firma ha logrado que se conciba como uno de los equipos con mayor proyección y perspectivas en el ámbito fiscal mexicano."
+                "uno": "Somos una ",
+                "unopuntouno":"integrada por abogados con experiencia en la presentación de servicios de ",
+                "unopuntodos":"incluyendo el área de comercio exterior.",
+                "dos": "La firma constituye una respuesta a la especialización ante el dinámico y sofisticado medio fiscal mexicano. Como firma boutique, nuestro trabajo se caracteriza por un alto grado de involucramiento por parte de los socios en los asuntos de nuestros clientes.",
+                "tres": "Nuestro principal objetivo es proveer servicios de alta calidad que se traduzcan en soluciones jurídicas confiables, siempre oportunas y con un equilibrio en la relación costo-beneficio, generando a la vez la confianza del cliente base de relaciones de larga duración.",
+                "cuatro": "La ",
+                "cuatropuntouno":"es el fundamento que marca la profundidad, contorno y alcance de nuestros servicios, siempre enfocados al cuidado de los intereses de los clientes y la debida aplicación del orden jurídico. ",
+                "cinco": "La firma y sus miembros se auto-regulan por el Código de Ética de la Barra Mexicana, Colegio de Abogados, A.C., sin perjuicio de la observancia de códigos de ética de otros colegios de abogados a los que se afilien nuestros profesionistas, y considerando la alineación necesaria con los códigos de ética de otras profesiones, cuando en el curso del ejercicio profesional coincidimos e interactuamos con ellas.",
+                "bold":"firma boutique independiente ",
+                "bold2":"consultoría y litigio fiscal, ",
+                "bold3": "ética profesional "
             }
         },
         "practica": {
@@ -15,117 +21,167 @@
             "responsable": "Contacto:",
             "nombreCompleto": "Servicios",
             "intro": {
-                "p1": "Somos   una  firma boutique independiente  integrada   por   abogados con experiencia en la presentación de servicios de consultoría y litigiofiscal, incluyendo el área de comercio exterior.",
-                "p2": "La firma constituye una respuesta a la especialización ante el dinámico y sofisticado medio fiscal mexicano.",
-                "p3": "La   experiencia,   consolidación   y   el   reconocimiento   ético   y   profesional logrado por sus miembros, denotan la convicción de proyectarse como una institución que trascienda como la mejor opción jurídico-fiscal en México para la solución de los retos impositivos de los clientes.",
-                "p4": "Nuestro principal objetivo es la generación de confianza a través de un servicio   que   exceda   expectativas,   que   proporcione   soluciones   jurídicas de calidad, siempre oportunas y con un equilibrio en la relación costo-beneficio. Esta confianza continuará forjando relaciones profesionales de largo plazo  distinguidas por la esencia de nuestro equipo, como el principal valor.",
-                "p5": "La  ética profesional  es   el   fundamento   que   marca   la   profundidad,  contorno y alcance de los servicios, siempre enfocados al cuidado de los intereses de los clientes y al respeto al orden jurídico.",
-                "p6": "La  firma   y sus  miembros  se  auto-regulan por  el Código  de  Ética  de  la Barra   Mexicana,   Colegio   de   Abogados,   A.C.,   sin   perjuicio   de   la observancia de códigos de ética de otros colegios de abogados a los que se   afilien   nuestros   profesionistas,   y   de   la   alineación   necesaria   con   los códigos de ética de otras profesiones, cuando en el curso del ejercicio profesional coincidimos e interactuamos con ellas."
+                "p1": "La firma constituye una respuesta a la especialización ante el dinámico y sofisticado medio fiscal mexicano. Como firma boutique, nuestro trabajo se caracteriza por un alto grado de involucramiento por parte de los socios en los asuntos de nuestros clientes.",
+                "p2": "La ",
+                "bold":"ética profesional ",
+                "p21":"es el fundamento que marca la profundidad, contorno y alcance de nuestros servicios, siempre enfocados al cuidado de los intereses de los clientes y la debida aplicación del orden jurídico."
             },
             "area": {
                 "aduanas": {
                     "nombre": "Tributación corporativa",
-                    "uno": "La  firma   lleva   a   cabo   la   prestación   de   asesoría   fiscal   a   todo   tipo   de entidades   jurídicas   en   los   diversos   sectores   de   negocios,   para   la adecuada interpretación y aplicación de disposiciones en materia impositiva a nivel federal.",
-                    "dos": "Esta   asesoría   comprende   desde   normas   aplicables   a   operaciones cotidianas, hasta reestructuras corporativas y operaciones estratégicas, logrando la profundización y simplificación necesarias para la resolución de   las   complejas   problemáticas   que   demanda   el   ámbito   tributario mexicano.",
-                    "tres": "La   asesoría   fiscal   cubre   necesidades   en   materia   de   estructuras   de inversión,   alianzas   estratégicas   o   participación   en   negocios   diversos, siempre   considerando   la   naturaleza   productiva   de   las   operaciones,   el ámbito  económico   prevaleciente   y  las  relaciones   económicas   entre   las entidades jurídicas y sus socios o accionistas.",
-                    "cuatro": "La firma participa en la representación de intereses de entidades legales en la solicitud de autorización de regímenes fiscales, de confirmación de criterio y de reestructuras corporativas, así como en la colaboración con las propias autoridades fiscales en la creación de reglas misceláneas o criterios   fiscales,   en   beneficio   de   los   diversos   sectores   y   sus necesidades."
+                    "uno": "La firma lleva a cabo la prestación de asesoría fiscal a todo tipo de sociedades u otro tipo de entidades jurídicas en los diversos sectores de negocios, para la adecuada ",
+                    "bold":"interpretación y aplicación de disposiciones en materia impositiva a nivel federal, ",
+                    "unopuntouno":"así como para la alineación óptima de sus aspectos tributarios, financieros y corporativos.",
+                    "dos": "El objeto de nuestra asesoría puede comprende desde el apoyo a clientes en la correcta aplicación de normas con motivo de sus operaciones cotidianas, hasta el requerido en reestructuras corporativas, operaciones estratégicas estructuras de inversión y alianzas estratégicas, entre otros, de elevada complejidad jurídica, financiera o comercial, incluyendo el diseño y estructura de las relaciones entre inversionistas. Al efecto buscamos siempre lograr la profundización y simplificación necesarias para la resolución de las complejas problemáticas del ámbito tributario mexicano.",
+                    "tres": "La firma participa en la representación de intereses de contribuyentes en la solicitud de autorización de regímenes fiscales, de confirmación de criterio y de reestructuras corporativas, así como en la colaboración con las propias autoridades fiscales en la creación de reglas misceláneas o criterios fiscales, en beneficio de los diversos sectores y sus necesidades."
                 },
                 "asesoriafis": {
                     "nombre": "Controversia fiscal y administrativa",
-                    "uno": "La   realización   de   negocios   y   operaciones,   así   como   la   relación   de   los contribuyentes con las autoridades, requieren de la sujeción a principios de previsibilidad y certidumbre jurídica.",
-                    "dos": "El   entorno   de   fiscalización   ha   generado   la   necesidad   de   que   los contribuyentes     sean     acompañados     en     las     diversas     etapas administrativas,   con   el   fin   de   disminuir   o   incluso   evitar   contingencias sujetas a controversia o litigio fiscal.",
-                    "tres": "El involucramiento de la firma en las diversas  etapas del proceso de auditoría  relacionado   con   el   cumplimiento   de   obligaciones   fiscales, implica   su   participación   activa   desde   el   inicio   hasta   su   terminación   e incluso   en   la   implementación   de   acuerdos   conclusivos   ante   la Procuraduría para la Defensa del Contribuyente (PRODECON).",
-                    "cuatro": "La  alta especialización en litigio fiscal  ha   generado   una   amplia experiencia   en   el   diseño   e   implementación   exitosa   de   estrategias   de defensa, así como en la representación durante procesos administrativosante   las   propias   autoridades   y   jurisdiccionales   ante   los   tribunales competentes. ",
-                    "cinco": "Los servicios que presta el área de litigio fiscal comprenden la solución de conflictos derivados de la aplicación de leyes tributarias federales y locales mediante los medios de defensa ordinarios y/o constitucionales(juicio de amparo).",
-                    "seis": "Como   un   servicio   vinculado   con   el   área   de   litigio   fiscal,   se   ha desarrollado   el  litigio administrativo  ante   la   creación   de   diversas disposiciones jurídicas, tanto legales como reglamentarias, tendientes a establecer mayores cargas obligaciones para las empresas.",
-                    "siete": "La  firma  ha  participado  con éxito en la  implementación de  estrategias litigiosas tendientes a controvertir actos de autoridades administrativas que incidan, sancionen o perjudiquen intereses particulares, ya sea por la regulación contenida en diversos instrumentos jurídicos, o por actos de   autoridad   específicos   que   vulneren   derechos   constitucionales   y/o prerrogativas   legalmente   tuteladas   por   las   disposiciones   de   derecho administrativo federal o local."
-
+                    "uno": "La realización de negocios y operaciones, así como la relación de los contribuyentes con las autoridades, requieren de previsibilidad y certidumbre jurídica.",
+                    "dos": "El entorno de fiscalización ha generado la necesidad de que los contribuyentes cuenten con acompañamiento profesional durante las diversas etapas administrativas de auditorías, con el fin de disminuir o incluso evitar contingencias sujetas a controversia o litigio fiscal.",
+                    "tres": "El involucramiento de nuestra firma en las diversas ",
+                    "bold":"etapas del proceso de auditoría ",
+                    "trespuntouno":"relacionado con el cumplimiento de obligaciones fiscales implica su participación activa desde el inicio hasta su terminación, e incluso en la implementación de ",
+                    "bold2":"acuerdos conclusivos ",
+                    "trespuntodos":"ante la Procuraduría para la Defensa del Contribuyente (PRODECON).",
+                    "cuatro": "El entorno de litigio tributario en México demanda una ",
+                    "bold3":"alta especialización en diversas facetas del litigio fiscal. ",
+                    "cuatropuntouno":"En este contexto, nuestra firma ha generado una amplia experiencia, incluso interdisciplinaria, en el diseño e implementación exitosa de estrategias de defensa, así como en la representación durante procesos administrativos ante las propias autoridades y jurisdiccionales ante los tribunales competentes.",
+                    "cinco": "Los servicios que presta nuestra área de litigio fiscal comprenden la solución de conflictos derivados de la aplicación de leyes tributarias federales y locales mediante los medios de defensa ordinarios y/o constitucionales (juicio de amparo).",
+                    "seis": "Como un servicio vinculado con el área de litigio fiscal, se ha desarrollado el ",
+                    "bold4":"litigio administrativo ",
+                    "seispuntouno":"ante la creación de diversas disposiciones jurídicas, tanto legales como reglamentarias, tendientes a establecer mayores cargas obligacionales para las empresas."
                 },
                 "industriasnav": {
                     "nombre": "Tributación internacional",
-                    "uno": "La firma se ha especializado en temas de tributación internacional y la atención profesional a establecimientos permanentes en México.",
-                    "dos": "Se ha adquirido un enfoque internacionalista del impuesto sobre la renta para inversión extranjera directa, según requerimientos de planes de negocios,   compromisos   de   inversión,   áreas   de   actividad   económica   y bases para eventuales desinversiones, entre muchos otros aspectos.",
-                    "tres": "La   firma   ha   adquirido   un   reconocimiento   por   su   participación   en múltiples   operaciones   vanguardistas   relacionadas   con   la  aplicación e interpretación   de   convenios   para   evitar   la   doble   imposición celebrados   por   México,   incluyendo   documentos   considerados   como medios   idóneos   para   su   interpretación,   las   reglas   BEPS,   literatura   y doctrina emitida a nivel internacional.",
-                    "cuatro": "La   asesoría   brindada   ha   comprendido   implicaciones   en   operaciones internacionales de impuestos indirectos, particularmente el impuesto alvalor agregado (IVA), temas vinculados con residencia fiscal, así como el cumplimiento   de   la   normatividad   mexicana   en   materia   de   inversiones mexicanas en el extranjero."
+                    "uno": "La firma cuenta con una práctica especializada en temas de tributación internacional y en la atención profesional a ",
+                    "bold":"establecimientos permanentes ",
+                    "unopuntouno":"en México.",
+                    "dos": "Mantenemos un enfoque internacionalista del impuesto sobre la renta para ",
+                    "bold2":"inversión extranjera directa, ",
+                    "dospuntouno":"según requerimientos de planes de negocios, compromisos de inversión, áreas de actividad económica y bases para eventuales desinversiones, entre muchos otros aspectos.",
+                    "tres": "La firma ha adquirido un reconocimiento por su participación en múltiples operaciones vanguardistas relacionadas con la ",
+                    "bold3":"aplicación e interpretación de convenios para evitar la doble imposición ",
+                    "trespuntouno":"celebrados por México, incluyendo documentos considerados como medios idóneos para su interpretación, las reglas BEPS, literatura y doctrina emitida a nivel internacional.",
+                    "cuatro": "La asesoría brindada ha incluido asimismo implicaciones en operaciones internacionales de impuestos indirectos, particularmente el impuesto al valor agregado (IVA), temas vinculados con residencia fiscal, así como el cumplimiento de la normatividad mexicana en materia de inversiones mexicanas en el extranjero."
                 },
                 "institucionesasist": {
                     "nombre": "Clientes privados",
-                    "uno": "La   firma   asesora   a   personas   físicas   en   la   determinación    de consecuencias   fiscales   derivadas   de   todas   sus   operaciones,   tanto ordinarias como extraordinarias.",
-                    "dos": "Definimos   los   aspectos   fiscales   derivados   de   la   adquisición,   tenencia, conservación   y   disposición   del    patrimonio   familiar,   incluyendo inversiones   financieras   (bursátiles   y   privadas),   inmuebles,   así   como bienes   o   inversiones   no   tradicionales   como   arte,   aeronaves   o embarcaciones.",
-                    "tres": "Podemos brindar asesoría relacionada con el proceso de adquisición de residencia fiscal  en   México,   así   como   a   personas   que   cesan   de   ser residentes fiscales en el mismo.",
-                    "cuatro": "Debido a la creciente internacionalización de las familias, tanto de sus miembros como de su patrimonio, trabajamos con una amplia gama de asesores legales en el extranjero especializados en clientes privados con los que nuestros clientes pueden tener la certeza de los efectos fiscales tanto en México como en todos los países involucrados.",
-                    "cinco": "Asesoramos en los efectos fiscales mexicanos derivados del trámite de sucesiones en México y/o en el extranjero,   así   como   procesos   y estructuras de sucesión, sin importar el grado de sofisticación."
+                    "uno": "La firma asesora a personas físicas en la determinación de consecuencias fiscales derivadas de sus operaciones, tanto ordinarias como extraordinarias.",
+                    "dos": "Definimos los aspectos fiscales derivados de la adquisición, tenencia, conservación y disposición del ",
+                    "bold":"patrimonio familiar, ",
+                    "dospuntouno":"incluyendo inversiones financieras (bursátiles y privadas), inmuebles, así como bienes o inversiones no tradicionales como arte, aeronaves o embarcaciones.",
+                    "tres": "Podemos brindar asesoría relacionada con el proceso de adquisición de residencia fiscal ",
+                    "bold2":"residencia fiscal ",
+                    "trespuntouno":"en México, así como a personas que cesan de ser residentes fiscales en el mismo.",
+                    "cuatro": "Debido a la creciente internacionalización de las familias, tanto de sus miembros como de su patrimonio, trabajamos con una amplia gama de asesores legales en el extranjero especializados en clientes privados con los que nuestros clientes pueden adquirir certeza de los efectos fiscales tanto en México como en todos los países involucrados. ",
+                    "cinco": "Asesoramos en los efectos fiscales mexicanos derivados del trámite de ",
+                    "bold3":"sucesiones en México y/o en el extranjero, ",
+                    "cincopuntouno":"así como procesos y estructuras de sucesión, sin importar el grado de sofisticación."
                 },
                 "institucionesF": {
                     "nombre": "Impuestos indirectos",
-                    "uno": "La   firma   ha   prestado   satisfactoriamente   servicios   de   asesoría,   litigio   y controversia fiscal ante autoridades en materia de impuestos indirectos para múltiples sectores, como lo son el impuesto al valor agregado (IVA) y el impuesto especial sobre producción y servicios (IEPS).",
-                    "dos": "Tales   servicios   han   comprendido   operaciones   del   día   a   día,   así   como fases   preventivas   o   planificación   de   operaciones   e   implementación   y operación de las transacciones sujetas a análisis.",
-                    "tres": "Dentro   de   algunos   de   los   sectores   más   representativos   comprendidos dentro    de    dichos     servicios    se    encuentran     la     industria     de    la transportación naviera,   la  industria de los vinos y licores,   la industria   de   los  servicios financieros  y   la   industria   del  transporte aéreo."
+                    "uno": "La firma ha prestado satisfactoriamente servicios de asesoría, litigio y controversia fiscal ante autoridades en materia de impuestos indirectos para múltiples sectores, como lo son el impuesto al valor agregado (IVA) y el impuesto especial sobre producción y servicios (IEPS).",
+                    "dos": "Tales servicios han comprendido operaciones del día a día, así como fases preventivas , o esfuerzos de remediación, relacionados con operaciones, así como con la implementación y operación de las transacciones sujetas a análisis. ",
+                    "tres": "Dentro de algunos de los sectores más representativos comprendidos dentro de dichos servicios se encuentran las industrias de ",
+                    "bold":"transportación naviera, de los vinos y licores, de servicios financieros, de transporte aéreo, de autopartes, farmacéutica y de energía eléctrica (generación)."
                 },
                 "litigiofiscal": {
                     "nombre": "Precios de transferencia",
-                    "uno": "Las operaciones entre partes relacionadas, sean residentes en México o en el extranjero, deben de ser analizadas jurídicamente bajo el sistema de precios de transferencia en el impuesto sobre la renta.",
-                    "dos": "Nuestra práctica comprende el asesoramiento del alcance y efectos de estas   disposiciones,   como   de   otras   previsiones   jurídicas   de   “soft   law” (Guías   de   sobre   Precios   de   Transferencia   de   la   OECD),   a   efecto   de brindar   certeza   con   respecto   a   las   consecuencias   tributarias   de   las operaciones analizadas.",
-                    "tres": "Se consideran elementos de negocio de carácter estratégico, operativo, así   como   de   riesgos,   responsabilidades   y   costos   involucrados,   lo   cual implica que el servicio se preste en conjunto con profesionales de otras disciplinas a efecto de brindar un servicio integral.",
-                    "cuatro": "El servicio profesional que se brinda en esta materia incluye la defensa contenciosa en caso de controversias fiscales."
-
+                    "uno": "Las operaciones entre partes relacionadas, sean residentes en México o en el extranjero, deben de ser analizadas jurídicamente bajo el ",
+                    "bold":"sistema de precios de transferencia bajo la Ley del Impuesto sobre la Renta.",
+                    "dos": "Nuestra práctica comprende el asesoramiento del alcance y efectos de estas disposiciones, como de otras previsiones jurídicas de “soft law” (Guías de sobre Precios de Transferencia de la OECD), a efecto de brindar certeza con respecto a las consecuencias tributarias de las operaciones analizadas.",
+                    "tres": "Se consideran elementos de negocio de carácter estratégico, operativo, así como de riesgos, responsabilidades y costos involucrados, lo cual implica que el servicio se pueda prestar en conjunto con profesionales de otras disciplinas a efecto de brindar un servicio integral.",
+                    "cuatro": "En caso de controversias fiscales, el servicio profesional que se brinda en esta materia incluye la representación en fase administrativa (tax controversy) y la defensa contenciosa ."
                 },
                 "planeacionp": {
                     "nombre": "Intercambio de información fiscal - FATCA / CRS",
-                    "uno": "En EUA se encuentra vigente la Ley de Cumplimiento Fiscal de Cuentas Extranjeras (FATCA) y los acuerdos intergubernamentales celebrados con diversos   países,   incluido   México.   Asimismo,   México   ha   adoptado   el Estándar para el intercambio automático de información sobre cuentas financieras (CRS) dentro del marco de la OCDE.",
-                    "dos": "La firma asesora sobre el correcto  cumplimento de las obligaciones derivadas   de   estas   normas,   sí   como   de   los   convenios   concluidos   por México   para   el   intercambio   de   información,   incluyendo   la   correcta clasificación  de   los   distintos   vehículos   relacionados.   Asimismo, podemos   brindar   asesoría   para   el   correcto   cumplimiento   de   la obligación de información  de   los   sujetos   obligados   a   reportar   las operaciones respectivas."
+                    "uno": "En EUA se encuentra vigente la Ley de Cumplimiento Fiscal de Cuentas Extranjeras (FATCA) y los acuerdos intergubernamentales celebrados con diversos países, incluido México. Asimismo, México ha adoptado el Estándar para el intercambio automático de información sobre cuentas financieras (CRS) dentro del marco de la OCDE.",
+                    "dos": "La firma asesora sobre el correcto ",
+                    "bold":"cumplimento de las obligaciones ",
+                    "dospuntouno":"derivadas de estas normas, sí como de los convenios concluidos por México para el intercambio de información, incluyendo la correcta ",
+                    "bold2":"clasificación de los distintos vehículos ",
+                    "dospuntodos":"relacionados. Asimismo, podemos brindar asesoría para el correcto cumplimiento de la ",
+                    "bold3":"obligación de información ",
+                    "dospuntotres":"de los sujetos obligados a reportar las operaciones respectivas."
                 },
                 "proyectosinfra": {
                     "nombre": "Fusiones y adquisiciones",
-                    "uno": "En   el   contexto   corporativo   es   común   llevar   a   cabo   reorganizaciones accionarias   entre   socios   o   la   transmisión   de   capital   a   terceros;   dichas reorganizaciones   y/o   transmisiones   pueden   adoptar   una   variedad   muy grande   de   formas   de   implementación   legal   cada   una   de   las   cuales susceptible de generar diversas consecuencias tributarias.",
-                    "dos": "Se   analizan   bajo   una   perspectiva   legal-fiscal   los   elementos   de negocio, tales como de carácter estratégico y operativo a efecto de que las   operaciones   se   lleven   a   cabo   acorde   a   los   objetivos   de   los inversionistas y siempre dentro del marco de la legalidad.",
-                    "tres": "Es diversa la gama de operaciones en las que la firma asesora legal y fiscalmente,     entre     otras:     fusiones,     adquisiciones,     escisiones, compraventas   de   acciones,   cesiones   de   derechos   económicos   o patrimoniales",
-                    "cuatro": "Nuestra   experiencia   comprende   la   asesoría   fiscal   desde   cualquier perspectiva   de   los   participantes   en   esta   clase   de   operaciones:   como enajenantes,   adquirentes,   socios   que   se   retiran   y   las   sociedades respecto de la cual ocurren tales reorganizaciones o transmisiones.",
-                    "cinco": "Estas operaciones pueden contener elementos internacionales en cuyo caso   es   factible   la   interacción   con   otras   firmas   con   las   que   nuestros clientes   trabajan   o   con   quienes   tenemos   relaciones   profesionales   en diversas jurisdicciones."
+                    "uno": "En el contexto corporativo es común llevar a cabo reorganizaciones corporativas o entre socios o la transmisión de capital a terceros; dichas reorganizaciones y/o transmisiones pueden adoptar una variedad muy grande de formas de implementación legal, cada una de las cuales susceptible de generar diversas consecuencias tributarias.",
+                    "dos": "Analizamos bajo una ",
+                    "bold":"perspectiva legal-fiscal ",
+                    "dospuntouno":"los elementos de negocio, tales como de carácter estratégico y operativo a efecto de que las operaciones se lleven a cabo acorde a los objetivos de los inversionistas y siempre dentro del marco de la legalidad.",
+                    "tres": "Es diversa la gama de operaciones en las que la firma asesora legal y fiscalmente, entre otras: fusiones, adquisiciones, escisiones, compraventas de acciones, cesiones de derechos económicos o patrimoniales.",
+                    "cuatro": "Nuestra experiencia comprende la asesoría fiscal desde cualquier perspectiva de los participantes en esta clase de operaciones: como enajenantes, adquirentes, socios que se retiran y las sociedades respecto de la cual ocurren tales reorganizaciones o transmisiones.",
+                    "cinco": "Estas operaciones pueden contener elementos internacionales en cuyo caso es factible la interacción con otras firmas con las que nuestros clientes trabajan o con quienes tenemos relaciones profesionales en diversas jurisdicciones."
                 },
                 "represenfis": {
-                    "nombre": "Instituciones – Valores y productos financieros",
-                    "uno": "La firma ha brindado con alto grado de éxito sus servicios de asesoría y resolución de controversias (con especial énfasis en litigio fiscal) a toda clase de instituciones financieras en torno a sus regímenes particulares,sus proyectos y productos, así como para quienes reciben sus servicios de financiamiento.",
-                    "dos": "Asesoramos   a   clientes   en   ofertas   públicas   y   privadas   de   acciones   y títulos de deuda, realizadas en México y en el extranjero, representando tanto a las sociedades emisoras como a los agentes colocadores.",
-                    "tres": "Se ha adquirido experiencia relevante en la consultoría relacionada con la   determinación     de     consecuencias     fiscales de operaciones financieras “simples” y operaciones financieras derivadas, tales como: swaps, coberturas, opciones (incluyendo planes de opciones para ejecutivos), etc.",
-                    "cuatro": "Asimismo, se ha participado en la asesoría de consecuencias tributarias de   operaciones   financieras   derivadas   utilizadas   como   garantía   enfinanciamientos (“credit default swaps”, “total return swaps”, etc.), en la reestructura   de   pasivos   derivada   de   títulos   tanto   colocados   en   México como en el extranjero y en el uso de instrumentos híbridos y sus efectos para   tenedores   y   emisores,   incluyendo   la   aplicación   de   las   reglas antiabuso emitidas al amparo de BEPS. "
+                    "nombre": "Instituciones financieras – Valores y productos financieros",
+                    "uno": "La firma ha brindado con alto grado de éxito sus servicios de asesoría, así como en resolución de controversias (con especial énfasis en litigio fiscal) a toda clase de instituciones financieras en torno a sus regímenes particulares, sus proyectos y productos, incluyendo aquellos para quienes reciben sus servicios de financiamiento.",
+                    "dos": "Asesoramos a clientes en ofertas públicas y privadas de acciones y títulos de deuda, realizadas en México y en el extranjero, representando tanto a las sociedades emisoras como a los agentes colocadores.",
+                    "tres": "Contamos con experiencia en la consultoría relacionada con la determinación de consecuencias fiscales de ",
+                    "bold":"operaciones financieras “simples” y operaciones financieras derivadas, ",
+                    "trespuntouno":"tales como: swaps, coberturas, opciones (incluyendo planes de opciones para ejecutivos), etc.",
+                    "cuatro": "Asimismo, se ha participado en la asesoría de consecuencias tributarias de operaciones financieras derivadas utilizadas como garantía en financiamientos (“credit default swaps”, “total return swaps”, etc.), en la reestructura de pasivos derivada de títulos tanto colocados en México como en el extranjero y las implicaciones en el uso de instrumentos híbridos y sus efectos para tenedores y emisores, incluyendo la aplicación de las reglas antiabuso emitidas al amparo de BEPS."
                 },
                 "tributacion": {
                     "nombre": "Industria naviera y transportación",
-                    "uno": "La firma ha asesorado múltiples operaciones en materia de impuesto al valor agregado e impuesto sobre la renta relacionadas con la industria naviera,   comprendiendo   empresas   de   transporte   marítimo, agentes navieros y operadores relacionados con dicha industria.",
-                    "dos": "Ha   constituido   una   práctica   común   resolver   problemáticas   fiscales relacionadas con operaciones de cabotaje, fletamento, agenciamiento y navegación de altura.",
-                    "tres": "Se ha también participado con éxito en la resolución de problemáticas relacionadas   con   la   causación   de   impuestos   vinculados   con   el transporte   aéreo   de   carga,   así   como   en   diversas   problemáticas impositivas surgidas en el ámbito de las líneas aéreas."
+                    "uno": "La firma ha asesorado múltiples operaciones en materia de ",
+                    "bold":"impuesto al valor agregado e impuesto sobre la renta relacionadas con la industria naviera, ",
+                    "unopuntouno":"comprendiendo empresas de transporte marítimo, agentes navieros y operadores relacionados con dicha industria.",
+                    "dos": "Ha constituido una práctica común resolver problemáticas fiscales relacionadas con operaciones de cabotaje, fletamento, agenciamiento y navegación de altura.",
+                    "tres": "Nuestra firma también ha participado con éxito en la resolución de problemáticas relacionadas con la causación de impuestos vinculados con el ",
+                    "bold2":"transporte aéreo de carga, ",
+                    "trespuntouno":"así como en diversas problemáticas impositivas surgidas en el ámbito de las ",
+                    "bold3":"líneas aéreas."
                 },
                 "valoresp": {
                     "nombre": "Energía",
-                    "uno": "Auxiliamos   a   nuestros   clientes   en   la   asesoría   tributaria   especializada para   la   formulación,   evaluación   y   estructuración   de  proyectos en el entorno energético,   además   de   asesorarlos   en   la   resolución   de   los conflictos de carácter fiscal por la implementación de dichos proyectos.",
-                    "dos": "Desde     la     distribución     de     energía     eléctrica,     la     producción     de hidrocarburos  y la  estructura  de   compañías  de  energía  limpia;  nuestro despacho tiene amplia experiencia en las diversas problemáticas fiscales específicas   para   dichos   sectores,   incluyendo   los   regímenes   específicos aplicables a ciertos casos."
+                    "uno": "Auxiliamos a nuestros clientes en la asesoría tributaria especializada para la formulación, evaluación y estructuración de ",
+                    "bold":"proyectos en el entorno energético, ",
+                    "unopuntouno":"además de asesorarlos en la resolución de los conflictos de carácter fiscal por la implementación de dichos proyectos. ",
+                    "dos": "Desde la generación de energía eléctrica, la producción de hidrocarburos y la estructura de compañías de energía limpia; nuestro despacho tiene amplia experiencia en las diversas problemáticas fiscales específicas para dichos sectores, incluyendo los regímenes específicos aplicables a ciertos casos. "
                 },
                 "ventasdirec": {
-                    "nombre": "Venta Directa",
-                    "uno": "Asesoramos y representamos a empresas nacionales y multinacionales dedicadas a la venta directa pura y multinivel, además de participar en   la    implementación,    revisión    y/o   elaboración    de    estructuras comerciales,   incluyendo,   entre   otros   aspectos,   los   contratos   que   dicha industria celebra con su fuerza de ventas.",
-                    "dos": "También patrocinamos la relación con las autoridades fiscales, con el fin de brindar seguridad jurídica en el régimen de tributación del sector y brindamos asesoría legal y fiscal a empresas de venta directa extranjera que desean expandir sus negocios al mercado mexicano."
+                    "nombre": "Venta directa",
+                    "uno": "Asesoramos y representamos a empresas nacionales y multinacionales dedicadas a la ",
+                    "bold":"venta directa pura y multinivel, ",
+                    "unopuntouno":"además de participar en la implementación, revisión y/o elaboración de estructuras comerciales, incluyendo, entre otros aspectos, los contratos que dicha industria celebra con su fuerza de ventas.",
+                    "dos": "También patrocinamos la relación de la industria con las autoridades fiscales, con el fin de brindar seguridad jurídica en el régimen de tributación del sector y brindamos asesoría legal y fiscal a empresas de venta directa extranjera que desean expandir sus negocios al mercado mexicano."
                 },
                 "seguros": {
                     "nombre": "Capital privado e inversión",
-                    "uno": "La firma ha llevado a cabo exitosamente el asesoramiento de clientes en la  adquisición o enajenación de participaciones en el capital social de empresas de diversos sectores, incluyendo inversiones en sector   inmobiliario,   energético,   stratups  u   otros,  ya   sea   a  través   de   la estructuración correspondiente, la creación de fondos de capital privado,la   creación   de   “joint   ventures”,   fideicomisos   u   otros   vehículos   deinversión   con   personalidad   jurídica   o   sin   ella,   en   México   o   en   el extranjero.",
-                    "dos": "La asesoría fiscal proporcionada a los clientes se realiza atendiendo a las necesidades del negocio y siempre en conjunto con asesores financieros y   corporativos,   con   el   objetivo   de   lograr   estrategias   corporativa, financiera   y   fiscalmente   eficientes   en   cuanto   a   los   procedimientos   de inversión y desinversión.",
-                    "tres": "Asesoramos y representamos a empresas nacionales y multinacionales en   la    estructuración   del   financiamiento   de   proyectos   de inversión,   incluyendo   consideraciones   fiscales   sobre   diversos   temas, como   son   las   reglas   de   capitalización   delgada,   uso   de   instrumentos   y vehículos   híbridos,   créditos   respaldados,   limitantes   a   la   deducción   de intereses, pago por el otorgamiento de garantías, retención de flujos en vehículos   nacionales   o   extranjeros   para   garantizar   el   pago   del financiamiento, ejecución de garantías, etc. "
+                    "uno": "La firma ha llevado a cabo exitosamente el asesoramiento de clientes en la ",
+                    "bold":"adquisición o enajenación de participaciones en el capital social de empresas de diversos sectores, ",
+                    "unopuntouno":"incluyendo inversiones en sector inmobiliario, energético, start-ups u otros, ya sea a través de la estructuración correspondiente, la creación de fondos de capital privado, la creación de “joint ventures”, fideicomisos u otros vehículos de inversión con personalidad jurídica o sin ella, en México o en el extranjero.",
+                    "dos": "La asesoría fiscal proporcionada a los clientes se realiza atendiendo a las necesidades del negocio y siempre en conjunto con asesores financieros y corporativos, con el objetivo de lograr estrategias corporativa, financiera y fiscalmente eficientes en cuanto a los procedimientos de inversión y desinversión.",
+                    "tres": "Asesoramos y representamos a empresas nacionales y multinacionales en la ",
+                    "bold2":"estructuración del financiamiento de proyectos de inversión, ",
+                    "trespuntouno":"incluyendo las implicaciones fiscales sobre diversos temas como son las reglas de capitalización delgada, uso de instrumentos y vehículos híbridos, créditos respaldados, limitantes a la deducción de intereses, pago por el otorgamiento de garantías, retención de flujos en vehículos nacionales o extranjeros para garantizar el pago del financiamiento, ejecución de garantías, etc. "
                 },
                 "comercioInter": {
                     "nombre": "Comercio internacional",
-                    "uno": "Nuestra   práctica   de   derecho  aduanero  combina  la   consultoría,  litigio   y controversia   fiscal,   cubriendo   desde   el   adecuado    cumplimiento normativo de operaciones, hasta la defensa legal contra actos de las autoridades,   incluido   el   procedimiento   administrativo   en   materia aduanera (PAMA).",
-                    "dos": "La práctica de la firma incluye aspectos relacionados con implicaciones y mitigación   de   riesgos   relacionados   con   el   impuesto   al   valor   agregado (IVA)   internacional   entrante   y   saliente,   cumplimiento   óptimo   con diferentes  regímenes aduaneros, asesoramiento fiscal/aduanero para maquiladoras    y   tipos   similares   de   operaciones,   resolución   de problemas   y   alternativas   de   regularización,   así   como   consultas   más especializadas, incluyendo clasificaciones arancelarias."
+                    "uno": "Nuestra práctica de derecho aduanero combina la consultoría, litigio y controversia fiscal, cubriendo desde el adecuado ",
+                    "bold":"cumplimiento normativo ",
+                    "unopuntouno":"de operaciones, hasta la ",
+                    "bold2":"defensa legal ",
+                    "unopuntodos":"contra actos de las autoridades, incluido el procedimiento administrativo en materia aduanera (PAMA).",
+                    "dos": "La práctica de la firma incluye aspectos relacionados con implicaciones y mitigación de riesgos relacionados con el impuesto al valor agregado (IVA) por operaciones internacionales entrantes y salientes, cumplimiento óptimo con diferentes ",
+                    "bold3":"regímenes aduaneros, ",
+                    "dospuntouno":"asesoramiento fiscal/aduanero para ",
+                    "bold4":"maquiladoras ",
+                    "dospuntodos":"y tipos similares de operaciones, resolución de problemas y alternativas de regularización, así como consultas más especializadas, incluyendo ",
+                    "bold5":"clasificaciones arancelarias."
                 },
                 "contribuciones": {
                     "nombre": "Contribuciones locales",
-                    "uno": "La   firma   presta   servicios   de   asesoría   y   solución   de   controversias relacionadas     con     contribuciones     estatales     y     municipales,     su estructuración e implementación por parte de las autoridades, a través del   diseño   e   implementación   de   estrategias   tendientes   a   disminuir contingencias   fiscales,   cargas   administrativas   y   su   defensa,   ya   sea directamente   ante   instancias   administrativas,   así   como   también   en   el ámbito jurisdiccional.",
-                    "dos": "Se     ha     participado     exitosamente     en     asuntos     litigiosos     locales relacionados   con   impuestos   prediales,   nóminas,   hospedaje,   uso, aprovechamiento y descarga de aguas, bebidas alcohólicas, así como en asuntos   administrativos   vinculados   con   regulación   en   materia   de movilidad,   licencias   de   funcionamiento,   horarios   de   operación,   entre otros."
+                    "uno": "La firma presta servicios de asesoría y solución de controversias relacionadas con contribuciones estatales y municipales, su estructuración e implementación por parte de las autoridades, a través del diseño e implementación de estrategias tendientes a disminuir contingencias fiscales, cargas administrativas y su defensa, ya sea directamente ante instancias administrativas, así como también en el ámbito jurisdiccional.",
+                    "dos": "Nuestra firma participado exitosamente en asuntos litigiosos locales relacionados con impuestos prediales, nóminas, hospedaje, uso, aprovechamiento y descarga de aguas, bebidas alcohólicas, así como en asuntos administrativos vinculados con regulación en materia de movilidad, licencias de funcionamiento, y horarios de operación, entre otros. "
                 },
                 "fundaciones": {
-                    "nombre": "Fundaciones y proyectos altruistas",
-                    "uno": "De   manera   habitual,   apoyamos   en   sus   aspectos   fiscales   a   diversas organizaciones civiles e instituciones de asistencia privada, fundaciones e instituciones educacionales sin fines de lucro, así como en la obtención de autorizaciones para recibir donativos deducibles del impuesto sobre la renta (ISR), ya sea por actividades directas o de “segundo piso”.",
-                    "dos": "Este tipo de asesoría puede llevarse a cabo en múltiples ocasiones bajo esquemas de honorarios reducidos o incluso como esquemas pro bono, comprendiendo  también la  prestación de  servicios de  asesoría  y litigio fiscal en las varias especializaciones de la firma por parte de diversos de sus   miembros   en   atención   a   los   sectores   desprotegidos   de   nuestra sociedad."
+                    "nombre": "Fundaciones y proyectos altruistas - Trabajo pro bono",
+                    "uno": "De manera habitual, miembros de nuestra firma apoyan en sus aspectos fiscales a diversas organizaciones civiles e instituciones de asistencia privada, fundaciones e instituciones educacionales sin fines de lucro, incluyendo instituciones educativas, así como en la obtención de autorizaciones para recibir donativos deducibles del impuesto sobre la renta (ISR), ya sea por actividades directas o de “segundo piso”.",
+                    "dos": "Dependiendo de las necesidades de cada caso, se puede desarrollar este tipo de asesoría bajo esquemas pro-bono, o bien, de honorarios reducidos, comprendiendo también la prestación de servicios de asesoría y litigio fiscal en las varias especializaciones de la firma por parte de diversos de sus miembros en atención a los sectores desprotegidos de nuestra sociedad. Pensamos que el trabajo pro-bono involucra una ética y disciplina de trabajo vocacional, por lo que el mismo es alentado, y el involucramiento, en lo individual o por equipos, de nuestros profesionistas en actividades pro-bono es constante y notable."
                 }
             }
         },
@@ -139,27 +195,22 @@
             "pasantes": "Pasantes",
             "areas": {
                 "nombre": "Servicios",
-                "uno": "• Litigio fiscal",
-                "dos": "• Tributación internacional",
-                "tres": "• Industria naviera y transportación",
-                "cuatro": "• Precios de transferencia",
-                "cinco": "• Planeación patrimonial",
-                "seis": "• Valores y productos financieros",
-                "ocho": "• Proyectos de infraestructura",
-                "nueve": "• Representación ante autoridades",
-                "diez": "• Asesoría fiscal corporativa",
-                "once": "• Impuestos corporativos",
-                "doce": "• Planeación para inversión y financiamiento procedente del extrajero",
-                "trece": "• Instituciones asistenciales y filantrópicas",
-                "catorce": "• Consultoría fiscal para capital privado e instrumentos bursátiles de renta variable",
-                "quince": "• Representación y controversia fiscal",
-                "dieciseis": "• Comercio exterior",
-                "diesiciete": "• Venta directa",
-                "diesciocho": "• Instituciones financieras",
-                "diescinueve": "• Previsión social",
-                "veinte": "• Precios de transferencia",
-                "ventiuno": "• Consultoría fiscal"
-
+                "uno": "• Tributación corporativa",
+                "dos": "• Controversia fiscal y administrativa",
+                "tres": "• Tributación internacional",
+                "cuatro": "• Clientes privados",
+                "cinco": "• Impuestos indirectos",
+                "seis": "• Precios de transferencia",
+                "ocho": "• Intercambio de información fiscal – FATCA / CRS",
+                "nueve": "• Fusiones y adquisiciones",
+                "diez": "• Instituciones financieras - Valores y productos financieros",
+                "once": "• Industria naviera y transportación",
+                "doce": "• Energía",
+                "trece": "• Venta directa",
+                "catorce": "• Capital privado e inversión",
+                "quince": "• Comercio internacional",
+                "dieciseis": "• Contribuciones locales",
+                "diecisiete": "• Fundaciones y proyectos altruistas – Trabajo pro bono"
             },
             "educacion": {
                 "nombre": "Educación",
@@ -186,7 +237,7 @@
                 "PFdos": "• Maestría en Derecho Fiscal, Universidad Panamericana",
                 "CBuno": "• Abogada, Universidad Iberoamericana",
                 "CBdos": "•  Especialidad en Derecho Fiscal, Universidad Panamericana",
-                "NMuno": "•  Abogada (tesis laureada), Escuela Libre de Derecho (ELD)",
+                "NMuno": "•  Abogada (tesis laureada), Escuela Libre de Derecho (ELD)", 
                 "NMdos": "• Diploma en Contabilidad y Finanzas, Instituto Tecnológico Autónomo de México (ITAM)",
                 "LAuno": "• Abogado (mención honorífica), Escuela Libre de Derecho",
                 "LAdos": "• Maestría en Derecho Fiscal, Universidad Panamericana",
@@ -213,7 +264,7 @@
                 "FLuno": "• Licenciatura en derecho por la Universidad Panamericana",
                 "FLdos": "• Curso de Fiscalidad Internacional “International Tax Law” por la Universidad de Nueva York",
                 "FLtres": "• Curso de Introducción al sistema legal Estadounidense “Introduction to the U.S Law System” por la Universidad de Fordham, Nueva York",
-                "JAuno":"• Licenciatura en derecho por la Universidad Iberoamericana",
+                "JAuno":"• Universidad Iberoamericana",
                 "JAdos":"• Diplomado de Fiscalidad Internacional “International Tax Law” por la Universidad de Nueva York",
                 "JAtres":"• Maestría en Derecho Fiscal, Universidad Panamericana. (en proceso)"
             },

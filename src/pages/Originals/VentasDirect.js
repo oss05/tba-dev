@@ -11,15 +11,15 @@ const VentasDirec = props => {
         <Izq data={props.data}
                 bgc12="#656565"
                 fc12="#fff" />
+                <Dropdown data={props.data} />
         <section className="areaTextContainer">
             <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.ventasdirec.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.ventasdirec.uno}
-                parrafoDos={props.data.areas.practica.area.ventasdirec.dos}
-                parrafoTres={props.data.areas.practica.area.ventasdirec.tres}
-                parrafoCuatro={props.data.areas.practica.area.ventasdirec.cuatro}
-                parrafoCinco={props.data.areas.practica.area.ventasdirec.cinco}
-            />
+            <div className="contenido">
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.ventasdirec.uno}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.ventasdirec.bold}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.ventasdirec.unopuntouno}</p> <br/><br/>
+                <p>{props.data.areas.practica.area.ventasdirec.dos}</p>
+            </div>
         </section>
     </div>
     )

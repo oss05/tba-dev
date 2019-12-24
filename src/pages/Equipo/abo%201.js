@@ -3,7 +3,7 @@ import Izq from '../../components/SeccionIzqEquipo';
 import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
-import fotoSocio from '../../assets/equipo/webLR.jpg';
+import fotoSocio from '../../assets/equipo/webLR.png';
 
 const Abogado = props => {
     return (
@@ -16,7 +16,7 @@ const Abogado = props => {
                 <HeaderEquipo
                     img={fotoSocio}
                     data={props.data}
-                    rol={props.data.areas.equipo.abogados}
+                    rol={props.data.areas.equipo.asociados}
                     nombreEquipo="Luis Alberto Rosas Ortiz"
                     correoEquipo="lrosas@turanzas.com.mx"
                     linkCorreo="mailto:lrosas@turanzas.com.mx"
@@ -24,9 +24,16 @@ const Abogado = props => {
                   <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.dos}
-                    parrafoDos={props.data.areas.equipo.areas.diez}
-                    parrafoTres={props.data.areas.equipo.areas.veinte}
+                    parrafoUno={props.data.areas.equipo.areas.uno}
+                    parrafoDos={props.data.areas.equipo.areas.tres}
+                    parrafoTres={props.data.areas.equipo.areas.cinco}
+                    parrafoCuatro={props.data.areas.equipo.areas.seis}
+                    parrafoCinco={props.data.areas.equipo.areas.nueve}
+                    href="/areas/aduanas"
+                    href2="/areas/industriasnav"
+                    href3="/areas/institucionesF"
+                    href4="/areas/litigiofiscal"
+                    href5="/areas/proyectosinfra"
 
                     parrafoUno2={props.data.areas.equipo.educacion.LAuno}
                     parrafoDos2={props.data.areas.equipo.educacion.LAdos}

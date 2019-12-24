@@ -15,13 +15,13 @@ const Aduanas = props => {
             <Dropdown data={props.data} />
             <section className="areaTextContainer">
                 <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.aduanas.nombre} />
-                <Contenido data={props.data}
-                    parrafo={props.data.areas.practica.area.aduanas.uno}
-                    parrafoDos={props.data.areas.practica.area.aduanas.dos}
-                    parrafoTres={props.data.areas.practica.area.aduanas.tres}
-                    parrafoCuatro={props.data.areas.practica.area.aduanas.cuatro}
-                    parrafoCinco={props.data.areas.practica.area.aduanas.cinco}
-                />
+                <div className="contenido">
+                    <p style={{display: "inline"}}>{props.data.areas.practica.area.aduanas.uno}</p>
+                    <p style={{display: "inline", fontWeight: "bold"}}>{props.data.areas.practica.area.aduanas.bold}</p>
+                    <p style={{display: "inline"}}>{props.data.areas.practica.area.aduanas.unopuntouno}</p>
+                    <p style={{marginTop: 16}}>{props.data.areas.practica.area.aduanas.dos}</p>
+                    <p>{props.data.areas.practica.area.aduanas.tres}</p>
+                </div>
                 {/* <Responsable
                     data={props.data}
                     responsable="Mauricio Ambrosi Herrera"

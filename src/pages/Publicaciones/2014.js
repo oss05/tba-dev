@@ -2,6 +2,7 @@ import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
+import Uno from '../../assets/DocsTBA/2013/1366245608112_ES_ARCHIVO_1.pdf';
 
 const P2014 = props => {
     return (

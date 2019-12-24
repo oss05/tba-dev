@@ -11,7 +11,7 @@ const Fundaciones = props => {
         <div className="page">
             <Izq data={props.data}
                 bgc16="#656565"
-                f16="#fff" />
+                fc16="#fff" />
             <Dropdown data={props.data} />
             <section className="areaTextContainer">
                 <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.fundaciones.nombre} />

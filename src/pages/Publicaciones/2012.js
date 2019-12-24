@@ -2,6 +2,12 @@ import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
+import Seis from '../../assets/DocsTBA/2012/actTributaria2012_7.pdf';
+import Cinco from '../../assets/DocsTBA/2012/actTributaria2012_6.pdf';
+import Cuatro from '../../assets/DocsTBA/2012/actTributaria2012_3.pdf';
+import Tres from '../../assets/DocsTBA/2012/actTributaria2012_2.pdf';
+import Dos from '../../assets/DocsTBA/2012/actTributaria2012_1.pdf';
+import Uno from '../../assets/DocsTBA/2012/actTributaria2012.pdf';
 
 const P2012 = props => {
     return (
@@ -14,7 +20,7 @@ const P2012 = props => {
                 <Badge
                     data={props.data}
                     año="2012"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2012/actTributaria2012_7.pdf"
+                    linkPdf={Seis}
                     descripcionAño="07/12"
                     envio={props.data.areas.publicaciones.envio.diciembre}
                     fecha="21-12"
@@ -23,7 +29,7 @@ const P2012 = props => {
                 <Badge
                     data={props.data}
                     año="2012"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2012/actTributaria2012_6.pdf"
+                    linkPdf={Cinco}
                     descripcionAño="06/12"
                     envio={props.data.areas.publicaciones.envio.octubre}
                     fecha="17-12"
@@ -31,7 +37,7 @@ const P2012 = props => {
                 <Badge
                     data={props.data}
                     año="2012"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2012/actTributaria2012_3.pdf"
+                    linkPdf={Cuatro}
                     descripcionAño="03/12"
                     envio={props.data.areas.publicaciones.envio.mayo}
                     fecha="29-12"
@@ -39,7 +45,7 @@ const P2012 = props => {
                 <Badge
                     data={props.data}
                     año="2012"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2012/actTributaria2012_2.pdf"
+                    linkPdf={Tres}
                     descripcionAño="02/12"
                     envio={props.data.areas.publicaciones.envio.enero}
                     fecha="20-12"
@@ -47,7 +53,7 @@ const P2012 = props => {
                 <Badge
                     data={props.data}
                     año="2012"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2012/actTributaria2012_1.pdf"
+                    linkPdf={Dos}
                     descripcionAño="01/12"
                     envio={props.data.areas.publicaciones.envio.enero}
                     fecha="20-2012"
@@ -55,7 +61,7 @@ const P2012 = props => {
                 <Badge
                     data={props.data}
                     año="2012"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2012/actTributaria2012.pdf"
+                    linkPdf={Uno}
                     descripcionAño="2012"
                     envio={props.data.areas.publicaciones.envio.diciembre}
                     fecha="31-12"

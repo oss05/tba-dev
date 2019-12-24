@@ -19,30 +19,26 @@
     /* background-color: rgb(1, 5, 79); */
     height: 500px;
     margin-top: 2em;
-    background-image: url(../assets/panoramica.png);
-    background-size: cover;
-    background-position-x: center;
-    /* background-position-y: top; */
 }
 
-/* .imgOficinaHome > img{
+.imgOficinaHome > img{
     width: 100%;
-    background-color: rgb(1, 5, 79);
-    height: 450px;
-    margin-top: 2em;
+    height: 500px;
+    /* margin-top: 2em; */
     object-fit: cover;
+    object-position: top;
     
-} */
+}
 
 /* ----carousel--------- */
 .carouselContainer{
     /* border: solid 1px red; */
     /* background-color: blue; */
-    height: 250px;
+    height: 170px;
 }
 
 .carousel{
-    width: 40em;
+    width: 20em;
     height: 100%;
 }
 
@@ -62,7 +58,7 @@
 
 .carouselImage{
     width: 100%;
-    height: 250px;
+    height: 150px;
 }
 
 /* ---------------lista Home------------ */

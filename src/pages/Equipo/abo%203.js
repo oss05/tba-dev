@@ -11,7 +11,7 @@ const Abogado = props => {
             bgc23 = "#656565"
             fc23 = "#fff" />
             <Dropdown data={props.data}/>
-            <section className="areaTextContainer">
+            <section className="areaTextContainer"> 
                 <HeaderEquipo
                     data={props.data}
                     rol={props.data.areas.equipo.abogados}
@@ -23,9 +23,8 @@ const Abogado = props => {
                  <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.uno}
-                    parrafoDos={props.data.areas.equipo.areas.diescinueve}
-                    parrafoTres={props.data.areas.equipo.areas.nueve}
+                    parrafoUno={props.data.areas.equipo.areas.dos}
+                    href="/areas/asesoriafis"
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.RFuno}

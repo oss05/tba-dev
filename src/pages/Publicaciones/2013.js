@@ -2,6 +2,10 @@ import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
+import Cuatro from '../../assets/DocsTBA/2013/actualizacion_tributaria_3_2013.pdf';
+import Tres from '../../assets/DocsTBA/2013/1366246924393_ES_ARCHIVO_1.pdf';
+import Dos from '../../assets/DocsTBA/2013/1366245608112_ES_ARCHIVO_1.pdf';
+import Uno from '../../assets/DocsTBA/2013/actualizacion_tributaria_2013.pdf';
 
 const P2013 = props => {
     return (
@@ -14,7 +18,7 @@ const P2013 = props => {
                 <Badge
                     data={props.data}
                     año="2013"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2013/actualizacion_tributaria_3_2013.pdf"
+                    linkPdf={Cuatro}
                     descripcionAño="03/13"
                     envio={props.data.areas.publicaciones.envio.septiembre}
                     fecha="20-13"
@@ -22,7 +26,7 @@ const P2013 = props => {
                 <Badge
                     data={props.data}
                     año="2013"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2013/1366246924393_ES_ARCHIVO_1.pdf"
+                    linkPdf={Tres}
                     descripcionAño="02/13"
                     envio={props.data.areas.publicaciones.envio.abril}
                     fecha="05-13"
@@ -30,7 +34,7 @@ const P2013 = props => {
                 <Badge
                     data={props.data}
                     año="2013"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2013/1366245608112_ES_ARCHIVO_1.pdf"
+                    linkPdf={Dos}
                     descripcionAño="01/13"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="20-13"
@@ -38,7 +42,7 @@ const P2013 = props => {
                 <Badge
                     data={props.data}
                     año="2013"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2013/actualizacion_tributaria_2013.pdf"
+                    linkPdf={Uno}
                     descripcionAño="2013"
                     envio={props.data.areas.publicaciones.envio.marzo}
                     fecha="21-13"

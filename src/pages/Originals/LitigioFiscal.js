@@ -16,13 +16,13 @@ const LitigioFiscal = props => {
             <HeaderAreas 
                 data={props.data} 
                 nombreArea={props.data.areas.practica.area.litigiofiscal.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.litigiofiscal.uno}
-                parrafoDos={props.data.areas.practica.area.litigiofiscal.dos}
-                parrafoTres={props.data.areas.practica.area.litigiofiscal.tres}
-                parrafoCuatro={props.data.areas.practica.area.litigiofiscal.cuatro}
-                parrafoCinco={props.data.areas.practica.area.litigiofiscal.cinco}
-            />
+                <div className="contenido">
+                    <p style={{display:"inline"}}>{props.data.areas.practica.area.litigiofiscal.uno}</p>
+                    <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.litigiofiscal.bold}</p> <br/><br/>
+                    <p>{props.data.areas.practica.area.litigiofiscal.dos}</p>
+                    <p>{props.data.areas.practica.area.litigiofiscal.tres}</p>
+                    <p>{props.data.areas.practica.area.litigiofiscal.cuatro}</p>
+                </div>
         {/* <Responsable 
             data={props.data}
             responsable="Mauricio Ambrosi Herrera"    

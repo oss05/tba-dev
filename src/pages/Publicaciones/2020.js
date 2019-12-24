@@ -2,7 +2,7 @@ import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
-import Dos from '../../assets/dos.pdf'
+import Dos from '../../assets/DocsTBA/2020/Actualizacion-Tributaria2020.pdf'
 
 const P2020 = props => {
     return (
@@ -16,11 +16,12 @@ const P2020 = props => {
                 // tamanio= "90%"
                 data={props.data}
                 año="2020"
-                linkPdf=""
+                linkPdf={Dos}
                 descripcionAño="01/20"
                 envio={props.data.areas.publicaciones.envio.enero}
                 fecha=""
-            /></div>
+            />
+            </div>
         </div>
     )
 }

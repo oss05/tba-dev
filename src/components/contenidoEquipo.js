@@ -13,11 +13,21 @@ const Contenido = props => {
                 href4={props.href4}
                 href5={props.href5}
                 href6={props.href6}
+                href7={props.href7}
+                href8={props.href8}
+                href9={props.href9}
+                href10={props.href10}
+                href11={props.href11}
                 parrafoDos={props.parrafoDos}
                 parrafoTres={props.parrafoTres}
                 parrafoCuatro={props.parrafoCuatro}
                 parrafoCinco={props.parrafoCinco}
                 parrafoSeis={props.parrafoSeis}
+                parrafoSiete={props.parrafoSiete}
+                parrafoOcho={props.parrafoOcho}
+                parrafoNueve={props.parrafoNueve}
+                parrafoDiez={props.parrafoDiez}
+                parrafoOnce={props.parrafoOnce}
             /> <br />
             <Badge
                 badgeName={props.badgeName2}

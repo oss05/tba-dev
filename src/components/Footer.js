@@ -29,7 +29,7 @@ class Footer extends Component {
         return (
             <div className="footerContainer">
                 <section className="langContainer">
-                    <img style={{ width: '45px' }} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
+                    <img style={{ width: '40px' }} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
                     {/* <select onChange={props.handelChangeIdioma} style={{border:"solid 1px"}}>
                     <option value="Esp"><img src={props.data.footer.bandera} alt=""/></option>
                     <option value="Eng">{props.data.footer.bandera}</option>

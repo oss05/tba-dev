@@ -71,13 +71,13 @@ const Izq = props => {
                 endPoint="./2010"
                 menuArea="2010"
             />
-            {/* <Menu
+            <Menu
                 bgc={props.bgc11}
                 fc={props.fc11}
                 endPoint="./2009"
                 menuArea="2009"
             />
-            <Menu
+            {/* <Menu
                 bgc={props.bgc12}
                 fc={props.fc12}
                 endPoint="./2008"

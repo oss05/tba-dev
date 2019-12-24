@@ -14,7 +14,7 @@ const Abogado = props => {
             <section className="areaTextContainer">
                 <HeaderEquipo
                     data={props.data}
-                    rol={props.data.areas.equipo.pasantes}
+                    rol={props.data.areas.equipo.abogados}
                     display="none"
                     nombreEquipo="Juan Pablo Morales Cortés"
                     correoEquipo="jpmorales@turanzas.com.mx"
@@ -23,8 +23,8 @@ const Abogado = props => {
                 <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.uno}
-                    parrafoDos={props.data.areas.equipo.areas.nueve}
+                    parrafoUno={props.data.areas.equipo.areas.dos}
+                    href="/areas/asesoriafis"
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.JPuno}

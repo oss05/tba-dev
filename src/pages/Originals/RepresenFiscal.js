@@ -14,13 +14,14 @@ const RepresenFiscal = props => {
         <Dropdown data={props.data} />
         <section className="areaTextContainer">
             <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.represenfis.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.represenfis.uno}
-                parrafoDos={props.data.areas.practica.area.represenfis.dos}
-                parrafoTres={props.data.areas.practica.area.represenfis.tres}
-                parrafoCuatro={props.data.areas.practica.area.represenfis.cuatro}
-                parrafoCinco={props.data.areas.practica.area.represenfis.cinco}
-            />
+            <div className="contenido">
+                <p>{props.data.areas.practica.area.represenfis.uno}</p>
+                <p>{props.data.areas.practica.area.represenfis.dos}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.represenfis.tres}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.represenfis.bold}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.represenfis.trespuntouno}</p> <br/><br/>
+                <p>{props.data.areas.practica.area.represenfis.cuatro}</p>
+            </div>
         </section>
     </div>
     )

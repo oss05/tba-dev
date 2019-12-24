@@ -14,14 +14,15 @@ const ProyectosInfra = props => {
         <Dropdown data={props.data} />
         <section className="areaTextContainer">
             <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.proyectosinfra.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.proyectosinfra.uno}
-                parrafoDos={props.data.areas.practica.area.proyectosinfra.dos}
-                parrafoTres={props.data.areas.practica.area.proyectosinfra.tres}
-                parrafoCuatro={props.data.areas.practica.area.proyectosinfra.cuatro}
-                parrafoCinco={props.data.areas.practica.area.proyectosinfra.cinco}
-                parrafoSeis={props.data.areas.practica.area.proyectosinfra.seis}
-            />
+            <div className="contenido">
+                <p>{props.data.areas.practica.area.proyectosinfra.uno}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.proyectosinfra.dos}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.proyectosinfra.bold}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.proyectosinfra.dospuntouno}</p> <br/><br/>
+                <p>{props.data.areas.practica.area.proyectosinfra.tres}</p>
+                <p>{props.data.areas.practica.area.proyectosinfra.cuatro}</p>
+                <p>{props.data.areas.practica.area.proyectosinfra.cinco}</p>
+            </div>
         </section>
     </div>
     )

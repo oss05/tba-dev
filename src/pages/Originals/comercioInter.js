@@ -15,13 +15,19 @@ const ComercioInter = props => {
             <Dropdown data={props.data} />
             <section className="areaTextContainer">
                 <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.comercioInter.nombre} />
-                <Contenido data={props.data}
-                    parrafo={props.data.areas.practica.area.comercioInter.uno}
-                    parrafoDos={props.data.areas.practica.area.comercioInter.dos}
-                    parrafoTres={props.data.areas.practica.area.comercioInter.tres}
-                    parrafoCuatro={props.data.areas.practica.area.comercioInter.cuatro}
-                    parrafoCinco={props.data.areas.practica.area.comercioInter.cinco}
-                />
+                <div className="contenido">
+                    <p style={{display:"inline"}}>{props.data.areas.practica.area.comercioInter.uno}</p>
+                    <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.comercioInter.bold}</p>
+                    <p style={{display:"inline"}}>{props.data.areas.practica.area.comercioInter.unopuntouno}</p>
+                    <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.comercioInter.bold2}</p>
+                    <p style={{display:"inline"}}>{props.data.areas.practica.area.comercioInter.unopuntodos}</p><br/><br/>
+                    <p style={{display:"inline"}}>{props.data.areas.practica.area.comercioInter.dos}</p>
+                    <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.comercioInter.bold3}</p>
+                    <p style={{display:"inline"}}>{props.data.areas.practica.area.comercioInter.dospuntouno}</p>
+                    <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.comercioInter.bold4}</p>
+                    <p style={{display:"inline"}}>{props.data.areas.practica.area.comercioInter.dospuntodos}</p>
+                    <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.comercioInter.bold5}</p>
+                </div>
                 {/* <Responsable
                     data={props.data}
                     responsable="Mauricio Ambrosi Herrera"

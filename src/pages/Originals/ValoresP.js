@@ -11,15 +11,15 @@ const Valores = props => {
         <Izq data={props.data}
                 bgc11="#656565"
                 fc11="#fff" />
+                <Dropdown data={props.data} />
         <section className="areaTextContainer">
             <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.valoresp.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.valoresp.uno}
-                parrafoDos={props.data.areas.practica.area.valoresp.dos}
-                parrafoTres={props.data.areas.practica.area.valoresp.tres}
-                parrafoCuatro={props.data.areas.practica.area.valoresp.cuatro}
-                parrafoCinco={props.data.areas.practica.area.valoresp.cinco}
-            />
+            <div className="contenido">
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.valoresp.uno}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.valoresp.bold}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.valoresp.unopuntouno}</p> <br/><br/>
+                <p>{props.data.areas.practica.area.valoresp.dos}</p>
+            </div>
         </section>
     </div>
     )

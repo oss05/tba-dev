@@ -6,29 +6,30 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import firstSlide from '../assets/carousel2020.png'
+import firstSlide from '../assets/at.png'
 import secondSlide from '../assets/carousel2020.png'
 import thirdSlide from '../assets/carousel2020.png'
+import at20 from '../assets/DocsTBA/2020/Actualizacion-Tributaria2020.pdf'
 
 const items = [
   {
     src: firstSlide,
     altText: 'Boletin 03-19',
     caption: 'Slide 1',
-    href: 'https://www.google.com'
+    href: at20
   },
-  {
-    src: secondSlide,
-    altText: 'Boletin 04-19',
-    caption: 'Slide 2',
-    href: 'https://www.facebook.com'
-  },
-  {
-    src: thirdSlide,
-    altText: 'Slide 3',
-    caption: 'Slide 3',
-    href: 'https://www.yahoo.com'
-  }
+  // {
+  //   src: secondSlide,
+  //   altText: 'Boletin 04-19',
+  //   caption: 'Slide 2',
+  //   href: 'https://www.facebook.com'
+  // },
+  // {
+  //   src: thirdSlide,
+  //   altText: 'Slide 3',
+  //   caption: 'Slide 3',
+  //   href: 'https://www.yahoo.com'
+  // }
 ];
 
 class CustomCarousel extends Component {
@@ -78,7 +79,7 @@ class CustomCarousel extends Component {
           key={item.src}
         >
           <a href={item.href} target="_blank">
-            <img src={item.src} alt={item.altText} className="carouselImage" /> 
+            <img src={item.src} alt={item.altText} className="carouselImage" style={{objectFit: "contain"}}/> 
           </a>
           {/* <CarouselCaption captionText={item.caption} captionHeader={item.caption} /> */}
         </CarouselItem>
@@ -93,8 +94,8 @@ class CustomCarousel extends Component {
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        {/* <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} /> */}
       </Carousel>
     );
   }

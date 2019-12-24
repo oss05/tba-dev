@@ -2,7 +2,8 @@
 .oficeCenterContainer{
     /* border: solid 1px; */
     display: flex;
-    height: 450px;
+    /* height: 450px; */
+    margin-bottom: 2em;
 }
 
 .oficeImg{

@@ -14,12 +14,16 @@ const PlaneacionP = props => {
         <Dropdown data={props.data} />
         <section className="areaTextContainer">
             <HeaderAreas data={props.data} nombreArea={props.data.areas.practica.area.planeacionp.nombre} />
-            <Contenido data={props.data}
-                parrafo={props.data.areas.practica.area.planeacionp.uno}
-                parrafoDos={props.data.areas.practica.area.planeacionp.dos}
-                parrafoTres={props.data.areas.practica.area.planeacionp.tres}
-                parrafoCuatro={props.data.areas.practica.area.planeacionp.cuatro}
-            />
+            <div className="contenido">
+                <p>{props.data.areas.practica.area.planeacionp.uno}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.planeacionp.dos}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.planeacionp.bold}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.planeacionp.dospuntouno}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.planeacionp.bold2}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.planeacionp.dospuntodos}</p>
+                <p style={{display:"inline", fontWeight:"bold"}}>{props.data.areas.practica.area.planeacionp.bold3}</p>
+                <p style={{display:"inline"}}>{props.data.areas.practica.area.planeacionp.dospuntotres}</p>
+            </div>
         </section>
     </div>
     )

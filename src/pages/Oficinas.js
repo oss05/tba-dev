@@ -19,7 +19,7 @@ const Oficinas = props => {
                         Paseo de los Tamarindos No. 100, <br/>
                         Piso 3 <br/>
                         Bosques de las Lomas, <br/>
-                        México D.F. 05120 <br/>
+                        México, Ciudad de México 05120 <br/>
                         Tel. (55) 5081 4590 <br/>
                         Fax. (55) 5259 3861</p>
                 </article>

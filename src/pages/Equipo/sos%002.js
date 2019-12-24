@@ -26,10 +26,26 @@ const Abogado = props => {
                 <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.cinco}
-                    parrafoDos={props.data.areas.equipo.areas.seis}
-                    parrafoTres={props.data.areas.equipo.areas.dos}
-                    parrafoCuatro={props.data.areas.equipo.areas.uno}
+                    parrafoUno={props.data.areas.equipo.areas.uno}
+                    parrafoDos={props.data.areas.equipo.areas.dos}
+                    parrafoTres={props.data.areas.equipo.areas.tres}
+                    parrafoCuatro={props.data.areas.equipo.areas.cuatro}
+                    parrafoCinco={props.data.areas.equipo.areas.cinco}
+                    parrafoSeis={props.data.areas.equipo.areas.ocho}
+                    parrafoSiete={props.data.areas.equipo.areas.nueve}
+                    parrafoOcho={props.data.areas.equipo.areas.diez}
+                    parrafoNueve={props.data.areas.equipo.areas.doce}
+                    parrafoDiez={props.data.areas.equipo.areas.catorce}
+                    href="/areas/aduanas"
+                    href2="/areas/asesoriafis"
+                    href3="/areas/industriasnav"
+                    href4="/areas/institucionesasist"
+                    href5="/areas/institucionesF"
+                    href6="/areas/planeacionp"
+                    href7="/areas/proyectosinfra"
+                    href8="/areas/represenfis"
+                    href9="/areas/valoresp"
+                    href10="/areas/seguros"
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.MBuno}

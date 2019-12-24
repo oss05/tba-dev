@@ -2,6 +2,10 @@ import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
+import tres from '../../assets/DocsTBA/2018/at-03-18.pdf';
+import Dos from '../../assets/DocsTBA/2018/at-02-18.pdf';
+import Uno from '../../assets/DocsTBA/2018/at-01-18.pdf';
+
 const P2018 = props => {
     return (
         <div className="page">
@@ -14,7 +18,7 @@ const P2018 = props => {
                     // tamanio="500px"
                     data={props.data}
                     año="2018"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2018/at-03-18.pdf"
+                    linkPdf={tres}
                     descripcionAño="03/18"
                     envio={props.data.areas.publicaciones.envio.agosto}
                     fecha=""
@@ -23,7 +27,7 @@ const P2018 = props => {
                 // tamanio="450px"
                     data={props.data}
                     año="2018"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2018/at-02-18.pdf"
+                    linkPdf={Dos}
                     descripcionAño="02/18"
                     envio={props.data.areas.publicaciones.envio.julio}
                     fecha=""
@@ -32,7 +36,7 @@ const P2018 = props => {
                 // tamanio="420px"
                     data={props.data}
                     año="2018"
-                    linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2018/at-01-18.pdf"
+                    linkPdf={Uno}
                     descripcionAño="01/18"
                     envio={props.data.areas.publicaciones.envio.junio}
                     fecha=""

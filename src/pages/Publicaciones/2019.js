@@ -2,7 +2,9 @@ import React from 'react';
 import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
-import Dos from '../../assets/dos.pdf'
+import tres from '../../assets/DocsTBA/2019/ActualizacionTributaria3-1-2019.pdf';
+import Dos from '../../assets/dos.pdf';
+import Uno from '../../assets/DocsTBA/2019/at2019.pdf';
 
 const P2019 = props => {
     return (
@@ -16,7 +18,7 @@ const P2019 = props => {
                 // tamanio="100%"
                 data={props.data}
                 año="2019"
-                linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2019/ActualizacionTributaria3-1-2019.pdf"
+                linkPdf={tres}
                 descripcionAño="03/19"
                 envio={props.data.areas.publicaciones.envio.septiembre}
                 fecha=""
@@ -34,7 +36,7 @@ const P2019 = props => {
                 // tamanio= "90%"
                 data={props.data}
                 año="2019"
-                linkPdf="http://turanzas.com.mx/NvoDesign/pdfs/2019/at2019.pdf"
+                linkPdf={Uno}
                 descripcionAño="01/19"
                 envio={props.data.areas.publicaciones.envio.enero}
                 fecha=""
