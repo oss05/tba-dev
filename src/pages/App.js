@@ -100,7 +100,8 @@ class App extends Component {
     data: dataEsp,
     data2: dataEng,
     idioma: "Esp",
-    prefix: "",
+    prefix: "es",
+    prefix2: "en"
   }
 
   componentDidMount() {
@@ -149,8 +150,8 @@ class App extends Component {
           <Route path="/en/oficinas" component={() => <Oficinas data={this.state.data2} />} />
           <Route path={`/:${this.state.prefix}/firma`} component={() => <Firma data={this.state.data} />} />
           {/* Original */}
-          <Route exact path={`/${this.state.url}/areas/home`} component={() => <Original data={this.state.data} />} />
-          <Route exact path={`/${this.state.url2}/areas/home`} component={() => <Original data={this.state.data2} />} />
+          <Route exact path={`/${this.state.prefix}/areas/home`} component={() => <Original data={this.state.data} />} />
+          <Route exact path={`/${this.state.prefix2}/areas/home`} component={() => <Original data={this.state.data2} />} />
           <Route exact path="/areas/aduanas" component={() => <Aduanas data={this.state.data} />} />
           <Route exact path="/areas/asesoriafis" component={() => <AsesoriaFis data={this.state.data} />} />
           <Route exact path="/areas/industriasnav" component={() => <IndustrisNav data={this.state.data} />} />
