@@ -7,9 +7,16 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import firstSlide from '../assets/at.png'
+import firstSlideEng from '../assets/BannerIng.png'
 import secondSlide from '../assets/carousel2020.png'
 import thirdSlide from '../assets/carousel2020.png'
 import at20 from '../assets/DocsTBA/2020/Actualizacion-Tributaria2020.pdf'
+import at20Eng from '../assets/DocsTBA-EN/2020/Mexican-Fiscal-Update-MEXICAN-TAX-AMENDMENTS-FOR-2020.pdf'
+
+const imagesPath = {
+  mx: 'https://cdn.countryflags.com/thumbs/mexico/flag-round-250.png',
+  us: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/United-kingdom_flag_icon_round.svg/512px-United-kingdom_flag_icon_round.svg.png'
+}
 
 const items = [
   {
@@ -32,6 +39,7 @@ const items = [
   // }
 ];
 
+
 class CustomCarousel extends Component {
   constructor(props) {
     super(props);
@@ -42,6 +50,15 @@ class CustomCarousel extends Component {
     this.onExiting = this.onExiting.bind(this);
     this.onExited = this.onExited.bind(this);
   }
+
+  state = {
+    open: true,
+  }
+  toggleImage = () => {
+    this.setState(state => ({ open: !state.open }))
+    this.props.handelChangeIdioma()
+  }
+  getImageName = () => this.state.open ? 'us' : 'mx'
 
   onExiting() {
     this.animating = true;
@@ -69,6 +86,7 @@ class CustomCarousel extends Component {
   }
 
   render() {
+    const imageName = this.getImageName();
     const { activeIndex } = this.state;
 
     const slides = items.map((item) => {
@@ -79,7 +97,7 @@ class CustomCarousel extends Component {
           key={item.src}
         >
           <a href={item.href} target="_blank">
-            <img src={item.src} alt={item.altText} className="carouselImage" style={{objectFit: "contain"}}/> 
+            <img src={item.src} alt={item.altText} className="carouselImage" style={{objectFit: "contain"}} onChange={this.props.handelChangeIdioma}  onClick={this.toggleImage}/> 
           </a>
           {/* <CarouselCaption captionText={item.caption} captionHeader={item.caption} /> */}
         </CarouselItem>

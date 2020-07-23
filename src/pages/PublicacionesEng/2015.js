@@ -1,43 +1,26 @@
 import React from 'react';
-import Izq from '../../components/SeccionIzqPublicaciones';
-import Dropdown from '../../components/DropdownPublicaciones';
+import Izq from '../../components/SeccionIzqPublicacionesEng';
+import Dropdown from '../../components/DropdownPublicacionesEng';
 import Badge from '../../components/BadgePublicaciones';
-import Tres from '../../assets/DocsTBA/2015/actualizacion-tributaria-7-2015.pdf';
-import Dos from '../../assets/DocsTBA/2015/actualizacion-tributaria-4-2015.pdf';
-import Uno from '../../assets/DocsTBA/2015/actualizacion-tributaria-3-2015.pdf';
+import Uno from '../../assets/DocsTBA-EN/2015/overview-energy-reform-matter-hydrocarbons.pdf';
 
 const P2015 = props => {
     return (
         <div className="page">
             <Izq data={props.data}
-                bgc5="#656565"
-                fc5="#fff" />
+                bgc4="#656565"
+                fc4="#fff" />
                 <Dropdown data={props.data}/>
             <div style={{ width: "100%" }}>
-                <Badge
-                    data={props.data}
-                    año="2015"
-                    linkPdf={Tres}
-                    descripcionAño="07/15"
-                    envio={props.data.areas.publicaciones.envio.noviembre}
-                    fecha="25-15"
-                />
-                <Badge
-                    data={props.data}
-                    año="2015"
-                    linkPdf={Dos}
-                    descripcionAño="04/15"
-                    envio={props.data.areas.publicaciones.envio.mayo}
-                    fecha="22-15"
-                />
-                <Badge
-                    data={props.data}
-                    año="2015"
-                    linkPdf={Uno}
-                    descripcionAño="03/15"
-                    envio={props.data.areas.publicaciones.envio.mayo}
-                    fecha="19-15"
-                />
+            <Badge
+                // tamanio= "90%"
+                data={props.data}
+                año="2015"
+                linkPdf={Uno}
+                descripcionAño=" - Energy Reform 2015"
+                envio={props.data.areas.publicaciones.envio.enero}
+                fecha=" 20-05"
+            />
             </div>
         </div>
     )

@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+
+import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module'
+
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 // import Hide from '../components/Hide';
@@ -25,6 +29,31 @@ import Seguros from './Originals/Seguros'
 import Fundaciones from './Originals/fundaciones';
 import ComercioInter from './Originals/comercioInter';
 import Contribuciones from './Originals/contribuciones';
+//Paracticas
+import Banking from './Practicas/Banking'
+import Corporate from './Practicas/Corporate'
+import Employee from './Practicas/Employee'
+import Energy from './Practicas/Energy'
+import FATCA from './Practicas/FATCA'
+import Indirect from './Practicas/Indirect'
+import Individuals from './Practicas/Individuals'
+import Instituciones from './Practicas/Instituciones'
+import Insurance from './Practicas/Insurance'
+import Internacional from './Practicas/Internacional'
+import Litigation from './Practicas/Litigation'
+import LocalTaxation from './Practicas/LocalTaxation'
+import MyA from './Practicas/M&A'
+import Navieras from './Practicas/Navieras'
+import Practicas from './Practicas/Practicas'
+import Private from './Practicas/Private'
+import ProBono from './Practicas/ProBono'
+import Project from './Practicas/Project'
+import Securities from './Practicas/Securities'
+import Tax from './Practicas/Tax'
+import TaxContro from './Practicas/TaxContro'
+import Trade from './Practicas/Trade'
+import Trasfer from './Practicas/Transfer'
+import VentaDirecta from './Practicas/VentaDirecta'
 //Equipo
 import Team from './Equipo/Equipo'
 import Sos002 from './Equipo/sos%002'
@@ -48,7 +77,6 @@ import Pas303 from './Equipo/pas%303'
 import Pas304 from './Equipo/pas%304'
 import Pas305 from './Equipo/pas%305'
 import Pas306 from './Equipo/pas%306'
-import Pas307 from './Equipo/pas%307'
 import Pas308 from './Equipo/pas%308'
 import Pas309 from './Equipo/pas%309'
 import Pas310 from './Equipo/pas%310'
@@ -69,11 +97,12 @@ import P2016 from './Publicaciones/2016'
 import P2017 from './Publicaciones/2017'
 import P2018 from './Publicaciones/2018'
 import P2019 from './Publicaciones/2019'
-import P2020 from './Publicaciones/2020'
+import P2020Esp from './Publicaciones/2020'
 // English Publications
 import PublicEng from './PublicacionesEng/Publicacion'
+import P2005Eng from './PublicacionesEng/2005'
+import P2006Eng from './PublicacionesEng/2006'
 import P2007Eng from './PublicacionesEng/2007'
-import P2008Eng from './PublicacionesEng/2008'
 import P2009Eng from './PublicacionesEng/2009'
 import P2010Eng from './PublicacionesEng/2010'
 import P2011Eng from './PublicacionesEng/2011'
@@ -83,7 +112,6 @@ import P2014Eng from './PublicacionesEng/2014'
 import P2015Eng from './PublicacionesEng/2015'
 import P2016Eng from './PublicacionesEng/2016'
 import P2017Eng from './PublicacionesEng/2017'
-import P2018Eng from './PublicacionesEng/2018'
 import P2019Eng from './PublicacionesEng/2019'
 import P2020Eng from './PublicacionesEng/2020'
 import Esp from '../lang/Esp.json'
@@ -91,8 +119,24 @@ import Eng from '../lang/Eng.json'
 import Home from './Home';
 library.add(fab)
 
-const dataEsp = Esp
-const dataEng = Eng
+function initializeReactGA() {
+  ReactGA.initialize('UA-45343708-1');
+  ReactGA.pageview('/');
+}
+
+initializeReactGA()
+
+
+// const tagManagerArgs = {
+//   gtmId: 'GTM-PP2QRTD'
+// }
+
+// TagManager.initialize(tagManagerArgs)
+
+const dataEsp = Esp;
+const dataEng = Eng;
+const publicEng = P2020Eng;
+const publicEsp = P2020Esp;
 
 class App extends Component {
 
@@ -100,23 +144,10 @@ class App extends Component {
     data: dataEsp,
     data2: dataEng,
     idioma: "Esp",
-    prefix: "es",
-    prefix2: "en"
-  }
-
-  componentDidMount() {
-    this.state.prefix === "en" && this.state.data === dataEsp && this.state.idioma === "Esp" ? 
-    this.setState ({
-      data: dataEng,
-      idioma: "Eng",
-      prefix: "en"
-    }) 
-    :
-    this.setState ({
-      data:dataEsp,
-      idioma:"Esp",
-      prefix: "es"
-    })
+    publicaciones: publicEng,
+    route: "es",
+    routeInverted: "en",
+    thirdRoute: "en"
   }
 
 
@@ -126,14 +157,18 @@ class App extends Component {
       this.setState({
         data: dataEng,
         idioma: "Eng",
-        prefix: "en"
+        route: "en",
+        routeInverted: "",
+        thirdRoute:"en"
       }
       )
       :
       this.setState({
         data: dataEsp,
         idioma: "Esp",
-        prefix: "es"
+        route: "es",
+        routeInverted: "en",
+        thirdRoute: ""
       }
       )
   }
@@ -142,80 +177,78 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Navbar data={this.state.data} />
+        <Navbar data={this.state.data} route={this.state.route} thirdRoute={this.state.thirdRoute}/>
+        <Route path="/oficinas" component={() => <Oficinas data={this.state.data} />} />
+        <Route path="/firma" component={() => <Firma data={this.state.data} />} />
+        {/* Original */}
+        <Route exact path="/areas/home" component={() => <Original data={this.state.data} />} />
+        <Route exact path="/areas/aduanas" component={() => <Aduanas data={this.state.data} />} />
+        <Route exact path="/areas/asesoriafis" component={() => <AsesoriaFis data={this.state.data} />} />
+        <Route exact path="/areas/industriasnav" component={() => <IndustrisNav data={this.state.data} />} />
+        <Route exact path="/areas/institucionesasist" component={() => <InstitucionesAsist data={this.state.data} />} />
+        <Route exact path="/areas/institucionesF" component={() => <InstitucionesF data={this.state.data} />} />
+        <Route exact path="/areas/litigiofiscal" component={() => <LitigioFiscal data={this.state.data} />} />
+        <Route exact path="/areas/planeacionp" component={() => <PlaneacionP data={this.state.data} />} />
+        <Route exact path="/areas/proyectosinfra" component={() => <ProyectosInfra data={this.state.data} />} />
+        <Route exact path="/areas/represenfis" component={() => <RepresenFis data={this.state.data} />} />
+        <Route exact path="/areas/tributacion" component={() => <Trubutacion data={this.state.data} />} />
+        <Route exact path="/areas/valoresp" component={() => <ValoresP data={this.state.data} />} />
+        <Route exact path="/areas/ventasdirec" component={() => <VentasDirect data={this.state.data} />} />
+        <Route exact path="/areas/seguros" component={() => <Seguros data={this.state.data} />} />
+        <Route exact path="/areas/comercioInter" component={() => <ComercioInter data={this.state.data} />} />
+        <Route exact path="/areas/contribuciones" component={() => <Contribuciones data={this.state.data} />} />
+        <Route exact path="/areas/fundaciones" component={() => <Fundaciones data={this.state.data} />} />
+        {/* Equipo */}
+        <Route exact path="/equipo" component={() => <Team data={this.state.data} />} />
+        <Route exact path="/equipo/sos001" component={() => <Sos001 data={this.state.data} />} />
+        <Route exact path="/equipo/sos002" component={() => <Sos002 data={this.state.data} />} />
+        <Route exact path="/equipo/sos003" component={() => <Sos003 data={this.state.data} />} />
+        <Route exact path="/equipo/sos004" component={() => <Sos004 data={this.state.data} />} />
+        <Route exact path="/equipo/sos005" component={() => <Sos005 data={this.state.data} />} />
+        <Route exact path="/equipo/sos006" component={() => <Sos006 data={this.state.data} />} />
+        <Route exact path="/equipo/sos007" component={() => <Sos007 data={this.state.data} />} />
+        <Route exact path="/equipo/as101" component={() => <As101 data={this.state.data} />} />
+        <Route exact path="/equipo/as102" component={() => <As102 data={this.state.data} />} />
+        <Route exact path="/equipo/as103" component={() => <As103 data={this.state.data} />} />
+        <Route exact path="/equipo/abo201" component={() => <Abo201 data={this.state.data} />} />
+        <Route exact path="/equipo/abo202" component={() => <Abo202 data={this.state.data} />} />
+        <Route exact path="/equipo/abo203" component={() => <Abo203 data={this.state.data} />} />
+        <Route exact path="/equipo/abo204" component={() => <Abo204 data={this.state.data} />} />
+        <Route exact path="/equipo/abo205" component={() => <Abo205 data={this.state.data} />} />
+        <Route exact path="/equipo/pas301" component={() => <Pas301 data={this.state.data} />} />
+        <Route exact path="/equipo/pas302" component={() => <Pas302 data={this.state.data} />} />
+        <Route exact path="/equipo/pas303" component={() => <Pas303 data={this.state.data} />} />
+        <Route exact path="/equipo/pas304" component={() => <Pas304 data={this.state.data} />} />
+        <Route exact path="/equipo/pas305" component={() => <Pas305 data={this.state.data} />} />
+        <Route exact path="/equipo/pas306" component={() => <Pas306 data={this.state.data} />} />
+        <Route exact path="/equipo/pas308" component={() => <Pas308 data={this.state.data} />} />
+        <Route exact path="/equipo/pas309" component={() => <Pas309 data={this.state.data} />} />
+        <Route exact path="/equipo/pas310" component={() => <Pas310 data={this.state.data} />} />
+        <Route exact path="/equipo/pas311" component={() => <Pas311 data={this.state.data} />} />
+        <Route exact path="/equipo/pas312" component={() => <Pas312 data={this.state.data} />} />
+        {/* Public */}
         <Switch>
-          <Route exact path="/es" component={() => <Home data={this.state.data} />} />
-          <Route exact path="/en" component={() => <Home data={this.state.data2} />} />
-          <Route path="/es/oficinas" component={() => <Oficinas data={this.state.data} />} />
-          <Route path="/en/oficinas" component={() => <Oficinas data={this.state.data2} />} />
-          <Route path={`/:${this.state.prefix}/firma`} component={() => <Firma data={this.state.data} />} />
-          {/* Original */}
-          <Route exact path={`/${this.state.prefix}/areas/home`} component={() => <Original data={this.state.data} />} />
-          <Route exact path={`/${this.state.prefix2}/areas/home`} component={() => <Original data={this.state.data2} />} />
-          <Route exact path="/areas/aduanas" component={() => <Aduanas data={this.state.data} />} />
-          <Route exact path="/areas/asesoriafis" component={() => <AsesoriaFis data={this.state.data} />} />
-          <Route exact path="/areas/industriasnav" component={() => <IndustrisNav data={this.state.data} />} />
-          <Route exact path="/areas/institucionesasist" component={() => <InstitucionesAsist data={this.state.data} />} />
-          <Route exact path="/areas/institucionesF" component={() => <InstitucionesF data={this.state.data} />} />
-          <Route exact path="/areas/litigiofiscal" component={() => <LitigioFiscal data={this.state.data} />} />
-          <Route exact path="/areas/planeacionp" component={() => <PlaneacionP data={this.state.data} />} />
-          <Route exact path="/areas/proyectosinfra" component={() => <ProyectosInfra data={this.state.data} />} />
-          <Route exact path="/areas/represenfis" component={() => <RepresenFis data={this.state.data} />} />
-          <Route exact path="/areas/tributacion" component={() => <Trubutacion data={this.state.data} />} />
-          <Route exact path="/areas/valoresp" component={() => <ValoresP data={this.state.data} />} />
-          <Route exact path="/areas/ventasdirec" component={() => <VentasDirect data={this.state.data} />} />
-          <Route exact path="/areas/seguros" component={() => <Seguros data={this.state.data} />} />
-          <Route exact path="/areas/comercioInter" component={() => <ComercioInter data={this.state.data} />} />
-          <Route exact path="/areas/contribuciones" component={() => <Contribuciones data={this.state.data} />} />
-          <Route exact path="/areas/fundaciones" component={() => <Fundaciones data={this.state.data} />} />
-          {/* Equipo */}
-          <Route exact path="/equipo" component={() => <Team data={this.state.data} />} />
-          <Route exact path="/equipo/sos001" component={() => <Sos001 data={this.state.data} />} />
-          <Route exact path="/equipo/sos002" component={() => <Sos002 data={this.state.data} />} />
-          <Route exact path="/equipo/sos003" component={() => <Sos003 data={this.state.data} />} />
-          <Route exact path="/equipo/sos004" component={() => <Sos004 data={this.state.data} />} />
-          <Route exact path="/equipo/sos005" component={() => <Sos005 data={this.state.data} />} />
-          <Route exact path="/equipo/sos006" component={() => <Sos006 data={this.state.data} />} />
-          <Route exact path="/equipo/sos007" component={() => <Sos007 data={this.state.data} />} />
-          <Route exact path="/equipo/as101" component={() => <As101 data={this.state.data} />} />
-          <Route exact path="/equipo/as102" component={() => <As102 data={this.state.data} />} />
-          <Route exact path="/equipo/as103" component={() => <As103 data={this.state.data} />} />
-          <Route exact path="/equipo/abo201" component={() => <Abo201 data={this.state.data} />} />
-          <Route exact path="/equipo/abo202" component={() => <Abo202 data={this.state.data} />} />
-          <Route exact path="/equipo/abo203" component={() => <Abo203 data={this.state.data} />} />
-          <Route exact path="/equipo/abo204" component={() => <Abo204 data={this.state.data} />} />
-          <Route exact path="/equipo/abo205" component={() => <Abo205 data={this.state.data} />} />
-          <Route exact path="/equipo/pas301" component={() => <Pas301 data={this.state.data} />} />
-          <Route exact path="/equipo/pas302" component={() => <Pas302 data={this.state.data} />} />
-          <Route exact path="/equipo/pas303" component={() => <Pas303 data={this.state.data} />} />
-          <Route exact path="/equipo/pas304" component={() => <Pas304 data={this.state.data} />} />
-          <Route exact path="/equipo/pas305" component={() => <Pas305 data={this.state.data} />} />
-          <Route exact path="/equipo/pas306" component={() => <Pas306 data={this.state.data} />} />
-          <Route exact path="/equipo/pas307" component={() => <Pas307 data={this.state.data} />} />
-          <Route exact path="/equipo/pas308" component={() => <Pas308 data={this.state.data} />} />
-          <Route exact path="/equipo/pas309" component={() => <Pas309 data={this.state.data} />} />
-          <Route exact path="/equipo/pas310" component={() => <Pas310 data={this.state.data} />} />
-          <Route exact path="/equipo/pas311" component={() => <Pas311 data={this.state.data} />} />
-          <Route exact path="/equipo/pas312" component={() => <Pas312 data={this.state.data} />} />
-          {/* Public */}
-          <Route exact path="/publicaciones/" component={() => <Public data={this.state.data} />} />
-          <Route exact path="/publicaciones/2007" component={() => <P2007 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2008" component={() => <P2008 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2009" component={() => <P2009 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2010" component={() => <P2010 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2011" component={() => <P2011 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2012" component={() => <P2012 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2013" component={() => <P2013 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2014" component={() => <P2014 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2015" component={() => <P2015 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2016" component={() => <P2016 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2017" component={() => <P2017 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2018" component={() => <P2018 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2019" component={() => <P2019 data={this.state.data} />} />
-          <Route exact path="/publicaciones/2020" component={() => <P2020 data={this.state.data} />} />
+          <Route exact path="/" component={() => <Home data={this.state.data} handelChangeIdioma={this.handelChangeIdioma} idioma={this.state.idioma} />} />
+          <Route exact path="/en" component={() => <Home data={this.state.data2} handelChangeIdioma={this.handelChangeIdioma} idioma={this.state.idioma} route={this.state.route}/>} />
+          <Route exact path="/es/publicaciones/" component={() => <Public data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2007" component={() => <P2007 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2008" component={() => <P2008 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2009" component={() => <P2009 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2010" component={() => <P2010 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2011" component={() => <P2011 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2012" component={() => <P2012 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2013" component={() => <P2013 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2014" component={() => <P2014 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2015" component={() => <P2015 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2016" component={() => <P2016 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2017" component={() => <P2017 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2018" component={() => <P2018 data={this.state.data} />} />
+          <Route exact path="/es/publicaciones/2019" component={() => <P2019 data={this.state.data} />} />
+          <Route exact path={`/es/publicaciones/2020`} component={() => <P2020Esp data={this.state.data} />} />
           {/* English */}
+          <Route exact path="/en/publicaciones/2005" component={() => <P2005Eng data={this.state.data2} />} />
+          <Route exact path="/en/publicaciones/2006" component={() => <P2006Eng data={this.state.data2} />} />
           <Route exact path="/en/publicaciones/2007" component={() => <P2007Eng data={this.state.data2} />} />
-          <Route exact path="/en/publicaciones/2008" component={() => <P2008Eng data={this.state.data2} />} />
           <Route exact path="/en/publicaciones/2009" component={() => <P2009Eng data={this.state.data2} />} />
           <Route exact path="/en/publicaciones/2010" component={() => <P2010Eng data={this.state.data2} />} />
           <Route exact path="/en/publicaciones/2011" component={() => <P2011Eng data={this.state.data2} />} />
@@ -225,12 +258,11 @@ class App extends Component {
           <Route exact path="/en/publicaciones/2015" component={() => <P2015Eng data={this.state.data2} />} />
           <Route exact path="/en/publicaciones/2016" component={() => <P2016Eng data={this.state.data2} />} />
           <Route exact path="/en/publicaciones/2017" component={() => <P2017Eng data={this.state.data2} />} />
-          <Route exact path="/en/publicaciones/2018" component={() => <P2018Eng data={this.state.data2} />} />
           <Route exact path="/en/publicaciones/2019" component={() => <P2019Eng data={this.state.data2} />} />
           <Route exact path="/en/publicaciones/2020" component={() => <P2020Eng data={this.state.data2} />} />
         </Switch>
 
-        <Footer handelChangeIdioma={this.handelChangeIdioma} idioma={this.state.idioma} data={this.state.data} />
+        <Footer handelChangeIdioma={this.handelChangeIdioma} idioma={this.state.idioma} data={this.state.data} route={this.state.route} routeInverted={this.state.routeInverted}/>
       </Router>
     );
   }

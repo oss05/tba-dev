@@ -15,38 +15,7 @@ const P2017 = props => {
                 fc3="#fff" />
             <Dropdown data={props.data} />
             <div style={{ width: "100%" }}>
-                <Badge
-                    data={props.data}
-                    año="2017"
-                    linkPdf={Cuatro}
-                    descripcionAño="04/17"
-                    envio={props.data.areas.publicaciones.envio.febrero}
-                    fecha="15-17"
-                />
-                <Badge
-                    data={props.data}
-                    año="2017"
-                    linkPdf={Tres}
-                    descripcionAño="03/17"
-                    envio={props.data.areas.publicaciones.envio.febrero}
-                    fecha="02-17"
-                />
-                <Badge
-                    data={props.data}
-                    año="2017"
-                    linkPdf={Dos}
-                    descripcionAño="02/17"
-                    envio={props.data.areas.publicaciones.envio.enero}
-                    fecha="19-17"
-                />
-                <Badge
-                    data={props.data}
-                    año="2017"
-                    linkPdf={Uno}
-                    descripcionAño="01/17"
-                    envio={props.data.areas.publicaciones.envio.enero}
-                    fecha=""
-                />
+               
             </div>
         </div>
     )

@@ -1,46 +1,27 @@
 import React from 'react';
-import Izq from '../../components/SeccionIzqPublicaciones';
-import Dropdown from '../../components/DropdownPublicaciones';
+import Izq from '../../components/SeccionIzqPublicacionesEng';
+import Dropdown from '../../components/DropdownPublicacionesEng';
 import Badge from '../../components/BadgePublicaciones';
-import tres from '../../assets/DocsTBA/2019/ActualizacionTributaria3-1-2019.pdf';
-import Dos from '../../assets/dos.pdf';
-import Uno from '../../assets/DocsTBA/2019/at2019.pdf';
+import Uno from '../../assets/DocsTBA-EN/2019/MexicanFiscalUpdate2019.pdf';
 
 const P2019 = props => {
     return (
         <div className="page">
             <Izq data={props.data} 
-            bgc = "#656565"
-            fc = "#fff"/>
+            bgc3 = "#656565"
+            fc3 = "#fff"/>
             <Dropdown data={props.data}/>
             <div style={{ width: "100%" }}>
-            <Badge
-                // tamanio="100%"
-                data={props.data}
-                año="2019"
-                linkPdf={tres}
-                descripcionAño="03/19"
-                envio={props.data.areas.publicaciones.envio.septiembre}
-                fecha=""
-            />
-            <Badge
-                // tamanio="100%"
-                data={props.data}
-                año="2019"
-                linkPdf={Dos}
-                descripcionAño="02/19"
-                envio={props.data.areas.publicaciones.envio.mayo}
-                fecha=""
-            />
             <Badge
                 // tamanio= "90%"
                 data={props.data}
                 año="2019"
                 linkPdf={Uno}
-                descripcionAño="01/19"
-                envio={props.data.areas.publicaciones.envio.enero}
-                fecha=""
-            /></div>
+                descripcionAño=" - Tax Transparent Entities, Foreign Legal Figures and Refipres"
+                envio={props.data.areas.publicaciones.envio.septiembre}
+                fecha=" 20/19"
+            />
+            </div>
         </div>
     )
 }

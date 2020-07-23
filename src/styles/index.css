@@ -63,8 +63,13 @@ p {
 @media only screen and (max-width: 600px) {
   /* --------home----------- */
   p {
-    font-size: 15px ;
+    font-size: 11px ;
   }
+  .izqBadge>h2 {
+    color: #fff;
+    font-size: 1.5em !important;
+    font-weight: 600;
+}
   .navItem{
     width: 100%;
     text-align: center;

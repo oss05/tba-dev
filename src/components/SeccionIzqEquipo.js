@@ -110,12 +110,6 @@ const Izq = props => {
                 menuArea="Sixto Duarte Álvarez"
             />
             <Menu
-                bgc={props.bgc37}
-                fc={props.fc37}
-                endPoint="./pas307"
-                menuArea="Francisco Humberto López Vega"
-            />
-            <Menu
                 bgc={props.bgc31}
                 fc={props.fc31}
                 endPoint="./pas301"

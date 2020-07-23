@@ -5,6 +5,7 @@ import '../styles/footer.css';
 import wts from '../assets/wts.png';
 import latax from '../assets/latax.png';
 import avisoPrivacidad from '../assets/AvisoDePrivacidad.pdf';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const imagesPath = {
     mx: 'https://cdn.countryflags.com/thumbs/mexico/flag-round-250.png',
@@ -29,7 +30,9 @@ class Footer extends Component {
         return (
             <div className="footerContainer">
                 <section className="langContainer">
-                    <img style={{ width: '40px' }} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
+                    <Link to={`/${this.props.routeInverted}`}>
+                        <img style={{ width: '40px' }} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
+                    </Link>
                     {/* <select onChange={props.handelChangeIdioma} style={{border:"solid 1px"}}>
                     <option value="Esp"><img src={props.data.footer.bandera} alt=""/></option>
                     <option value="Eng">{props.data.footer.bandera}</option>
@@ -42,8 +45,8 @@ class Footer extends Component {
                     </section>
                     <section className="d-flex">
                         <article className="rightsContainer flex-column mt-4 mt-lg-0">
-                            <p style={{marginBottom:0, fontSize: "10px",width: "11em"}} className="mb-3 mb-lg-0 text-center">{this.props.data.footer.derechos}</p>
-                            <a href={avisoPrivacidad} target="_blank" style={{fontSize:"12px", color: "#000", textDecoration: "none", textAlign: "center"}}>
+                            <p style={{ marginBottom: 0, fontSize: "10px", width: "11em" }} className="mb-3 mb-lg-0 text-center">{this.props.data.footer.derechos}</p>
+                            <a href={avisoPrivacidad} target="_blank" style={{ fontSize: "12px", color: "#000", textDecoration: "none", textAlign: "center" }}>
                                 <p>{this.props.data.footer.privacidad}</p>
                             </a>
                         </article>

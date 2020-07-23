@@ -3,6 +3,8 @@ import Izq from '../../components/SeccionIzqPublicaciones';
 import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
 import Dos from '../../assets/DocsTBA/2020/Actualizacion-Tributaria2020.pdf'
+import Uno from '../../assets/DocsTBA/2020/Actualizacion-Tributaria-2020.pdf'
+
 
 const P2020 = props => {
     return (
@@ -12,6 +14,15 @@ const P2020 = props => {
             fc0 = "#fff"/>
             <Dropdown data={props.data}/>
             <div style={{ width: "100%" }}>
+            <Badge
+                // tamanio= "90%"
+                data={props.data}
+                año="2020"
+                linkPdf={Uno}
+                descripcionAño="2020"
+                envio={props.data.areas.publicaciones.envio.febrero}
+                fecha=""
+            />
             <Badge
                 // tamanio= "90%"
                 data={props.data}

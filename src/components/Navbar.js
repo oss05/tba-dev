@@ -31,7 +31,7 @@ class navbar extends Component {
         return (
             <div className="custom-nav">
                 <Navbar color="transparent" light>
-                    <Link to="/" className="mr-auto logoNav" onClick={this.handleClick}>
+                    <Link to={`/${this.props.thirdRoute}`} className="mr-auto logoNav" onClick={this.handleClick}>
                         <img src={Logo} alt="logo turanzas" />
                     </Link>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
@@ -47,7 +47,7 @@ class navbar extends Component {
                                 <Link to="/equipo/" onClick={this.handleClick}>{this.props.data.areas.equipo.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to="/publicaciones/2020" onClick={this.handleClick}>{this.props.data.areas.publicaciones.nombre}</Link>
+                                <Link to={`/${this.props.route}/publicaciones/2020`} onClick={this.handleClick}>{this.props.data.areas.publicaciones.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
                                 <Link to="/oficinas" onClick={this.handleClick}>{this.props.data.areas.oficinas}</Link>
