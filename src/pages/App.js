@@ -82,6 +82,7 @@ import Pas309 from './Equipo/pas%309'
 import Pas310 from './Equipo/pas%310'
 import Pas311 from './Equipo/pas%311'
 import Pas312 from './Equipo/pas%312'
+import Pas313 from './Equipo/pas%313'
 //Publicaciones
 import Public from './Publicaciones/Publicacion'
 import P2007 from './Publicaciones/2007'
@@ -226,6 +227,7 @@ class App extends Component {
         <Route exact path="/equipo/pas310" component={() => <Pas310 data={this.state.data} />} />
         <Route exact path="/equipo/pas311" component={() => <Pas311 data={this.state.data} />} />
         <Route exact path="/equipo/pas312" component={() => <Pas312 data={this.state.data} />} />
+        <Route exact path="/equipo/pas313" component={() => <Pas313 data={this.state.data} />} />
         {/* Public */}
         <Switch>
           <Route exact path="/" component={() => <Home data={this.state.data} handelChangeIdioma={this.handelChangeIdioma} idioma={this.state.idioma} />} />

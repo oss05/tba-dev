@@ -29,19 +29,21 @@ const Abogado = props => {
                     parrafoUno={props.data.areas.equipo.areas.uno}
                     parrafoDos={props.data.areas.equipo.areas.dos}
                     parrafoTres={props.data.areas.equipo.areas.tres}
-                    parrafoCuatro={props.data.areas.equipo.areas.cinco}
-                    parrafoCinco={props.data.areas.equipo.areas.doce}
-                    parrafoSeis={props.data.areas.equipo.areas.trece}
-                    parrafoSiete={props.data.areas.equipo.areas.catorce}
-                    parrafoOcho={props.data.areas.equipo.areas.diecisiete}
+                    parrafoCuatro={props.data.areas.equipo.areas.nueve}
                     href="/areas/aduanas"
                     href2="/areas/asesoriafis"
                     href3="/areas/industriasnav"
-                    href4="/areas/institucionesF"
-                    href5="/areas/valoresp"
-                    href6="/areas/ventasdirec"
-                    href7="/areas/seguros"
-                    href8="/areas/fundaciones"
+                    href4="/areas/proyectosinfra"
+
+                    badgeName4={props.data.areas.practica.principales}
+                    parrafoDos4={props.data.areas.equipo.areas.doce}
+                    parrafoTres4={props.data.areas.equipo.areas.trece}
+                    parrafoCuatro4={props.data.areas.equipo.areas.catorce}
+                    parrafoCinco4={props.data.areas.equipo.areas.diecisiete}
+                    parrafoSiete4={props.data.areas.equipo.areas.veintitres}
+                    parrafoOcho4={props.data.areas.equipo.areas.veintiocho}
+                    parrafoNueve4={props.data.areas.equipo.areas.veintinueve}
+                    parrafoDiez4={props.data.areas.equipo.areas.treinta}
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.FOuno}

@@ -28,20 +28,19 @@ const Abogado = props => {
                     badgeName={props.data.areas.equipo.areas.nombre}
                     parrafoUno={props.data.areas.equipo.areas.uno}
                     parrafoDos={props.data.areas.equipo.areas.dos}
-                    parrafoTres={props.data.areas.equipo.areas.tres}
-                    parrafoCuatro={props.data.areas.equipo.areas.seis}
+                    parrafoCuatro={props.data.areas.equipo.areas.tres}
                     parrafoCinco={props.data.areas.equipo.areas.nueve}
-                    parrafoSeis={props.data.areas.equipo.areas.catorce}
-                    parrafoSiete={props.data.areas.equipo.areas.quince}
-                    parrafoOcho={props.data.areas.equipo.areas.diecisiete}
                     href="/areas/aduanas"
                     href2="/areas/asesoriafis"
-                    href3="/areas/industriasnav"
-                    href4="/areas/litigiofiscal"
+                    href4="/areas/industriasnav"
                     href5="/areas/proyectosinfra"
-                    href6="/areas/seguros"
-                    href7="/areas/comercioInter"
-                    href8="/areas/fundaciones"
+
+                    badgeName4={props.data.areas.practica.principales}
+                    parrafoDos4={props.data.areas.equipo.areas.doce}
+                    parrafoTres4={props.data.areas.equipo.areas.catorce}
+                    parrafoCuatro4={props.data.areas.equipo.areas.diecisiete}
+                    parrafoSeis4={props.data.areas.equipo.areas.veinte}
+                    parrafoSiete4={props.data.areas.equipo.areas.veinitidos}
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.CEuno}

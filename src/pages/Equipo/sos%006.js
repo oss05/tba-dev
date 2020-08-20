@@ -27,19 +27,20 @@ const Abogado = props => {
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
                     parrafoUno={props.data.areas.equipo.areas.uno}
-                    parrafoDos={props.data.areas.equipo.areas.tres}
-                    parrafoTres={props.data.areas.equipo.areas.cuatro}
+                    parrafoTres={props.data.areas.equipo.areas.tres}
                     parrafoCuatro={props.data.areas.equipo.areas.cinco}
                     parrafoCinco={props.data.areas.equipo.areas.ocho}
-                    parrafoSeis={props.data.areas.equipo.areas.diez}
-                    parrafoSiete={props.data.areas.equipo.areas.catorce}
                     href="/areas/aduanas"
-                    href2="/areas/industriasnav"
-                    href3="/areas/institucionesasist"
+                    href3="/areas/industriasnav"
                     href4="/areas/institucionesF"
                     href5="/areas/planeacionp"
-                    href6="/areas/represenfis"
-                    href7="/areas/seguros"
+
+                    badgeName4={props.data.areas.practica.principales}
+                    parrafoDos4={props.data.areas.equipo.areas.diez}
+                    parrafoTres4={props.data.areas.equipo.areas.catorce}
+                    parrafoCuatro4={props.data.areas.equipo.areas.diecisiete}
+                    parrafoCinco4={props.data.areas.equipo.areas.dieciocho}
+                    parrafoSeis4={props.data.areas.equipo.areas.veinticinco}
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.PRuno}

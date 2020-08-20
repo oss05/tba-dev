@@ -27,28 +27,27 @@ const Abogado = props => {
                  <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.uno}
-                    parrafoDos={props.data.areas.equipo.areas.dos}
-                    parrafoTres={props.data.areas.equipo.areas.tres}
-                    parrafoCuatro={props.data.areas.equipo.areas.cuatro}
-                    parrafoCinco={props.data.areas.equipo.areas.cinco}
-                    parrafoSeis={props.data.areas.equipo.areas.seis}
-                    parrafoSiete={props.data.areas.equipo.areas.nueve}
-                    parrafoOcho={props.data.areas.equipo.areas.once}
-                    parrafoNueve={props.data.areas.equipo.areas.catorce}
-                    parrafoDiez={props.data.areas.equipo.areas.dieciseis}
-                    parrafoOnce={props.data.areas.equipo.areas.diecisiete}
-                    href="/areas/aduanas"
-                    href2="/areas/asesoriafis"
-                    href3="/areas/industriasnav"
-                    href4="/areas/institucionesasist"
-                    href5="/areas/institucionesF"
-                    href6="/areas/litigiofiscal"
-                    href7="/areas/proyectosinfra"
-                    href8="/areas/tributacion"
-                    href9="/areas/seguros"
-                    href10="/areas/contribuciones"
-                    href11="/areas/fundaciones"
+                    parrafoUno={props.data.areas.equipo.areas.dos}
+                    parrafoDos={props.data.areas.equipo.areas.tres}
+                    parrafoTres={props.data.areas.equipo.areas.cinco}
+                    parrafoCuatro={props.data.areas.equipo.areas.seis}
+                    parrafoDos4={props.data.areas.equipo.areas.dieciseis}
+                    href="/areas/asesoriafis"
+                    href2="/areas/industriasnav"
+                    href3="/areas/institucionesF"
+                    href4="/areas/litigiofiscal"
+                    href5="/areas/contribuciones"
+
+                    badgeName4={props.data.areas.practica.principales}
+                    
+                    parrafoCuatro4={props.data.areas.equipo.areas.once}
+                    parrafoCinco4={props.data.areas.equipo.areas.catorce}
+                    parrafoSeis4={props.data.areas.equipo.areas.diecisiete}
+                    parrafoSiete4={props.data.areas.equipo.areas.dieciocho}
+                    parrafoOcho4={props.data.areas.equipo.areas.diecinueve}
+                    parrafoNueve4={props.data.areas.equipo.areas.veinte}
+                    parrafoDiez4={props.data.areas.equipo.areas.veinticinco}
+                    parrafoOnce4={props.data.areas.equipo.areas.veintisiete}
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.MAuno}

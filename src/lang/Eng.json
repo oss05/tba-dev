@@ -17,6 +17,7 @@
         },
         "practica": {
             "nombre": "Services",
+            "principales": "Principales Sectores o Industrias",
             "responsable": "Contact:",
             "nombreCompleto": "Services",
             "intro": {
@@ -208,7 +209,20 @@
                 "catorce": "• Private capital and investment",
                 "quince": "• Foreign trade",
                 "dieciseis": "• State & municipal contributions",
-                "diecisiete": "• Foundations and altruistic projects - Pro bono work"
+                "diecisiete": "• Foundations and altruistic projects - Pro bono work",
+                "dieciocho": "• Retail",
+                "diecinueve": "• Vinos y Licores",
+                "veinte": "• Farmacéutica/Química",
+                "veintiuno": "• Telecomunicaciones",
+                "veinitidos": "• Automotriz y Partes",
+                "veintitres": "• Alimentos",
+                "veinticuatro": "• Planes de pensiones/Jubilación",
+                "veinticinco": "• Inmobiliario/Construcción y Materiales",
+                "veintiseis": "• Deporte",
+                "veintisiete": "• Turismo",
+                "veintiocho": "• Manufactura",
+                "veintinueve": "• Economía Digital",
+                "treinta": "• Fintech"
             },
             "educacion":{
                 "nombre":"Education",
@@ -254,8 +268,11 @@
                 "JPuno": "• Attorney at law, Universidad Iberoamericana",
                 "JPdos": "• Currently studying degree in Tax Law, at Escuela Libre de Derecho",
                 "MF":"•Westhill University",
-                "LM":"• Universidad Panamericana",
-                "JC":"• Universidad Panamericana",
+                "LM":"• Attorney at Law (with honors), Universidad Panamericana. ",
+                "LMdos": "• Master’s degree in Tax Law, Universidad Panamericana (in progress). ",
+                "JC":"• Attorney at law with honors, Universidad Panamericana",
+                "JCdos": "• Diploma degree “International Tax Law” from New York University",
+                "JCtres":"• Master’s degree in tax law from Universidad Panamericana (in progress) ",
                 "GB":"• Universidad Panamericana",
                 "FLuno": "• Lawyer degree by the Universidad Panamericana",
                 "FLdos": "• Certificate of International Tax Law by the New York University",

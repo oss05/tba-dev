@@ -3,7 +3,7 @@ import Izq from '../../components/SeccionIzqEquipo';
 import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
-import fotoSocio from '../../assets/equipo/webJF.png';
+import fotoSocio from '../../assets/equipo/webjf.png';
 
 const Abogado = props => {
     return (
@@ -15,7 +15,7 @@ const Abogado = props => {
             <section className="areaTextContainer">
                 <div className="d-flex justify-content-around">
                     <HeaderEquipo
-                     img={fotoSocio}
+                    img={fotoSocio}
                     data={props.data}
                     rol={props.data.areas.equipo.socios}
                     nombreEquipo="Jorge Fuentes Pérez"
@@ -32,7 +32,14 @@ const Abogado = props => {
                     parrafoTres={props.data.areas.equipo.areas.dieciseis}
                     href="/areas/asesoriafis"
                     href2="/areas/comercioInter"
-                    href3="/areas/contribuciones"
+                    href3="/areas/contribuciones" 
+
+                    badgeName4={props.data.areas.practica.principales}
+                    parrafoUno4={props.data.areas.equipo.areas.diez}
+                    parrafoDos4={props.data.areas.equipo.areas.doce}
+                    parrafoCuatro4={props.data.areas.equipo.areas.veintiuno}
+                    parrafoCinco4={props.data.areas.equipo.areas.veintisiete}
+                    parrafoSeis4={props.data.areas.equipo.areas.veintiocho}
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.JFuno}

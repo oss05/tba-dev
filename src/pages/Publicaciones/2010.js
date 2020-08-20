@@ -26,7 +26,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Once}
-                    descripcionAño="11/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.octubre}
                     fecha="12-10"
                 />
@@ -34,7 +34,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Diez}
-                    descripcionAño="10/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.septiembre}
                     fecha="29-10"
                 />
@@ -42,7 +42,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Nueve}
-                    descripcionAño="09/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.septiembre}
                     fecha="21-10"
                 />
@@ -50,7 +50,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Ocho}
-                    descripcionAño="08/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.julio}
                     fecha="20-10"
                 />
@@ -58,7 +58,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Siete}
-                    descripcionAño="07/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.julio}
                     fecha="12-10"
                 />
@@ -66,7 +66,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Seis}
-                    descripcionAño="06/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.julio}
                     fecha="1-10"
                 />
@@ -74,7 +74,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Cinco}
-                    descripcionAño="05/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.mayo}
                     fecha="27-10"
                 />
@@ -82,7 +82,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Cuatro}
-                    descripcionAño="03/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="9-10"
                 />
@@ -90,7 +90,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Tres}
-                    descripcionAño="02/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="9-10"
                 />
@@ -98,7 +98,7 @@ const P2010 = props => {
                     data={props.data}
                     año="2010"
                     linkPdf={Dos}
-                    descripcionAño="01/10"
+                    descripcionAño="2010"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="8-10"
                 />

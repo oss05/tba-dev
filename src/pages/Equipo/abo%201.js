@@ -16,7 +16,7 @@ const Abogado = props => {
                 <HeaderEquipo
                     img={fotoSocio}
                     data={props.data}
-                    rol={props.data.areas.equipo.asociados}
+                    rol={props.data.areas.equipo.asociados} 
                     nombreEquipo="Luis Alberto Rosas Ortiz"
                     correoEquipo="lrosas@turanzas.com.mx"
                     linkCorreo="mailto:lrosas@turanzas.com.mx"
@@ -34,7 +34,7 @@ const Abogado = props => {
                     href3="/areas/institucionesF"
                     href4="/areas/litigiofiscal"
                     href5="/areas/proyectosinfra"
-
+                    badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.LAuno}
                     parrafoDos2={props.data.areas.equipo.educacion.LAdos}
                     parrafoTres2={props.data.areas.equipo.educacion.LAtres}

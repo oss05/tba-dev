@@ -29,23 +29,22 @@ const Abogado = props => {
                     parrafoUno={props.data.areas.equipo.areas.uno}
                     parrafoDos={props.data.areas.equipo.areas.dos}
                     parrafoTres={props.data.areas.equipo.areas.tres}
-                    parrafoCuatro={props.data.areas.equipo.areas.cuatro}
-                    parrafoCinco={props.data.areas.equipo.areas.cinco}
-                    parrafoSeis={props.data.areas.equipo.areas.ocho}
-                    parrafoSiete={props.data.areas.equipo.areas.nueve}
-                    parrafoOcho={props.data.areas.equipo.areas.diez}
-                    parrafoNueve={props.data.areas.equipo.areas.doce}
-                    parrafoDiez={props.data.areas.equipo.areas.catorce}
+                    parrafoCuatro={props.data.areas.equipo.areas.cinco}
+                    parrafoCinco={props.data.areas.equipo.areas.cuatro}
                     href="/areas/aduanas"
                     href2="/areas/asesoriafis"
                     href3="/areas/industriasnav"
-                    href4="/areas/institucionesasist"
-                    href5="/areas/institucionesF"
-                    href6="/areas/planeacionp"
-                    href7="/areas/proyectosinfra"
-                    href8="/areas/represenfis"
-                    href9="/areas/valoresp"
-                    href10="/areas/seguros"
+                    href4="/areas/institucionesF"
+                    href5="/areas/institucionesasist"
+
+                    badgeName4={props.data.areas.practica.principales}
+                    parrafoDos4={props.data.areas.equipo.areas.diez}
+                    parrafoTres4={props.data.areas.equipo.areas.doce}
+                    parrafoCuatro4={props.data.areas.equipo.areas.catorce}
+                    parrafoSeis4={props.data.areas.equipo.areas.veintiuno}
+                    parrafoSiete4={props.data.areas.equipo.areas.veinitidos}
+                    parrafoOcho4={props.data.areas.equipo.areas.veintiseis}
+                    parrafoNueve4={props.data.areas.equipo.areas.veintinueve}
 
                     badgeName2={props.data.areas.equipo.educacion.nombre}
                     parrafoUno2={props.data.areas.equipo.educacion.MBuno}

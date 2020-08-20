@@ -27,7 +27,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Once}
-                    descripcionAño="11/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.septiembre}
                     fecha="22"
                 />
@@ -36,7 +36,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Diez}
-                    descripcionAño="10/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.septiembre}
                     fecha="06"
                 />
@@ -44,7 +44,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Nueve}
-                    descripcionAño="09/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.agosto}
                     fecha="09"
                 />
@@ -52,7 +52,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Ocho}
-                    descripcionAño="08/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.julio}
                     fecha="07"
                 />
@@ -60,7 +60,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Siete}
-                    descripcionAño="07/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.julio}
                     fecha="22"
                 />
@@ -68,7 +68,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Seis}
-                    descripcionAño="06/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.mayo}
                     fecha="17"
                 />
@@ -76,7 +76,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Cinco}
-                    descripcionAño="05/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.mayo}
                     fecha="12"
                 />
@@ -84,7 +84,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Cuatro}
-                    descripcionAño="04/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.marzo}
                     fecha="14"
                 />
@@ -92,7 +92,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Tres}
-                    descripcionAño="03/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="17"
                 />
@@ -100,7 +100,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Dos}
-                    descripcionAño="02/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="02"
                 />
@@ -108,7 +108,7 @@ const P2016 = props => {
                     data={props.data}
                     año="2016"
                     linkPdf={Uno}
-                    descripcionAño="01/16"
+                    descripcionAño="2016"
                     envio={props.data.areas.publicaciones.envio.enero}
                     fecha="16"
                 />

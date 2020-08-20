@@ -4,6 +4,7 @@ import Dropdown from '../../components/DropdownPublicaciones';
 import Badge from '../../components/BadgePublicaciones';
 import Dos from '../../assets/DocsTBA/2020/Actualizacion-Tributaria2020.pdf'
 import Uno from '../../assets/DocsTBA/2020/Actualizacion-Tributaria-2020.pdf'
+import Tres from '../../assets/DocsTBA/2020/Actualizacion-Tributaria-Julio2020.pdf'
 
 
 const P2020 = props => {
@@ -18,6 +19,15 @@ const P2020 = props => {
                 // tamanio= "90%"
                 data={props.data}
                 año="2020"
+                linkPdf={Tres}
+                descripcionAño="2020"
+                envio={props.data.areas.publicaciones.envio.julio}
+                fecha=""
+            />
+            <Badge
+                // tamanio= "90%"
+                data={props.data}
+                año="2020"
                 linkPdf={Uno}
                 descripcionAño="2020"
                 envio={props.data.areas.publicaciones.envio.febrero}
@@ -28,7 +38,7 @@ const P2020 = props => {
                 data={props.data}
                 año="2020"
                 linkPdf={Dos}
-                descripcionAño="01/20"
+                descripcionAño="2020"
                 envio={props.data.areas.publicaciones.envio.enero}
                 fecha=""
             />

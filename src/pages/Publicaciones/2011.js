@@ -23,7 +23,7 @@ const P2011 = props => {
                     data={props.data}
                     año="2011"
                     linkPdf={Ocho}
-                    descripcionAño="06/11"
+                    descripcionAño="2011"
                     envio={props.data.areas.publicaciones.envio.junio}
                     fecha="11-17"
                 />
@@ -31,7 +31,7 @@ const P2011 = props => {
                     data={props.data}
                     año="2011"
                     linkPdf={Siete}
-                    descripcionAño="05/11"
+                    descripcionAño="2011"
                     envio={props.data.areas.publicaciones.envio.junio}
                     fecha="3-11"
                 />
@@ -47,7 +47,7 @@ const P2011 = props => {
                     data={props.data}
                     año="2011"
                     linkPdf={Cinco}
-                    descripcionAño="04/11"
+                    descripcionAño="2011"
                     envio={props.data.areas.publicaciones.envio.marzo}
                     fecha="17-11"
                 />
@@ -55,7 +55,7 @@ const P2011 = props => {
                     data={props.data}
                     año="2011"
                     linkPdf={Cuatro}
-                    descripcionAño="03/11"
+                    descripcionAño="2011"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="18-11"
                 />
@@ -63,7 +63,7 @@ const P2011 = props => {
                     data={props.data}
                     año="2011"
                     linkPdf={Tres}
-                    descripcionAño="02/11"
+                    descripcionAño="2011"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="11-11"
                 />
@@ -71,7 +71,7 @@ const P2011 = props => {
                     data={props.data}
                     año="2011"
                     linkPdf={Dos}
-                    descripcionAño="01/11"
+                    descripcionAño="2011"
                     envio={props.data.areas.publicaciones.envio.febrero}
                     fecha="2-11"
                 />

@@ -19,7 +19,7 @@ const P2018 = props => {
                     data={props.data}
                     año="2018"
                     linkPdf={tres}
-                    descripcionAño="03/18"
+                    descripcionAño="2018"
                     envio={props.data.areas.publicaciones.envio.agosto}
                     fecha=""
                 />
@@ -28,7 +28,7 @@ const P2018 = props => {
                     data={props.data}
                     año="2018"
                     linkPdf={Dos}
-                    descripcionAño="02/18"
+                    descripcionAño="2018"
                     envio={props.data.areas.publicaciones.envio.julio}
                     fecha=""
                 />
@@ -37,7 +37,7 @@ const P2018 = props => {
                     data={props.data}
                     año="2018"
                     linkPdf={Uno}
-                    descripcionAño="01/18"
+                    descripcionAño="2018"
                     envio={props.data.areas.publicaciones.envio.junio}
                     fecha=""
                 />

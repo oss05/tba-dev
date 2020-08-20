@@ -21,7 +21,7 @@ const P2012 = props => {
                     data={props.data}
                     año="2012"
                     linkPdf={Seis}
-                    descripcionAño="07/12"
+                    descripcionAño="2012"
                     envio={props.data.areas.publicaciones.envio.diciembre}
                     fecha="21-12"
 
@@ -30,7 +30,7 @@ const P2012 = props => {
                     data={props.data}
                     año="2012"
                     linkPdf={Cinco}
-                    descripcionAño="06/12"
+                    descripcionAño="2012"
                     envio={props.data.areas.publicaciones.envio.octubre}
                     fecha="17-12"
                 />
@@ -38,7 +38,7 @@ const P2012 = props => {
                     data={props.data}
                     año="2012"
                     linkPdf={Cuatro}
-                    descripcionAño="03/12"
+                    descripcionAño="2012"
                     envio={props.data.areas.publicaciones.envio.mayo}
                     fecha="29-12"
                 />
@@ -46,7 +46,7 @@ const P2012 = props => {
                     data={props.data}
                     año="2012"
                     linkPdf={Tres}
-                    descripcionAño="02/12"
+                    descripcionAño="2012"
                     envio={props.data.areas.publicaciones.envio.enero}
                     fecha="20-12"
                 />
@@ -54,7 +54,7 @@ const P2012 = props => {
                     data={props.data}
                     año="2012"
                     linkPdf={Dos}
-                    descripcionAño="01/12"
+                    descripcionAño="2012"
                     envio={props.data.areas.publicaciones.envio.enero}
                     fecha="20-2012"
                 />
