@@ -31,7 +31,7 @@ const Abogado = props => {
                     parrafoDos={props.data.areas.equipo.areas.tres}
                     parrafoTres={props.data.areas.equipo.areas.cinco}
                     parrafoCuatro={props.data.areas.equipo.areas.seis}
-                    parrafoDos4={props.data.areas.equipo.areas.dieciseis}
+                    parrafoCinco={props.data.areas.equipo.areas.dieciseis}
                     href="/areas/asesoriafis"
                     href2="/areas/industriasnav"
                     href3="/areas/institucionesF"

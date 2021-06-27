@@ -5,7 +5,7 @@ import Logo from '../assets/LogoTBA.png';
 import "../styles/navbar.css"
 
 class navbar extends Component {
-    
+
     constructor(props) {
         super(props);
 
@@ -27,7 +27,7 @@ class navbar extends Component {
         });
     }
 
-    render() { 
+    render() {
         return (
             <div className="custom-nav">
                 <Navbar color="transparent" light>
@@ -38,19 +38,19 @@ class navbar extends Component {
                     <Collapse className="expandedNavC" isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
                             <NavItem className="navItem" >
-                                <Link className="navLink" onClick={this.handleClick} to="/firma">{this.props.data.areas.firma.nombre}</Link>
+                                <Link className="navLink" onClick={this.handleClick} to={`/${this.props.route}/firma`}>{this.props.data.areas.firma.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link className="navLink" onClick={this.handleClick} to="/areas/home">{this.props.data.areas.practica.nombre}</Link>
+                                <Link className="navLink" onClick={this.handleClick} to={`/${this.props.route}/areas/home`}>{this.props.data.areas.practica.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to="/equipo/" onClick={this.handleClick}>{this.props.data.areas.equipo.nombre}</Link>
+                                <Link to={`/${this.props.route}/equipo/`} onClick={this.handleClick}>{this.props.data.areas.equipo.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to={`/${this.props.route}/publicaciones/2020`} onClick={this.handleClick}>{this.props.data.areas.publicaciones.nombre}</Link>
+                                <Link to={`/${this.props.route}/publicaciones/2021`} onClick={this.handleClick}>{this.props.data.areas.publicaciones.nombre}</Link>
                             </NavItem>
                             <NavItem className="navItem">
-                                <Link to="/oficinas" onClick={this.handleClick}>{this.props.data.areas.oficinas}</Link>
+                                <Link to={`/${this.props.route}/oficinas`} onClick={this.handleClick}>{this.props.data.areas.oficinas}</Link>
                             </NavItem>
                         </Nav>
                     </Collapse>

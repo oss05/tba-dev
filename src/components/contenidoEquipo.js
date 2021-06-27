@@ -51,6 +51,7 @@ const Contenido = (props) => {
         parrafoUno={props.parrafoUno2}
         parrafoDos={props.parrafoDos2}
         parrafoTres={props.parrafoTres2}
+        parrafoCuatro={props.parrafoCuatro2}
         cursor="default"
       />{" "}
       <br />

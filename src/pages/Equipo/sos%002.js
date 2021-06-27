@@ -4,24 +4,24 @@ import Dropdown from '../../components/Dropdown'
 import HeaderEquipo from "../../components/HeaderEquipo";
 import ContenidoEquipo from '../../components/contenidoEquipo';
 import fotoSocio from '../../assets/equipo/webFB.png';
- 
+
 const Abogado = props => {
     return (
-        <div className="page" style={{height:"auto"}}>
+        <div className="page" style={{ height: "auto" }}>
             <Izq data={props.data}
-            bgc2 = "#656565"
-            fc2 = "#fff" />
-            <Dropdown data={props.data}/>
+                bgc2="#656565"
+                fc2="#fff" />
+            <Dropdown data={props.data} />
             <section className="areaTextContainer">
                 <div className="d-flex justify-content-around">
                     <HeaderEquipo
-                    img={fotoSocio}
-                    data={props.data}
-                    rol={props.data.areas.equipo.socios}
-                    nombreEquipo="Mauricio Bravo Fortoul"
-                    correoEquipo="mbravo@turanzas.com.mx"
-                    linkCorreo="mailto:mbravo@turanzas.com.mx"
-                />
+                        img={fotoSocio}
+                        data={props.data}
+                        rol={props.data.areas.equipo.socios}
+                        nombreEquipo="Mauricio Bravo Fortoul"
+                        correoEquipo="mbravo@turanzas.com.mx"
+                        linkCorreo="mailto:mbravo@turanzas.com.mx"
+                    />
                 </div>
                 <ContenidoEquipo
                     data={props.data}

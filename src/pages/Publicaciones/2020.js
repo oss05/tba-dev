@@ -10,38 +10,56 @@ import Tres from '../../assets/DocsTBA/2020/Actualizacion-Tributaria-Julio2020.p
 const P2020 = props => {
     return (
         <div className="page">
-            <Izq data={props.data} 
-            bgc0 = "#656565"
-            fc0 = "#fff"/>
-            <Dropdown data={props.data}/>
+            <Izq data={props.data}
+                bgc0="#656565"
+                fc0="#fff" />
+            <Dropdown data={props.data} />
             <div style={{ width: "100%" }}>
-            <Badge
-                // tamanio= "90%"
-                data={props.data}
-                año="2020"
-                linkPdf={Tres}
-                descripcionAño="2020"
-                envio={props.data.areas.publicaciones.envio.julio}
-                fecha=""
-            />
-            <Badge
-                // tamanio= "90%"
-                data={props.data}
-                año="2020"
-                linkPdf={Uno}
-                descripcionAño="2020"
-                envio={props.data.areas.publicaciones.envio.febrero}
-                fecha=""
-            />
-            <Badge
-                // tamanio= "90%"
-                data={props.data}
-                año="2020"
-                linkPdf={Dos}
-                descripcionAño="2020"
-                envio={props.data.areas.publicaciones.envio.enero}
-                fecha=""
-            />
+                <Badge
+                    // tamanio= "90%"
+                    data={props.data}
+                    año="2020"
+                    linkPdf="https://turanzas.com.mx/at20/Actualizacion-Tributaria-Septiembre-2020.pdf"
+                    descripcionAño="2020"
+                    envio={props.data.areas.publicaciones.envio.septiembre}
+                    fecha=""
+                />
+                <Badge
+                    // tamanio= "90%"
+                    data={props.data}
+                    año="2020"
+                    linkPdf={Tres}
+                    descripcionAño="2020"
+                    envio={props.data.areas.publicaciones.envio.julio}
+                    fecha=""
+                />
+                <Badge
+                    // tamanio= "90%"
+                    data={props.data}
+                    año="2020"
+                    linkPdf="https://turanzas.com.mx/at20/Actualizacion-TributariaJunio2020.pdf"
+                    descripcionAño="2020"
+                    envio={props.data.areas.publicaciones.envio.junio}
+                    fecha=""
+                />
+                <Badge
+                    // tamanio= "90%"
+                    data={props.data}
+                    año="2020"
+                    linkPdf={Uno}
+                    descripcionAño="2020"
+                    envio={props.data.areas.publicaciones.envio.febrero}
+                    fecha=""
+                />
+                <Badge
+                    // tamanio= "90%"
+                    data={props.data}
+                    año="2020"
+                    linkPdf={Dos}
+                    descripcionAño="2020"
+                    envio={props.data.areas.publicaciones.envio.enero}
+                    fecha=""
+                />
             </div>
         </div>
     )
