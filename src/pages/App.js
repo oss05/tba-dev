@@ -63,6 +63,7 @@ import Sos004 from './Equipo/sos%004'
 import Sos005 from './Equipo/sos%005'
 import Sos006 from './Equipo/sos%006'
 import Sos007 from './Equipo/sos%007'
+import Sos008 from './Equipo/sos%008'
 import As102 from './Equipo/as%102'
 import As101 from './Equipo/as%101'
 import As103 from './Equipo/as%103'
@@ -215,6 +216,7 @@ class App extends Component {
         <Route exact path="/equipo/sos005" component={() => <Sos005 data={this.state.data} />} />
         <Route exact path="/equipo/sos006" component={() => <Sos006 data={this.state.data} />} />
         <Route exact path="/equipo/sos007" component={() => <Sos007 data={this.state.data} />} />
+        <Route exact path="/equipo/sos008" component={() => <Sos008 data={this.state.data} />} />
         <Route exact path="/equipo/as101" component={() => <As101 data={this.state.data} />} />
         <Route exact path="/equipo/as102" component={() => <As102 data={this.state.data} />} />
         <Route exact path="/equipo/as103" component={() => <As103 data={this.state.data} />} />
@@ -268,6 +270,7 @@ class App extends Component {
           <Route exact path="/es/equipo/sos005" component={() => <Sos005 data={this.state.data} />} />
           <Route exact path="/es/equipo/sos006" component={() => <Sos006 data={this.state.data} />} />
           <Route exact path="/es/equipo/sos007" component={() => <Sos007 data={this.state.data} />} />
+          <Route exact path="/es/equipo/sos008" component={() => <Sos008 data={this.state.data} />} />
           <Route exact path="/es/equipo/as101" component={() => <As101 data={this.state.data} />} />
           <Route exact path="/es/equipo/as102" component={() => <As102 data={this.state.data} />} />
           <Route exact path="/es/equipo/as103" component={() => <As103 data={this.state.data} />} />
@@ -339,6 +342,7 @@ class App extends Component {
           <Route exact path="/en/equipo/sos005" component={() => <Sos005 data={this.state.data} />} />
           <Route exact path="/en/equipo/sos006" component={() => <Sos006 data={this.state.data} />} />
           <Route exact path="/en/equipo/sos007" component={() => <Sos007 data={this.state.data} />} />
+          <Route exact path="/en/equipo/sos008" component={() => <Sos008 data={this.state.data} />} />
           <Route exact path="/en/equipo/as101" component={() => <As101 data={this.state.data} />} />
           <Route exact path="/en/equipo/as102" component={() => <As102 data={this.state.data} />} />
           <Route exact path="/en/equipo/as103" component={() => <As103 data={this.state.data} />} />

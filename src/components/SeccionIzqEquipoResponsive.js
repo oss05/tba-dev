@@ -32,6 +32,12 @@ const IzqResponsive = props => {
         menuArea="Jorge Fuentes Pérez"
       />
       <Menu
+        bgc={props.bgc108}
+        fc={props.fc108}
+        endPoint="./sos008"
+        menuArea="Rodrigo Garza del Río"
+      />
+      <Menu
         bgc={props.bgc4}
         fc={props.fc4}
         endPoint="./sos004"
@@ -55,6 +61,7 @@ const IzqResponsive = props => {
         endPoint="./sos007"
         menuArea="Angel J. Turanzas Díaz"
       />
+
       <MenuTitle menuTitle={props.data.areas.equipo.counsel} />
       <Menu
         bgc={props.bgc314}
@@ -106,18 +113,18 @@ const IzqResponsive = props => {
         endPoint="./abo205"
         menuArea="Sixto Duarte Álvarez"
       />
-      <Menu
+      {/* <Menu
         bgc={props.bgc31}
         fc={props.fc31}
         endPoint="./pas301"
         menuArea="Alejandro Diener Cabieses"
-      />
-      <Menu
+      /> */}
+      {/* <Menu
         bgc={props.bgc32}
         fc={props.fc32}
         endPoint="./pas302"
         menuArea="Juan Pablo Morales Cortés"
-      />
+      /> */}
       <Menu
         bgc={props.bgc38}
         fc={props.fc38}
@@ -155,12 +162,12 @@ const IzqResponsive = props => {
         endPoint="./pas303"
         menuArea="María Fernanda López Zerecero"
       />
-      <Menu
+      {/* <Menu
         bgc={props.bgc39}
         fc={props.fc39}
         endPoint="./pas309"
         menuArea="Pablo Múgica Ortiz"
-      />
+      /> */}
       <Menu
         bgc={props.bgc313}
         fc={props.fc313}

@@ -214,7 +214,7 @@
                 "diecinueve": "• Vinos y Licores",
                 "veinte": "• Farmacéutica/Química",
                 "veintiuno": "• Telecomunicaciones",
-                "veinitidos": "• Automotriz y Partes",
+                "veinitidos": "• Automotive",
                 "veintitres": "• Alimentos",
                 "veinticuatro": "• Planes de pensiones/Jubilación",
                 "veinticinco": "• Inmobiliario/Construcción y Materiales",
@@ -223,8 +223,14 @@
                 "veintiocho": "• Manufactura",
                 "veintinueve": "• Economía Digital",
                 "treinta": "• Fintech",
-                "treintayuno": "• Real estate"
-
+                "treintayuno": "• Real estate",
+                "treintaydos": "• Accounting and tax compliance (individuals and companies)",
+                "treintaytres": "• Transfer pricing compliance services",
+                "treintaycuatro": "• Payroll, compliance social security and local payroll tax services",
+                "treintaycinco": "• Corporate restructure from the financial perspective",
+                "treintayseis": "• Assistance on audits conducted by the tax authorities",
+                "treintaysiete": "• Production",
+                "treintayocho": "• Services"
             },
             "educacion": {
                 "nombre": "Education",
@@ -291,7 +297,11 @@
                 "y2": "• Master´s degree in law, Universitat Abat Oliba CEU",
                 "y3": "• Graduate degree in Tax Litigation (achieved honours), Universidad Panamericana",
                 "y4": "• Graduate degree in Tax Law (achieved honours), Universidad Panamericana  ",
-                "LARG": "• Graduate degree in Tax Law, Escuela Libre de Derecho (in progress)"
+                "LARG": "• Graduate degree in Tax Law, Escuela Libre de Derecho (in progress)",
+                "RGR": "• Public Accountant degree. Universidad Anáhuac",
+                "RGR2": "• Financial degree. Universidad Anáhuac",
+                "RGR3": "• Tax degree. Universidad Iberoamericana",
+                "RGR4": "• Certification in tax degree- Colegio de Contadores de Mexico, A.C."
             },
             "asociaciones": {
                 "nombre": "Professional Associations",
@@ -317,7 +327,9 @@
                 "MTuno": "• Asociación Nacional de Abogados de Empresa (ANADE)",
                 "SDuno": "• New York State Bar Association",
                 "SDdos": "• State Bar of Texas",
-                "HLUno": "• Asociación Nacional de Abogados de Empresa, A.C. (ANADE), current chairman of the Foreign Trade Committee"
+                "HLUno": "• Asociación Nacional de Abogados de Empresa, A.C. (ANADE), current chairman of the Foreign Trade Committee",
+                "RGR": "• Colegio de Contadores Publicos de México, A.C."
+
             }
         },
         "publicaciones": {

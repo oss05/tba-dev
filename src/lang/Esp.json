@@ -225,7 +225,14 @@
                 "veintiocho": "• Manufactura",
                 "veintinueve": "• Economía Digital",
                 "treinta": "• Fintech",
-                "treintayuno": "• Agrícola"
+                "treintayuno": "• Agrícola",
+                "treintaydos": "• Contable y cumplimiento de obligaciones fiscales (personas físicas y morales)",
+                "treintaytres": "• Nomina y cumplimiento de obligaciones patronales",
+                "treintaycuatro": "• Reestructuras corporativas desde la perspectiva contable",
+                "treintaycinco": "• Tributación nacional e internacional",
+                "treintayseis": "• Asistencia con revisiones por parte de las autoridades fiscales",
+                "treintaysiete": "• Producción",
+                "treintayocho": "• Servicios"
             },
             "educacion": {
                 "nombre": "Educación",
@@ -294,7 +301,11 @@
                 "y2": "• Máster en Abogacía, Universitat Abat Oliba CEU",
                 "y3": "• Especialidad en Derecho Procesal Fiscal (mención honorífica), Universidad Panamericana",
                 "y4": "• Especialidad en Derecho Fiscal (mención honorífica), Universidad Panamericana ",
-                "LARG": "• Especialidad en Derecho Tributario, Escuela Libre de Derecho (en proceso)"
+                "LARG": "• Especialidad en Derecho Tributario, Escuela Libre de Derecho (en proceso)",
+                "RGR": "• Contador Publico, Universidad Anáhuac",
+                "RGR2": "• Especialidad en finanzas, Universidad Anáhuac",
+                "RGR3": "• Especialidad en impuestos, Universidad Iberoamericana",
+                "RGR4": "• Certificación en especialidad en impuestos del Colegio de Contadores Públicos."
             },
             "asociaciones": {
                 "nombre": "Asociaciones profesionales",
@@ -320,7 +331,8 @@
                 "MTuno": "• Asociación Nacional de Abogados de Empresa (ANADE)",
                 "SDuno": "• New York State Bar Association",
                 "SDdos": "• State Bar of Texas",
-                "HLUno": "• Asociación Nacional de Abogados de Empresa, A.C. (ANADE), actual coordinador técnico del Comité de Comercio Exterior"
+                "HLUno": "• Asociación Nacional de Abogados de Empresa, A.C. (ANADE), actual coordinador técnico del Comité de Comercio Exterior",
+                "RGR": "• Colegio de Contadores Públicos de México"
             }
         },
         "publicaciones": {
